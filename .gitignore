@@ -1,0 +1,6 @@
+# ignore directories
+bootstrap/
+node_modules/
+.vscode/
+imgs/
+*.json
