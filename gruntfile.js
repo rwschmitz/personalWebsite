@@ -51,11 +51,13 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-qunit');
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-contrib-concat');
+    grunt.loadNpmTasks('grunt-dist');
 
     // this would be run by typing "grunt test" on the command line
     grunt.registerTask('test', ['jshint', 'qunit']);
 
     // the default task can be run just by typing "grunt" on the command line
     grunt.registerTask('default', ['jshint', 'qunit', 'concat', 'uglify']);
+
 };
 
