@@ -1269,7 +1269,7 @@ html, body {
 }
 
 .newt-modal-open-button-one {
-    background: url(imgs/project1.png);
+    background: url(../imgs/project1.png);
     background-size: contain;
     border: 0;
     position: absolute;
@@ -1416,7 +1416,7 @@ html, body {
 
 
 .newt-modal-open-button-two {
-    background: url(imgs/project2.png);
+    background: url(../imgs/project2.png);
     background-size: contain;
     border: 0;
     position: absolute;

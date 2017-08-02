@@ -1,63 +1,76 @@
 module.exports = function(grunt) {
+    // Configure Grunt
     grunt.initConfig({
+        // Get the configuration information from package.json
         pkg: grunt.file.readJSON('package.json'),
-        concat: {
+
+        // Configure jshint to check js files for errors
+        jshint: {
             options: {
-                // define a string to put between each file in the concatenated output
-            seperator: ';'
+                reporter: require('jshint-stylish')
             },
-        dist: {
-            // the files to concatenate
-            src: ['src/**/*.js'],
-            // the location of the resulting JS file
-            dest: 'dist/<%= pkg.name %>.js'
-            }   
+
+        build: ['Gruntfile.js', 'src/**/*.js']
         },
+
+        // Configure uglify to minify js files
         uglify: {
             options: {
-                // the banner is inserted at the top of the output
-                banner: '/*! <%= pkg.name %> <%= grunt.template.today("dd-mm-yyyy") %> */\n'
+                banner: '/*\n <%= pkg.name %> <%= grunt.template.today("mm-dd-yyyy") %> \n*/\n'
             },
-            dist: {
-                files: {
-                    'dist/<%= pkg.name %>.min.js': ['<%= concat.dist.dest %>']
-                }
+        build: {
+            // Specify which files to minify
+            files: {
+                // Minify all js files into one js file
+                'dist/js/scripts.min.js': ['src/**/*.js']
             }
-        },
-        qunit: {
-            files: ['test/**/*.html']
-        },
-        jshint: {
-            // define the files to lint
-            files: ['Gruntfile.js', 'src/**/*.js', 'test/**/*.js'],
-            // configure JSHint
-            options: {
-                // more options here if you want to override JSHint defaults
-                globals: {
-                    jQuery: true,
-                    console: true,
-                    module: true,
-                    document: true
-                }
-            }
-        },
-        watch: {
-            files: ['<%= jshint.files %>'],
-            tasks: ['jshint', 'qunit']
         }
+        },
+
+        // Configure cssmin to minify css files
+        cssmin: {
+            options: {
+                banner: '/*\n <%= pkg.name %> <%= grunt.template.today("mm-dd-yyyy") %> \n*/\n'
+            },
+            build: {
+                // Specify which files to minify
+                files: {
+                    'dist/css/style.min.css' : 'src/css/style.css'
+                }
+            }
+        },
+
+        // Configure htmlmin to minify html files
+        htmlmin: {
+            options: {
+                banner: '/*\n <%= pkg.name %> <%= grunt.template.today("mm-dd-yyyy") %> \n*/\n',
+                removeComments: true,
+                collapseWhitespace: true
+            },
+            build: {
+                // Specify which files to minify
+                files: {
+                    'dist/index.html' : 'src/html/index.html'
+                }
+            }
+
+        }
+
+
+        
+
     });
-    grunt.loadNpmTasks('grunt-contrib-uglify');
+
     grunt.loadNpmTasks('grunt-contrib-jshint');
-    grunt.loadNpmTasks('grunt-contrib-qunit');
+    grunt.loadNpmTasks('grunt-contrib-uglify');
+    grunt.loadNpmTasks('grunt-contrib-less');
+    grunt.loadNpmTasks('grunt-contrib-cssmin');
+    grunt.loadNpmTasks('grunt-contrib-htmlmin');
     grunt.loadNpmTasks('grunt-contrib-watch');
-    grunt.loadNpmTasks('grunt-contrib-concat');
-    grunt.loadNpmTasks('grunt-dist');
+    grunt.loadNpmTasks('grunt-contrib-compass');
 
-    // this would be run by typing "grunt test" on the command line
-    grunt.registerTask('test', ['jshint', 'qunit']);
-
-    // the default task can be run just by typing "grunt" on the command line
-    grunt.registerTask('default', ['jshint', 'qunit', 'concat', 'uglify']);
+    // Create tasks to run multiple tasks
+    grunt.registerTask('default', ['jshint', 'uglify', 'cssmin', 'htmlmin']);
 
 };
 
