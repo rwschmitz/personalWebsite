@@ -18,6 +18,7 @@ Author URI: https://www.rudolphschmitz.com
 @import url('https://fonts.googleapis.com/css?family=Ubuntu');
 @import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
 
+
 html, body {
     margin: 0;
     padding: 0;
@@ -34,6 +35,8 @@ html, body {
     position: absolute;
     z-index: 2;
 }
+
+/* -- Center Container Start -- */
 
 .splash-container {
   height: 100vh;
@@ -651,67 +654,79 @@ html, body {
 
 /* -- Home Content Start -- */
 
+
 #home {
-    background: #efefef; /* Neutral 08 */
     position: relative;
-    /*margin-top: 100vh;*/
-    height: 100vh;  
+    display: inline-block;
+    background: #efefef;
+    height: 100vh;
+    width: 100%;
 }
 
-.home-container {
-  height: 100vh;
-  display: -webkit-flex;
-  display: -moz-flex;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.home-background {
+    height: 50vh;
+    background-image: linear-gradient(rgba(255,255,255,0.9),rgba(255,255,255,0.1)), url('../imgs/keyboard.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px 0px 10px 3px black;
+
 }
 
 
-#home-icon {
-    position: absolute;
-    top: 7.5vh;
-    color: #ff533d;
-    font-size: 3.5vh;
- 
+.home-title {
+    color: #efefef;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 5vh;
+    text-align: center;
+    padding-top: 5vh;
+    letter-spacing: 0.25vw;
+    text-shadow: 1px 1px 1px black;
+    padding-top: 7.5vh;
+    
 }
 
-#home-icon:before {
-    content: "\f015";
-    font-family: FontAwesome;
-    margin-top: 10vh;
-}
-
-.home-header {
-    position: absolute;
-    top: 10vh;
-    color: #0e0b16; /* Void 05 */
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 3vh;
-    line-height: 1vh;
-    font-weight: bold;
-
+.home-subtitle {
+    color: #efefef;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2.25vh;
+    text-align: center;
+    letter-spacing: 0.25vw;
+    padding-bottom: 35vh;
+    text-shadow: 1px 1px 1px black;
 }
 
 .home-content {
-    position: absolute;
-    top: 55vh;
-    color: #0e0b16; /* Void 05 */
+    color: #0e0b16;
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 4vh;
-    line-height: 3vh;
-    word-spacing: 0.1vw;
+    font-size: 2.25vh;
     font-weight: bold;
-    width: 50vw;
+    padding-top: 0vh;
+    padding-bottom: 3vh;
+    line-height: 4.25vh;
     text-align: center;
 }
 
-.home-img-left {
-    position: absolute;
-    top: 30vh;
-    margin-left: -25vw;
-    font-size: 10vh;
+.home-info {
+    color: #0e0b16;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2vh;
+    text-align: justify;
+    font-weight: 500;
+   
+}
 
+.home-info a {
+    color: #ff533d;
+    text-decoration: none;
+}
+
+/* -- 1ST ICON PROPERTIES -- */
+
+
+.home-img-left {
+    font-size: 5vh;
+    text-align: center;
+    padding-top: 0vh;
 }
 
 .home-img-left:before {
@@ -720,24 +735,19 @@ html, body {
 }
 
 .home-img-left-text {
-    position: absolute;
-    top: 40vh;
-    margin-left: -25vw;
-    color: #0e0b16; /* Void 05 */
+    color: #0e0b16; 
     font-family: 'Josefin Sans', sans-serif;
     font-size: 2vh;
-    line-height: 3vh;
-    word-spacing: 0.1vw;
     font-weight: bold;
-    width: 5vw;
     text-align: center;
 }
 
-.home-img-center {
-    position: absolute;
-    top: 12vh;
-    font-size: 10vh;
+/* -- 2ND ICON PROPERTIES -- */
 
+.home-img-center {
+    font-size: 5vh;
+    text-align: center;
+    padding-top: 0vh;
 }
 
 .home-img-center:before {
@@ -746,24 +756,19 @@ html, body {
 }
 
 .home-img-center-text {
-    position: absolute;
-    top: 24vh;
-    color: #0e0b16; /* Void 05 */
+    color: #0e0b16; 
     font-family: 'Josefin Sans', sans-serif;
     font-size: 2vh;
-    line-height: 3vh;
-    word-spacing: 0.1vw;
     font-weight: bold;
-    width: 5vw;
     text-align: center;
 }
 
+/* -- 3RD ICON PROPERTIES -- */
 
 .home-img-right {
-    position: absolute;
-    top: 30vh;
-    margin-left: 25vw;
-    font-size: 10vh;
+    font-size: 5vh;
+    text-align: center;
+    padding-top: 0vh;
 
 }
 
@@ -773,32 +778,29 @@ html, body {
 }
 
 .home-img-right-text {
-    position: absolute;
-    top: 40vh;
-    margin-left: 25vw;
-    color: #0e0b16; /* Void 05 */
+    color: #0e0b16; 
     font-family: 'Josefin Sans', sans-serif;
     font-size: 2vh;
-    line-height: 3vh;
-    word-spacing: 0.1vw;
     font-weight: bold;
-    width: 5vw;
     text-align: center;
 }
 
+
+/* -- CENTER IMAGE PROPERTIES -- */
+
 .home-img-middle {
-    position: absolute;
-    top: 40vh;
-    border-radius: 100%;
-    width: 8%;
-    box-shadow: 0vw 0vw 1vw 0vw black;
+    display: block;
+    margin: 0 auto;
+    width: 15vh;
+   
+    box-shadow: 0px 0px 8px 0px black;
 }
 
+/* -- 4TH ICON PROPERTIES -- */
+
 .home-img-lower-left {
-    position: absolute;
-    top: 70vh;
-    margin-left: -15vw;
-    font-size: 10vh;
+    font-size: 5vh;
+    text-align: center;
 
 }
 
@@ -808,25 +810,18 @@ html, body {
 }
 
 .home-img-lower-left-text {
-    position: absolute;
-    top: 80.5vh;
-    margin-left: -15vw;
-    color: #0e0b16; /* Void 05 */
+    color: #0e0b16; 
     font-family: 'Josefin Sans', sans-serif;
     font-size: 2vh;
-    line-height: 3vh;
-    word-spacing: 0.1vw;
     font-weight: bold;
-    width: 5vw;
     text-align: center;
 }
 
-.home-img-lower-right {
-    position: absolute;
-    top: 70vh;
-    margin-left: 15vw;
-    font-size: 10vh;
+/* -- 5TH ICON PROPERTIES -- */
 
+.home-img-lower-right {
+    font-size: 5vh;
+    text-align: center;
 }
 
 .home-img-lower-right:before {
@@ -835,17 +830,16 @@ html, body {
 }
 
 .home-img-lower-right-text {
-    position: absolute;
-    top: 80.5vh;
-    margin-left: 14.75vw;
-    color: #0e0b16; /* Void 05 */
+    color: #0e0b16; 
     font-family: 'Josefin Sans', sans-serif;
     font-size: 2vh;
-    line-height: 3vh;
-    word-spacing: 0.1vw;
     font-weight: bold;
-    width: 5vw;
     text-align: center;
+}
+
+.edge-of-page {
+    margin: 0;
+    padding: 0;
 }
 
 /* -- Home Content End -- */
@@ -855,7 +849,7 @@ html, body {
 #about {
     background: rgba(14,11,22,.85); /* Void 05 */
     position: relative;
-    height: 100vh;  
+    height: auto;  
 }
 
 .about-container {
@@ -901,7 +895,7 @@ html, body {
 #projects {
     background: #efefef; /* Neutral 08 */
     position: relative;
-    height: 100vh;  
+    height: 100vh;
 }
 
 .projects-content {
