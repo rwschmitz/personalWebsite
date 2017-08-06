@@ -498,7 +498,6 @@ html, body {
     position: fixed;
     left: 0;
     top: 0;
-    /*bottom: 0;*/
     width: 100%;
     z-index: 1;
 }
@@ -508,7 +507,7 @@ html, body {
 }
 
 .newt-nav-main li {
-    /*display: inline-block;*/
+    display: inline-block;
     padding-top: 0;
     padding-bottom: 0;
     padding-left: 1.5vw;
@@ -596,7 +595,7 @@ html, body {
     outline: 0;
 }
 
-.projects-button {
+.skills-button {
     text-align: center;
     color: #efefef; /* Neutral 08 */
     font-family: 'Josefin Sans', sans-serif;
@@ -608,7 +607,7 @@ html, body {
 
 }
 
-.projects-button:focus {
+.skills-button:focus {
     outline: 0;
 }
 
@@ -888,17 +887,18 @@ html, body {
 
 /* -- About Content End -- */
 
-/* -- Projects Content Start -- */
+/* -- Skills Content Start -- */
 
-#projects {
+#skills {
     background: #efefef; /* Neutral 08 */
     position: relative;
     height: 100%;
     width: 100%;
     display: inline-block;
+    padding-top: 10vh;
 }
 
-.projects-content {
+.skills-content {
     color: #0e0b16; /* Void 05 */
     font-family: 'Josefin Sans', sans-serif;
     font-size: 1.6vh;
@@ -907,7 +907,7 @@ html, body {
     padding-left: 5vw;
 }
 
-/* -- Projects Content End -- */
+/* -- Skills Content End -- */
 
 /* -- Blog Content Start -- */
 
@@ -938,50 +938,20 @@ html, body {
     display: inline-block;
 }
 
-.contact-container {
-  height: 100vh;
-  display: -webkit-flex;
-  display: -moz-flex;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
 
-.contact-header {
-     position: absolute;
-    top: 0vh;
-    color: #efefef; /* Neutral 08 */
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 3vh;
-    line-height: 3vh;
-    word-spacing: 0.1vw;
-    font-weight: bold;
-    width: 60vw;
-    text-align: center;   
-}
 
 .contact-content {
-    position: absolute;
-    top: 10vh;
     color: #efefef; /* Neutral 08 */
     font-family: 'Josefin Sans', sans-serif;
     font-size: 2vh;
-    line-height: 3vh;
-    word-spacing: 0.1vw;
     font-weight: bold;
-    width: 60vw;
-    text-align: center;
 }
 
 .contact-content-mail-icon:before {
-    position: absolute;
     content: "\f003";
     font-family: FontAwesome;
     font-size: 4.6vh;
-    top: 45vh;
-    left: 20vw;
-    width: 0vw;
     text-decoration: none;
     color: #efefef;
 }
@@ -993,13 +963,9 @@ html, body {
 }
 
 .contact-content-github-icon:before {
-    position: absolute;
     content: "\f09b";
     font-family: FontAwesome;
     font-size: 4.6vh;
-    top: 45vh;
-    left: 27.5vw;
-    width: 0vw;
     text-decoration: none;
     color: #efefef;
 }
@@ -1011,13 +977,9 @@ html, body {
 }
 
 .contact-content-linkedin-icon:before {
-    position: absolute;
     content: "\f08c";
     font-family: FontAwesome;
     font-size: 4.6vh;
-    top: 45vh;
-    left: 35vw;
-    width: 0vw;
     text-decoration: none;
     color: #efefef;
 }
@@ -1292,13 +1254,11 @@ html, body {
 .newt-modal-one-description {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 3.0vh;
-    line-height: 0.5;
 }
 
 .newt-modal-one-sub-description {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 2vh;
-    line-height: 0.5;
 }
 
 .newt-interior-modal-one-text {
@@ -1426,13 +1386,11 @@ html, body {
 .newt-modal-two-description {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 3.0vh;
-    line-height: 0.5;
 }
 
 .newt-modal-two-sub-description {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 2vh;
-    line-height: 0.5;
 }
 
 .newt-interior-modal-two-text {
@@ -1455,6 +1413,23 @@ html, body {
 
 /* -- Modal Two End -- */
 
+/* -- Skill Description Wrapper Start -- */
+
+.skills-desc-wrap {
+    text-align: center;
+}
+
+/* -- Skill Description Wrapper End -- */
+
+/* -- Contact Description Wrapper Start -- */
+
+.contact-desc-wrap {
+    text-align: center;
+}
+
+/* -- Contact Description Wrapper End -- */
+
+
 /* -- Footer Start -- */
 
 .newt-footer {
@@ -1467,3 +1442,111 @@ html, body {
 }
 
 /* -- Footer End -- */
+
+
+
+/* 
+----------------------------------
+| MODIFICATIONS TO BOOTSTRAP CSS |  
+----------------------------------
+*/ 
+
+
+/* -- Center Nav Links Start -- */
+
+.navbar-nav {
+    float: none;
+}
+
+.navbar-nav > li {
+    float: none;
+    padding-top: 1.25vh
+}
+
+/* -- Center Nav Links End -- */
+
+/* -- Center Nav Links For Devices From 0 to 767px (Table Sizes Start @ 768px) Start */
+
+@media (max-width: 767px) {
+
+
+  .navbar-nav > li {
+    width: 50%;
+    float: left;
+    padding: 5px 0;
+    text-align: center; 
+  }
+
+  .navbar-nav > li > button {
+    font-size: 3vh;
+    
+    width: 50%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+  }
+
+  .navbar-nav > li > button.home-button {
+    text-align: left;
+  }
+
+  .navbar-nav > li > button.about-button {
+    text-align: left;
+  }
+
+  .navbar-nav > li > button.skills-button {
+    text-align: left;
+  }
+
+  .navbar-nav > li > button.contact-button {
+    text-align: left;
+  }
+
+
+  .navbar-nav > li > button:before {
+    content: "\f054";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    padding: 5px;
+    font-size: 2vh;
+  }
+
+
+  .navbar-default .navbar-toggle {
+    border-color: transparent;
+
+
+  }
+  .navbar-default .navbar-toggle:hover {
+    background-color: transparent;
+  }
+
+
+  .navbar-default .navbar-toggle .icon-bar {
+  background-color: #eaeaea;
+  }
+
+  .navbar-toggle .icon-bar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+  }
+
+
+.newt-modal-open-button-one {
+  opacity: 1;
+}
+
+.newt-modal-open-button-two {
+  opacity: 1;
+}
+
+
+
+}
+
+/* -- Center Nav Links For Devices From 0 to 767px (Table Sizes Start @ 768px) End */
