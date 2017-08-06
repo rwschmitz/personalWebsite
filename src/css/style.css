@@ -654,8 +654,9 @@ html, body {
     position: relative;
     display: inline-block;
     background: #efefef;
-    height: 100vh;
+    height: 100%;
     width: 100%;
+    padding-bottom: 5vh;
 }
 
 .home-background {
@@ -844,7 +845,9 @@ html, body {
 #about {
     background: rgba(14,11,22,.85); /* Void 05 */
     position: relative;
-    height: auto;  
+    height: 100%;
+    width: 100%;
+    display: inline-block;
 }
 
 .about-container {
@@ -890,7 +893,9 @@ html, body {
 #projects {
     background: #efefef; /* Neutral 08 */
     position: relative;
-    height: 100vh;
+    height: 100%;
+    width: 100%;
+    display: inline-block;
 }
 
 .projects-content {
@@ -928,7 +933,9 @@ html, body {
 #contact {
     background: rgba(14,11,22,.85); /* Void 05 */
     position: relative;
-    height: 100vh;  
+    height: 100%;
+    width: 100%;
+    display: inline-block;
 }
 
 .contact-container {
@@ -1258,15 +1265,9 @@ html, body {
 }
 
 .newt-modal-open-button-one {
-    background: url(../imgs/project1.png);
-    background-size: contain;
     border: 0;
-    position: absolute;
-    top: 20vh;
-    left: 20vw;
+    padding: 0;
     color: white;
-    width: 25vw;
-    height: 25vh;
     box-shadow: 0vw 0vw 0.1vw 0.05vw black;
     -webkit-transition-duration: 250ms;
     -moz-transition-duration: 250ms;
@@ -1289,21 +1290,15 @@ html, body {
 }
 
 .newt-modal-one-description {
-    position: absolute;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 3.0vh;
     line-height: 0.5;
-    top: 44vh;
-    left: 46.9vh;
 }
 
 .newt-modal-one-sub-description {
-    position: absolute;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 2vh;
     line-height: 0.5;
-    top: 48.5vh;
-    left: 55vh;
 }
 
 .newt-interior-modal-one-text {
@@ -1405,15 +1400,9 @@ html, body {
 
 
 .newt-modal-open-button-two {
-    background: url(../imgs/project2.png);
-    background-size: contain;
     border: 0;
-    position: absolute;
-    top: 20vh;
-    left: 55vw;
+    padding: 0;
     color: white;
-    width: 25vw;
-    height: 25vh;
     box-shadow: 0vw 0vw 0.1vw 0.05vw black;
     -webkit-transition-duration: 250ms;
     -moz-transition-duration: 250ms;
@@ -1435,21 +1424,15 @@ html, body {
 } 
 
 .newt-modal-two-description {
-    position: absolute;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 3.0vh;
     line-height: 0.5;
-    top: 44vh;
-    left: 118vh;
 }
 
 .newt-modal-two-sub-description {
-    position: absolute;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 2vh;
     line-height: 0.5;
-    top: 48.5vh;
-    left: 124.5vh;
 }
 
 .newt-interior-modal-two-text {
