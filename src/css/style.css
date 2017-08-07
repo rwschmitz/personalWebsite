@@ -49,8 +49,6 @@ html, body {
 
 .splash-statement-one {
     display: none;
-    position: absolute;
-    top: 40vh;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 5vh;
     text-align: center;
@@ -62,8 +60,6 @@ html, body {
 
 .splash-statement-two {
     display: none;
-    position: absolute;
-    top: 40vh;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 5vh;
     text-align: center;
@@ -76,8 +72,6 @@ html, body {
 
 .splash-statement-three {
     display: none;
-    position: absolute;
-    top: 40vh;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 5vh;
     text-align: center;
@@ -89,8 +83,6 @@ html, body {
 
 .continue-button-ID {
     display: none;
-    position: absolute;
-    top: 60vh;
 }
 
 /* -- Continue Button End -- */
@@ -114,6 +106,7 @@ html, body {
     font-weight: bold;
     z-index: 1;
     position: relative;
+    margin-left: 40%;
 }
 
 .continue-button-icon:focus {
@@ -191,15 +184,11 @@ html, body {
 /* -- Final Splash Result Start -- */
 
 .final-splash-result-one {
-    position: absolute;
-    top: 35vh;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 2vh;
-    text-align: center;
     font-weight: bold;
-    width: 20vw;
     text-align: left;
-    padding-left: 0;
+    margin-left: 42%;
     -webkit-animation-name: statement-one-animation-text;
     -moz-animation-name: statement-one-animation-text;
     animation-name: statement-one-animation-text;
@@ -262,15 +251,11 @@ html, body {
 }
 
 .final-splash-result-two {
-    position: absolute;
-    top: 40vh;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 2vh;
-    text-align: center;
     font-weight: bold;
-    width: 20vw;
     text-align: left;
-    padding-left: 0;
+    margin-left: 42%;
     -webkit-animation-name: statement-two-animation-text;
     -moz-animation-name: statement-two-animation-text;
     animation-name: statement-two-animation-text;
@@ -333,15 +318,11 @@ html, body {
 }
 
 .final-splash-result-three {
-    position: absolute;
-    top: 45vh;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 2vh;
-    text-align: center;
     font-weight: bold;
-    width: 20vw;
     text-align: left;
-    padding-left: 0;
+    margin-left: 42%;
     -webkit-animation-name: statement-three-animation-text;
     -moz-animation-name: statement-three-animation-text;
     animation-name: statement-three-animation-text;
@@ -410,12 +391,9 @@ html, body {
 .cancel-button-icon {
     display: inline-block;
     position: relative;
-    left: 45vw;
-    top: 47vh;
     background-color: #eaeaea;
     border: none;
     border-radius: 0.5vw;
-    padding: 0.5vh 1.5vw;
     opacity: 0.5;
     color: #231f20;
     font-family: 'Josefin Sans', sans-serif;
@@ -425,6 +403,8 @@ html, body {
     text-decoration: none;
     cursor: pointer;
     z-index: 1;
+    margin-left: 90%;
+    margin-top: 45%
 }
 
 .cancel-button-icon:focus {
@@ -849,40 +829,24 @@ html, body {
     display: inline-block;
 }
 
-.about-container {
-  height: 100vh;
-  display: -webkit-flex;
-  display: -moz-flex;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-
 .about-header {
-     position: absolute;
-    top: 0vh;
     color: #efefef; /* Neutral 08 */
     font-family: 'Josefin Sans', sans-serif;
     font-size: 3vh;
-    line-height: 3vh;
-    word-spacing: 0.1vw;
     font-weight: bold;
-    width: 80vw;
-    text-align: center;   
+    width: 100%;
+    padding-top: 10vh;
+    padding-bottom: 5vh; 
 }
 
 .about-content {
-    position: absolute;
-    top: 10vh;
     color: #efefef; /* Neutral 08 */
     font-family: 'Josefin Sans', sans-serif;
     font-size: 2vh;
-    line-height: 3vh;
-    word-spacing: 0.1vw;
     font-weight: bold;
-    width: 80vw;
+    width: 100%;
     text-align: justify;
+    padding-bottom: 10vh;
 }
 
 /* -- About Content End -- */
@@ -1413,13 +1377,36 @@ html, body {
 
 /* -- Modal Two End -- */
 
-/* -- Skill Description Wrapper Start -- */
+/* -- Splash Wrapper Start -- */
+
+.splash-desc-wrap {
+    position: relative;
+    top: 40vh;
+    text-align: center;
+}
+
+.splash-desc-wrap-two {
+    position: relative;
+    top: 40vh;
+}
+
+/* -- Splash  Wrapper End -- */
+
+/* -- About Description Wrapper Start -- */
+
+.about-desc-wrap {
+    text-align: center;
+}
+
+/* -- About Description Wrapper End -- */
+
+/* -- Skills Description Wrapper Start -- */
 
 .skills-desc-wrap {
     text-align: center;
 }
 
-/* -- Skill Description Wrapper End -- */
+/* -- Skills Description Wrapper End -- */
 
 /* -- Contact Description Wrapper Start -- */
 
@@ -1537,13 +1524,39 @@ html, body {
   }
 
 
-.newt-modal-open-button-one {
-  opacity: 1;
-}
+    .newt-modal-open-button-one {
+        opacity: 1;
+    }
 
-.newt-modal-open-button-two {
-  opacity: 1;
-}
+    .newt-modal-open-button-two {
+        opacity: 1;
+    }
+
+        .final-splash-result-one {
+        margin-left: 24%;
+        }
+
+    .final-splash-result-two {
+        margin-left: 24%;
+        }
+
+    .final-splash-result-three {
+        margin-left: 24%;
+    }
+
+    .continue-button-ID {
+        padding-top: 10%;
+    }
+
+    .continue-button-icon {
+        margin-left: 15%;
+    }
+
+    .cancel-button-icon {
+        margin-left: 77%;
+        margin-top: 170%
+
+    }
 
 
 
