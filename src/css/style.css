@@ -22,7 +22,7 @@ html, body {
 }
 
 .newt-splash {
-    background-color: #eaeaea;
+    background-color: #efefef;
     margin: 0 auto;
     height: 100vh;
     width: 100%;
@@ -91,7 +91,7 @@ html, body {
 /* -- Continue Button Styling Start -- */
 
 .continue-button-icon {
-    background-color: #eaeaea;
+    background-color: #efefef;
     border: none;
     color: #231f20;
     padding: 1vh 1vw;
@@ -195,9 +195,9 @@ html, body {
     -webkit-animation-duration: 500ms;
     -moz-animation-duration: 500ms;
     animation-duration: 500ms;
-    -webkit-animation-delay: 8000ms;
-    -moz-animation-delay: 8000ms;
-    animation-delay: 8000ms;
+    -webkit-animation-delay: 9000ms;
+    -moz-animation-delay: 9000ms;
+    animation-delay: 9000ms;
     -webkit-animation-fill-mode: forwards;
     -moz-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
@@ -216,9 +216,9 @@ html, body {
     -webkit-animation-duration: 500ms;
     -moz-animation-duration: 500ms;
     animation-duration: 500ms;
-    -webkit-animation-delay: 8500ms;
-    -moz-animation-delay: 8500ms;
-    animation-delay: 8500ms;
+    -webkit-animation-delay: 9500ms;
+    -moz-animation-delay: 9500ms;
+    animation-delay: 9500ms;
     -webkit-animation-fill-mode: forwards;
     -moz-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
@@ -262,9 +262,9 @@ html, body {
     -webkit-animation-duration: 500ms;
     -moz-animation-duration: 500ms;
     animation-duration: 500ms;
-    -webkit-animation-delay: 9000ms;
-    -moz-animation-delay: 9000ms;
-    animation-delay: 9000ms;
+    -webkit-animation-delay: 10000ms;
+    -moz-animation-delay: 10000ms;
+    animation-delay: 10000ms;
     -webkit-animation-fill-mode: forwards;
     -moz-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
@@ -283,9 +283,9 @@ html, body {
     -webkit-animation-duration: 500ms;
     -moz-animation-duration: 500ms;
     animation-duration: 500ms;
-    -webkit-animation-delay: 9500ms;
-    -moz-animation-delay: 9500ms;
-    animation-delay: 9500ms;
+    -webkit-animation-delay: 10500ms;
+    -moz-animation-delay: 10500ms;
+    animation-delay: 10500ms;
     -webkit-animation-fill-mode: forwards;
     -moz-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
@@ -329,9 +329,9 @@ html, body {
     -webkit-animation-duration: 500ms;
     -moz-animation-duration: 500ms;
     animation-duration: 500ms;
-    -webkit-animation-delay: 10000ms;
-    -moz-animation-delay: 10000ms;
-    animation-delay: 10000ms;
+    -webkit-animation-delay: 11000ms;
+    -moz-animation-delay: 11000ms;
+    animation-delay: 11000ms;
     -webkit-animation-fill-mode: forwards;
     -moz-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
@@ -350,9 +350,9 @@ html, body {
     -webkit-animation-duration: 500ms;
     -moz-animation-duration: 500ms;
     animation-duration: 500ms;
-    -webkit-animation-delay: 10500ms;
-    -moz-animation-delay: 10500ms;
-    animation-delay: 10500ms;
+    -webkit-animation-delay: 11500ms;
+    -moz-animation-delay: 11500ms;
+    animation-delay: 11500ms;
     -webkit-animation-fill-mode: forwards;
     -moz-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
@@ -391,7 +391,7 @@ html, body {
 .cancel-button-icon {
     display: inline-block;
     position: relative;
-    background-color: #eaeaea;
+    background-color: #efefef;
     border: none;
     border-radius: 0.5vw;
     opacity: 0.5;
@@ -575,7 +575,7 @@ html, body {
     outline: 0;
 }
 
-.skills-button {
+.projects-button {
     text-align: center;
     color: #efefef; /* Neutral 08 */
     font-family: 'Josefin Sans', sans-serif;
@@ -587,7 +587,7 @@ html, body {
 
 }
 
-.skills-button:focus {
+.projects-button:focus {
     outline: 0;
 }
 
@@ -764,11 +764,11 @@ html, body {
 /* -- CENTER IMAGE PROPERTIES -- */
 
 .home-img-middle {
-    display: block;
-    margin: 0 auto;
-    width: 15vh;
-   
+    width: 10vh;
+    border-radius: 5%;
     box-shadow: 0px 0px 8px 0px black;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
 }
 
 /* -- 4TH ICON PROPERTIES -- */
@@ -827,6 +827,7 @@ html, body {
     height: 100%;
     width: 100%;
     display: inline-block;
+    padding-bottom: 5vh;
 }
 
 .about-header {
@@ -836,6 +837,15 @@ html, body {
     font-weight: bold;
     width: 100%;
     padding-top: 10vh;
+    padding-bottom: 5vh; 
+}
+
+.about-titles {
+    color: #efefef; /* Neutral 08 */
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 3vh;
+    font-weight: bold;
+    width: 100%;
     padding-bottom: 5vh; 
 }
 
@@ -851,9 +861,9 @@ html, body {
 
 /* -- About Content End -- */
 
-/* -- Skills Content Start -- */
+/* -- Projects Content Start -- */
 
-#skills {
+#projects {
     background: #efefef; /* Neutral 08 */
     position: relative;
     height: 100%;
@@ -862,16 +872,34 @@ html, body {
     padding-top: 10vh;
 }
 
-.skills-content {
+.projects-header {
+    color: #0e0b16; 
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 3vh;
+    font-weight: bold;
+    width: 100%;
+    padding-bottom: 5vh;
+}
+
+.projects-description {
+    color: #0e0b16; 
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2vh;
+    font-weight: bold;
+    width: 100%;
+    padding-bottom: 10vh;
+}
+
+.projects-content {
     color: #0e0b16; /* Void 05 */
     font-family: 'Josefin Sans', sans-serif;
     font-size: 1.6vh;
     line-height: 0.5;
     padding-top: 5vh;
-    padding-left: 5vw;
+    padding-left: 10vw;
 }
 
-/* -- Skills Content End -- */
+/* -- Projects Content End -- */
 
 /* -- Blog Content Start -- */
 
@@ -899,10 +927,17 @@ html, body {
     position: relative;
     height: 100%;
     width: 100%;
-    display: inline-block;
 }
 
-
+.contact-header {
+    color: #efefef; 
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 3vh;
+    font-weight: bold;
+    width: 100%;
+    padding-top: 2.5vh;
+    padding-bottom: 5vh;
+}
 
 
 .contact-content {
@@ -910,6 +945,8 @@ html, body {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 2vh;
     font-weight: bold;
+    padding-top: 0.1%;
+    padding-bottom: 0.1%
 }
 
 .contact-content-mail-icon:before {
@@ -1134,16 +1171,14 @@ html, body {
 }
 
 .newt-modal-contents-one {
-    position: absolute;
-    top: 0;
-    left: 0;
+    font-family: 'Josefin Sans', sans-serif;
     width: 100%;
     height: 100%;
     overflow: auto;
     box-sizing: border-box;
     margin: 0;
     padding: 2.5%;
-    line-height: 3.75vh;
+    line-height: 2.75vh;
     
     
 }
@@ -1193,7 +1228,7 @@ html, body {
 .newt-modal-open-button-one {
     border: 0;
     padding: 0;
-    color: white;
+    color: #efefef; /* Neutral 08 */
     box-shadow: 0vw 0vw 0.1vw 0.05vw black;
     -webkit-transition-duration: 250ms;
     -moz-transition-duration: 250ms;
@@ -1217,30 +1252,39 @@ html, body {
 
 .newt-modal-one-description {
     font-family: 'Josefin Sans', sans-serif;
+    color: rgba(14,11,22,.85);
     font-size: 3.0vh;
 }
 
 .newt-modal-one-sub-description {
     font-family: 'Josefin Sans', sans-serif;
+    color: rgba(14,11,22,.85);
     font-size: 2vh;
 }
 
 .newt-interior-modal-one-text {
-    position: absolute;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #efefef; /* Neutral 08 */
     font-size: 2vh;  
 }
 
 .newt-interior-modal-one-description {
-    position: absolute;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #efefef; /* Neutral 08 */
     font-size: 1.75vh;  
 }
 
 .newt-interior-modal-one-description a {
-    position: absolute;
     color: #efefef; /* Neutral 08 */
+    font-family: 'Josefin Sans', sans-serif;
     font-size: 2.0vh;
     text-decoration: none;
     font-weight: bold;
+    overflow-wrap: break-word;
+}
+
+.newt-interior-modal-one-description a:hover {
+  color: #ff533d;
 }
 
 
@@ -1267,16 +1311,14 @@ html, body {
 }
 
 .newt-modal-contents-two {
-    position: absolute;
-    top: 0;
-    left: 0;
+    font-family: 'Josefin Sans', sans-serif;
     width: 100%;
     height: 100%;
     overflow: auto;
     box-sizing: border-box;
     margin: 0;
     padding: 2.5%;
-    line-height: 3.75vh;
+    line-height: 2.75vh;
     
 }
 
@@ -1326,7 +1368,7 @@ html, body {
 .newt-modal-open-button-two {
     border: 0;
     padding: 0;
-    color: white;
+    color: #efefef; /* Neutral 08 */
     box-shadow: 0vw 0vw 0.1vw 0.05vw black;
     -webkit-transition-duration: 250ms;
     -moz-transition-duration: 250ms;
@@ -1349,33 +1391,55 @@ html, body {
 
 .newt-modal-two-description {
     font-family: 'Josefin Sans', sans-serif;
+    color: rgba(14,11,22,.85);
     font-size: 3.0vh;
 }
 
 .newt-modal-two-sub-description {
     font-family: 'Josefin Sans', sans-serif;
+    color: rgba(14,11,22,.85);
     font-size: 2vh;
 }
 
 .newt-interior-modal-two-text {
-    position: absolute;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #efefef; /* Neutral 08 */
     font-size: 2vh;  
 }
 
 .newt-interior-modal-two-description {
-    position: absolute;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #efefef; /* Neutral 08 */
     font-size: 1.75vh;
 }
 
 .newt-interior-modal-two-description a {
-    position: absolute;
     color: #efefef; /* Neutral 08 */
     font-size: 2.0vh;
     text-decoration: none;
     font-weight: bold;
+    overflow-wrap: break-word;
 }
 
+.newt-interior-modal-two-description a:hover {
+  color: #ff533d;
+}
+
+
 /* -- Modal Two End -- */
+
+/* -- Collapse Project One Start -- */
+
+.newt-collapse {
+    color: #0e0b16; 
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 3vh;
+    font-weight: bold;
+}
+
+.newt-collapse a:hover {
+    color: #ff533d;
+}
 
 /* -- Splash Wrapper Start -- */
 
@@ -1400,13 +1464,13 @@ html, body {
 
 /* -- About Description Wrapper End -- */
 
-/* -- Skills Description Wrapper Start -- */
+/* -- Projects Description Wrapper Start -- */
 
-.skills-desc-wrap {
+.proj-desc-wrap {
     text-align: center;
 }
 
-/* -- Skills Description Wrapper End -- */
+/* -- Projects Description Wrapper End -- */
 
 /* -- Contact Description Wrapper Start -- */
 
@@ -1425,10 +1489,35 @@ html, body {
     font-family: 'Josefin Sans', sans-serif;
     width: 100%;
     text-align: center;
-    float: left;
+    padding-top: 2vh;
 }
 
 /* -- Footer End -- */
+
+/* -- Icon Description Styling Start -- */
+
+.icon-text {
+    font-size: 2vh;
+    color: #efefef;
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+}
+
+/* 
+-----------------------------------
+| MODIFICATIONS TO Font-Mfizz CSS |  
+-----------------------------------
+*/ 
+
+.icon-html5, .icon-css3, .icon-javascript, .icon-jquery, .icon-php, .icon-nodejs, .icon-grunt, .icon-bootstrap, .icon-git, .icon-wordpress, .icon-apache, .icon-oracle {
+    color: #efefef;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 5vh;
+}
+
+.icon-html5:hover, .icon-css3:hover, .icon-javascript:hover, .icon-jquery:hover, .icon-php:hover, .icon-nodejs:hover, .icon-grunt:hover, .icon-bootstrap:hover, .icon-git:hover, .icon-wordpress:hover, .icon-apache:hover, .icon-oracle:hover {
+    color: #ff533d;
+}
 
 
 
@@ -1452,76 +1541,94 @@ html, body {
 
 /* -- Center Nav Links End -- */
 
-/* -- Center Nav Links For Devices From 0 to 767px (Table Sizes Start @ 768px) Start */
+/* -- Fix Icons In Contact Section Start -- */
+
+a:hover {
+  text-decoration: none;
+}
+
+/* -- Fix Icons In Contact Section End -- */
+
+/* -- Fix Navbar Overlapping Name for iPhone 5 (320px) Start -- */
+
+@media (max-width: 320px) {
+
+  .home-title {
+    padding-top: 10vh;
+  }
+
+}
+
+/* -- Fix Navbar Overlapping Name for iPhone 5 (320px) End -- */
+
+/* -- Center Nav Links For Devices From 0 To 767px (Table Sizes Start @ 768px) Start */
 
 @media (max-width: 767px) {
 
 
-  .navbar-nav > li {
-    width: 50%;
-    float: left;
-    padding: 5px 0;
-    text-align: center; 
-  }
+    .navbar-nav > li {
+        width: 50%;
+        float: left;
+        padding: 5px 0;
+        text-align: center; 
+    }
 
-  .navbar-nav > li > button {
-    font-size: 3vh;
-    
-    width: 50%;
-    text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    .navbar-nav > li > button {
+        font-size: 3vh;
+        width: 50%;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
 
-  }
+    .navbar-nav > li > button.home-button {
+        text-align: left;
+    }
 
-  .navbar-nav > li > button.home-button {
-    text-align: left;
-  }
+    .navbar-nav > li > button.about-button {
+        text-align: left;
+    }
 
-  .navbar-nav > li > button.about-button {
-    text-align: left;
-  }
+    .navbar-nav > li > button.projects-button {
+        text-align: left;
+    }
 
-  .navbar-nav > li > button.skills-button {
-    text-align: left;
-  }
-
-  .navbar-nav > li > button.contact-button {
-    text-align: left;
-  }
+    .navbar-nav > li > button.contact-button {
+        text-align: left;
+    }
 
 
-  .navbar-nav > li > button:before {
-    content: "\f054";
-    font-family: FontAwesome;
-    font-style: normal;
-    font-weight: normal;
-    text-decoration: inherit;
-    padding: 5px;
-    font-size: 2vh;
-  }
+    .navbar-nav > li > button:before {
+        content: "\f054";
+        font-family: FontAwesome;
+        font-style: normal;
+        font-weight: normal;
+        text-decoration: inherit;
+        padding: 5px;
+        font-size: 2vh;
+    }
 
 
-  .navbar-default .navbar-toggle {
-    border-color: transparent;
+    .navbar-default .navbar-toggle {
+        border-color: transparent;
 
 
-  }
-  .navbar-default .navbar-toggle:hover {
-    background-color: transparent;
-  }
+    }
+    .navbar-default .navbar-toggle:hover {
+        background-color: transparent;
+    }
 
 
-  .navbar-default .navbar-toggle .icon-bar {
-  background-color: #eaeaea;
-  }
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #eaeaea;
+    }
 
-  .navbar-toggle .icon-bar {
-    display: block;
-    width: 22px;
-    height: 2px;
-    border-radius: 1px;
-  }
+    .navbar-toggle .icon-bar {
+        display: block;
+        width: 22px;
+        height: 2px;
+        border-radius: 1px;
+    }
 
 
     .newt-modal-open-button-one {
@@ -1532,13 +1639,13 @@ html, body {
         opacity: 1;
     }
 
-        .final-splash-result-one {
+    .final-splash-result-one {
         margin-left: 24%;
-        }
+    }
 
     .final-splash-result-two {
         margin-left: 24%;
-        }
+    }
 
     .final-splash-result-three {
         margin-left: 24%;
@@ -1555,11 +1662,190 @@ html, body {
     .cancel-button-icon {
         margin-left: 77%;
         margin-top: 170%
-
     }
 
+    .home-img-middle {
+        width: 20%;
+
+    }
+}
+
+/* -- Center Nav Links For Devices From 0 To 767px (Table Sizes Start @ 768px) End -- */
+
+/* -- Center Project Panels From 768px To 1023px (Tablet Up To But Not Including iPad Pro (1024px)) Start -- */
+
+@media (min-width: 768px) and (max-width: 1023px) {
+
+      .newt-modal-open-button-one {
+        opacity: 1;
+        margin-left: 15vw;
+    }
+
+    .newt-modal-open-button-two {
+        opacity: 1;
+        margin-left: 15vw;
+    }
+
+    .newt-modal-one-sub-description {
+      padding-bottom: 2.5%;
+    }
+
+      .newt-modal-two-sub-description {
+      padding-bottom: 2.5%;
+    }
 
 
 }
 
-/* -- Center Nav Links For Devices From 0 to 767px (Table Sizes Start @ 768px) End */
+/* -- Center Project Panels From 768px To 1023px (Tablet Up To But Not Including iPad Pro (1024px)) End -- */
+
+/* -- Center Project Panels From 1024px To 1199px (From Laptop/iPad Pro Up To But Not Including Desktop (1200px)) Start -- */
+
+@media (min-width: 1024px) and (max-width: 1199px) {
+
+      .newt-modal-open-button-one {
+        opacity: 1;
+        margin-left: 25vw;
+    }
+
+    .newt-modal-open-button-two {
+        opacity: 1;
+        margin-left: 25vw;
+    }
+
+    .newt-modal-one-sub-description {
+      padding-bottom: 2.5%;
+    }
+
+      .newt-modal-two-sub-description {
+      padding-bottom: 2.5%;
+    }
+
+
+}
+
+/* -- Center Project Panels From 1024px To 1199px (From Laptop/iPad Pro Up To But Not Including Desktop (1200px)) End -- */
+
+/* -- Fix Landscape Orientation For iPhone 5 (568px) Start -- */
+
+@media (min-width: 568px) and (max-width: 568px) {
+
+  .home-title {
+    padding-top: 17.5vh;
+  }
+
+    .newt-modal-open-button-one {
+    opacity: 1;
+    margin-left: 3vw;
+  }
+
+  .newt-modal-open-button-two {
+    opacity: 1;
+    margin-left: 3vw;
+  }
+
+  .newt-modal-one-description {
+    padding-top: 2.5%;
+  }
+
+  .newt-modal-two-description {
+    padding-top: 2.5%;
+  }
+
+  .newt-modal-one-sub-description {
+    padding-bottom: 2.5%;
+  }
+
+  .newt-modal-two-sub-description {
+    padding-bottom: 2.5%;
+  }
+
+}
+
+/* -- Fix Landscape Orientation For iPhone 5 (568px) End -- */
+
+/* -- Fix Landscape Orientation From 568px To 736px Start -- */
+
+@media (min-width: 569px) and (max-width: 736px) {
+
+  .home-title {
+    padding-top: 17.5vh;
+  }
+
+  .newt-modal-open-button-one {
+    opacity: 1;
+    margin-left: 11.25vw;
+  }
+
+  .newt-modal-open-button-two {
+    opacity: 1;
+    margin-left: 11.25vw;
+  }
+
+    .newt-modal-one-description {
+    padding-top: 2.5%;
+  }
+
+  .newt-modal-two-description {
+    padding-top: 2.5%;
+  }
+
+  .newt-modal-one-sub-description {
+    padding-bottom: 2.5%;
+  }
+
+  .newt-modal-two-sub-description {
+    padding-bottom: 2.5%;
+  }
+
+}
+
+/* -- Fix Landscape Orientation From 569px To 736px End -- */
+
+/* -- Fix Splash for iPad Start -- */
+
+@media (min-width: 768px) and (max-width: 1023px) {
+
+  .final-splash-result-one {
+    margin-left: 35%;
+  }
+  
+  .final-splash-result-two {
+    margin-left: 35%;
+  }
+
+  .final-splash-result-three {
+    margin-left: 35%;
+  }
+
+  .continue-button-icon {
+    margin-left: 27%;
+  }
+
+}
+
+/* -- Fix Splash for iPad End -- */
+
+/* -- Fix Splash for iPad Pro Start -- */
+
+@media (min-width: 1024px) and (max-width: 1199px) {
+
+  .final-splash-result-one {
+    margin-left: 32%;
+  }
+  
+  .final-splash-result-two {
+    margin-left: 32%;
+  }
+
+  .final-splash-result-three {
+    margin-left: 32%;
+  }
+
+  .continue-button-icon {
+    margin-left: 24%;
+  }
+
+}
+
+/* -- Fix Splash for iPad Pro End -- */

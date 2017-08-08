@@ -17,9 +17,9 @@ $(function() {
 });
 
 $(function() {
-    $('button.skills-button').click(function() {
+    $('button.projects-button').click(function() {
     $('html, body').animate({
-        scrollTop: $('#skills').offset().top
+        scrollTop: $('#projects').offset().top
     }, 1000);
 });
 });

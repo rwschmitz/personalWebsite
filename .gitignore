@@ -4,3 +4,4 @@ node_modules/
 .vscode/
 imgs/
 *.json
+/src/css/fontmfizz
