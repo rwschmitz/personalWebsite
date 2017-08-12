@@ -24,34 +24,21 @@ html, body {
 .newt-splash {
     background-color: #efefef;
     margin: 0 auto;
-    height: 100vh;
+    height: 974px; /* Was 100 */
     width: 100%;
     top: 0;
     position: absolute;
     z-index: 2;
 }
 
-/* -- Center Container Start -- */
-
-.splash-container {
-  height: 100vh;
-  display: -webkit-flex;
-  display: -moz-flex;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-}
-
-/* -- Center Container End -- */
-
 /* -- Statement One Start -- */
 
 .splash-statement-one {
     display: none;
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 5vh;
+    font-size: 34px; /* Was 5 */
     text-align: center;
+    padding-top: 100px;
 }
 
 /* -- Statement One End -- */
@@ -61,8 +48,9 @@ html, body {
 .splash-statement-two {
     display: none;
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 5vh;
+    font-size: 34px; /* Was 5 */
     text-align: center;
+    padding-top: 100px;
 }
 
 /* -- Statement Two End -- */
@@ -73,8 +61,9 @@ html, body {
 .splash-statement-three {
     display: none;
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 5vh;
+    font-size: 34px; /* Was 5 */
     text-align: center;
+    padding-top: 100px;
 }
 
 /* -- Statement Three End -- */
@@ -94,19 +83,19 @@ html, body {
     background-color: #efefef;
     border: none;
     color: #231f20;
-    padding: 1vh 1vw;
+    padding: 7px 1vw; /* Was 1 */
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 3vh;
-    margin: 0.4vw 0.2vh;
+    font-size: 20px; /* Was 3 */
+    margin: 0.4vw 2px; /* Was 0.2 */
     cursor: pointer;
     border-radius: 0.75vw;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: bold;
     z-index: 1;
     position: relative;
-    margin-left: 40%;
+    margin-left: 42%;
 }
 
 .continue-button-icon:focus {
@@ -174,7 +163,7 @@ html, body {
 
 .click-me {
     background-color: transparent;
-    font-size: 1.5vh;
+    font-size: 10px; /* Was 1.5 */
     font-family: 'Permanent Marker', cursive;
     margin-top: 0;
 }
@@ -185,10 +174,11 @@ html, body {
 
 .final-splash-result-one {
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 2vh;
+    font-size: 20px;
     font-weight: bold;
     text-align: left;
     margin-left: 42%;
+    margin-top: 120px;
     -webkit-animation-name: statement-one-animation-text;
     -moz-animation-name: statement-one-animation-text;
     animation-name: statement-one-animation-text;
@@ -206,7 +196,7 @@ html, body {
 
 .final-splash-result-one:before {
     content: "\f00c";
-    font-size: 2vh;
+    font-size: 14px; /* Was 2 */
     font-family: FontAwesome;
     text-decoration: inherit;
     margin-right: 1vw;
@@ -252,7 +242,7 @@ html, body {
 
 .final-splash-result-two {
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 2vh;
+    font-size: 20px;
     font-weight: bold;
     text-align: left;
     margin-left: 42%;
@@ -273,7 +263,7 @@ html, body {
 
 .final-splash-result-two:before {
     content: "\f00c";
-    font-size: 2vh;
+    font-size: 14px; /* Was 2 */
     font-family: FontAwesome;
     text-decoration: inherit;
     margin-right: 1vw;
@@ -319,7 +309,7 @@ html, body {
 
 .final-splash-result-three {
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 2vh;
+    font-size: 20px;
     font-weight: bold;
     text-align: left;
     margin-left: 42%;
@@ -340,7 +330,7 @@ html, body {
 
 .final-splash-result-three:before {
     content: "\f00c";
-    font-size: 2vh;
+    font-size: 14px; /* Was 2 */
     font-family: FontAwesome;
     text-decoration: inherit;
     margin-right: 1vw;
@@ -397,7 +387,7 @@ html, body {
     opacity: 0.5;
     color: #231f20;
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 1.5vh;
+    font-size: 10px; /* Was 1.5 */
     font-weight: bold;
     text-align: center;
     text-decoration: none;
@@ -510,7 +500,7 @@ html, body {
     right: 50%;
     bottom: 0;
     background: rgba(14,11,22,.85); /* Void 05 */
-    height: 0.2vh;
+    height: 2px; /* Was 0.2 */
     -webkit-transition-property: left, right;
     -moz-transition-property: left, right;
     transition-property: left, right;
@@ -527,7 +517,7 @@ html, body {
     text-align: center;
     color: #efefef; /* Neutral 08 */
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 1.5vh;
+    font-size: 10px; /* Was 1.5 */
     text-decoration: none;
 }
 
@@ -547,7 +537,7 @@ html, body {
     text-align: center;
     color: #efefef; /* Neutral 08 */
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 1.5vh;
+    font-size: 17px; /* Was 1.5 */
     text-decoration: none;
     background-color: rgba(255,83,61,0);
     padding: 0;
@@ -563,7 +553,7 @@ html, body {
     text-align: center;
     color: #efefef; /* Neutral 08 */
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 1.5vh;
+    font-size: 17px; /* Was 1.5 */
     text-decoration: none;
     background-color: rgba(255,83,61,0);
     padding: 0;
@@ -579,7 +569,7 @@ html, body {
     text-align: center;
     color: #efefef; /* Neutral 08 */
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 1.5vh;
+    font-size: 17px; /* Was 1.5 */
     text-decoration: none;
     background-color: rgba(255,83,61,0);
     padding: 0;
@@ -595,7 +585,7 @@ html, body {
     text-align: center;
     color: #efefef; /* Neutral 08 */
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 1.5vh;
+    font-size: 17px; /* Was 1.5 */
     text-decoration: none;
     background-color: rgba(255,83,61,0);
     padding: 0;
@@ -611,7 +601,7 @@ html, body {
     text-align: center;
     color: #efefef; /* Neutral 08 */
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 1.5vh;
+    font-size: 17px; /* Was 1.5 */
     text-decoration: none;
     background-color: rgba(255,83,61,0);
     padding: 0;
@@ -633,17 +623,19 @@ html, body {
     position: relative;
     display: inline-block;
     background: #efefef;
-    height: 100%;
+    height: 974px;
     width: 100%;
-    padding-bottom: 5vh;
+    padding-bottom: 34px; /* Was 5 */
 }
 
-.home-background {
-    height: 50vh;
+#home-background {
     background-image: linear-gradient(rgba(255,255,255,0.9),rgba(255,255,255,0.1)), url('../imgs/keyboard.jpeg');
-    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
     background-size: cover;
     box-shadow: 0px 0px 10px 3px black;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 
 }
 
@@ -651,42 +643,42 @@ html, body {
 .home-title {
     color: #efefef;
     font-family: 'Quicksand', sans-serif;
-    font-size: 5vh;
+    font-size: 50px; /* Was 5 */
     text-align: center;
-    padding-top: 5vh;
     letter-spacing: 0.25vw;
     text-shadow: 1px 1px 1px black;
-    padding-top: 7.5vh;
+    padding-top: 60px; /* Was 50 */
     
 }
 
 .home-subtitle {
     color: #efefef;
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 2.25vh;
+    font-size: 20px; /* Was 2.25 */
     text-align: center;
     letter-spacing: 0.25vw;
-    padding-bottom: 35vh;
+    padding-bottom: 320px; /* Was 35 */
     text-shadow: 1px 1px 1px black;
 }
 
 .home-content {
     color: #0e0b16;
     font-family: 'Quicksand', sans-serif;
-    font-size: 1.8vh;
+    font-size: 16px; /* Was 1.8 */
     font-weight: bold;
-    padding-top: 0vh;
-    padding-bottom: 3vh;
-    line-height: 3.25vh;
+    padding-top: 35px; /* Was 2 */
+    padding-bottom: 57px; /* Was 5 */
+    line-height: 22px; /* Was 3.25 */
     text-align: center;
 }
 
 .home-info {
     color: #0e0b16;
     font-family: 'Quicksand', sans-serif;
-    font-size: 1.75vh;
+    font-size: 16px; /* Was 1.75 */
     text-align: justify;
     font-weight: 500;
+    padding-bottom: 40px;
    
 }
 
@@ -699,9 +691,8 @@ html, body {
 
 
 .home-img-left {
-    font-size: 5vh;
+    font-size: 40px; /* Was 5 */
     text-align: center;
-    padding-top: 0vh;
 }
 
 .home-img-left:before {
@@ -712,7 +703,7 @@ html, body {
 .home-img-left-text {
     color: #0e0b16; 
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 2vh;
+    font-size: 18px; /* Was 2 */
     font-weight: bold;
     text-align: center;
 }
@@ -720,9 +711,8 @@ html, body {
 /* -- 2ND ICON PROPERTIES -- */
 
 .home-img-center {
-    font-size: 5vh;
+    font-size: 40px; /* Was 5 */
     text-align: center;
-    padding-top: 0vh;
 }
 
 .home-img-center:before {
@@ -733,7 +723,7 @@ html, body {
 .home-img-center-text {
     color: #0e0b16; 
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 2vh;
+    font-size: 18px; /* Was 2 */
     font-weight: bold;
     text-align: center;
 }
@@ -741,9 +731,8 @@ html, body {
 /* -- 3RD ICON PROPERTIES -- */
 
 .home-img-right {
-    font-size: 5vh;
+    font-size: 40px; /* Was 5 */
     text-align: center;
-    padding-top: 0vh;
 
 }
 
@@ -755,7 +744,7 @@ html, body {
 .home-img-right-text {
     color: #0e0b16; 
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 2vh;
+    font-size: 18px; /* Was 2 */
     font-weight: bold;
     text-align: center;
 }
@@ -764,17 +753,17 @@ html, body {
 /* -- CENTER IMAGE PROPERTIES -- */
 
 .home-img-middle {
-    width: 10vh;
+    width: 125px; /* Was 10 */
     border-radius: 5%;
     box-shadow: 0px 0px 8px 0px black;
-    margin-top: 2vh;
-    margin-bottom: 2vh;
+    margin-top: 50px; /* Was 2 */
+    margin-bottom: 25px; /* Was 2 */
 }
 
 /* -- 4TH ICON PROPERTIES -- */
 
 .home-img-lower-left {
-    font-size: 5vh;
+    font-size: 40px; /* Was 5 */
     text-align: center;
 
 }
@@ -787,7 +776,7 @@ html, body {
 .home-img-lower-left-text {
     color: #0e0b16; 
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 2vh;
+    font-size: 18px; /* Was 2 */
     font-weight: bold;
     text-align: center;
 }
@@ -795,7 +784,7 @@ html, body {
 /* -- 5TH ICON PROPERTIES -- */
 
 .home-img-lower-right {
-    font-size: 5vh;
+    font-size: 40px; /* Was 5 */
     text-align: center;
 }
 
@@ -807,7 +796,7 @@ html, body {
 .home-img-lower-right-text {
     color: #0e0b16; 
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 2vh;
+    font-size: 18px; /* Was 2 */
     font-weight: bold;
     text-align: center;
 }
@@ -824,39 +813,39 @@ html, body {
 #about {
     background: rgba(14,11,22,.85); /* Void 05 */
     position: relative;
-    height: 100%;
+    height: 974px;
     width: 100%;
     display: inline-block;
-    padding-bottom: 5vh;
+    padding-bottom: 54px; /* Was 5 */
 }
 
 .about-header {
     color: #efefef; /* Neutral 08 */
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 3vh;
+    font-size: 25px; /* Was 3 */
     font-weight: bold;
     width: 100%;
-    padding-top: 10vh;
-    padding-bottom: 5vh; 
+    padding-top: 68px; /* Was 10 */
+    padding-bottom: 34px; /* Was 5 */ 
 }
 
 .about-titles {
     color: #efefef; /* Neutral 08 */
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 3vh;
+    font-size: 25px; /* Was 3 */
     font-weight: bold;
     width: 100%;
-    padding-bottom: 5vh; 
+    padding-bottom: 34px; /* Was 5 */ 
 }
 
 .about-content {
     color: #efefef; /* Neutral 08 */
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 2vh;
+    font-size: 17px; /* Was 2 */
     font-weight: bold;
     width: 100%;
     text-align: justify;
-    padding-bottom: 10vh;
+    padding-bottom: 165px; /* Was 10 */
 }
 
 /* -- About Content End -- */
@@ -866,36 +855,36 @@ html, body {
 #projects {
     background: #efefef; /* Neutral 08 */
     position: relative;
-    height: 100%;
+    height: 974px;
     width: 100%;
     display: inline-block;
-    padding-top: 10vh;
+    padding-top: 68px; /* Was 10 */
 }
 
 .projects-header {
     color: #0e0b16; 
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 3vh;
+    font-size: 25px; /* Was 3 */
     font-weight: bold;
     width: 100%;
-    padding-bottom: 5vh;
+    padding-bottom: 34px; /* Was 5 */
 }
 
 .projects-description {
     color: #0e0b16; 
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 2vh;
+    font-size: 17px; /* Was 2 */
     font-weight: bold;
     width: 100%;
-    padding-bottom: 10vh;
+    padding-bottom: 200px; /* Was 10 */
 }
 
 .projects-content {
     color: #0e0b16; /* Void 05 */
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 1.6vh;
+    font-size: 11px; /* Was 1.6 */
     line-height: 0.5;
-    padding-top: 5vh;
+    padding-top: 34px; /* Was 5 */
     padding-left: 10vw;
 }
 
@@ -906,15 +895,15 @@ html, body {
 #blog {
     background: rgba(14,11,22,.85); /* Void 05 */
     position: relative;
-    height: 100vh;  
+    height: 674px; /* Was 100 */
 }
 
 .blog-content {
     color: #efefef; /* Neutral 08 */
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 1.6vh;
+    font-size: 11px; /* Was 1.6 */
     line-height: 0.5;
-    padding-top: 5vh;
+    padding-top: 34px; /* Was 5 */
     padding-left: 5vw;
 }
 
@@ -925,34 +914,35 @@ html, body {
 #contact {
     background: rgba(14,11,22,.85); /* Void 05 */
     position: relative;
-    height: 100%;
+    height: 934px;
     width: 100%;
 }
 
 .contact-header {
     color: #efefef; 
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 3vh;
+    font-size: 25px; /* Was 3 */
     font-weight: bold;
     width: 100%;
-    padding-top: 2.5vh;
-    padding-bottom: 5vh;
+    padding-top: 65px; /* Was 2.5 */
+    padding-bottom: 34px; /* Was 5 */
 }
 
 
 .contact-content {
     color: #efefef; /* Neutral 08 */
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 2vh;
+    font-size: 17px; /* Was 2 */
     font-weight: bold;
-    padding-top: 0.1%;
-    padding-bottom: 0.1%
+    line-height: 40px;
+    padding-top: 25px;
+    padding-bottom: 325px;
 }
 
 .contact-content-mail-icon:before {
     content: "\f003";
     font-family: FontAwesome;
-    font-size: 4.6vh;
+    font-size: 50px; /* Was 4.6 */
     text-decoration: none;
     color: #efefef;
 }
@@ -966,7 +956,7 @@ html, body {
 .contact-content-github-icon:before {
     content: "\f09b";
     font-family: FontAwesome;
-    font-size: 4.6vh;
+    font-size: 50px; /* Was 4.6 */
     text-decoration: none;
     color: #efefef;
 }
@@ -980,7 +970,7 @@ html, body {
 .contact-content-linkedin-icon:before {
     content: "\f08c";
     font-family: FontAwesome;
-    font-size: 4.6vh;
+    font-size: 50px; /* Was 4.6 */
     text-decoration: none;
     color: #efefef;
 }
@@ -1028,14 +1018,14 @@ html, body {
 .newt-sidebar-left a:before {
     content: "\f0da";
     font-family: FontAwesome;
-    font-size: 1.6vh;
+    font-size: 11px; /* Was 1.6 */
     text-decoration: none;
     display: inline-block;
     -webkit-transform: perspective(0px) translateZ(0);
     -moz-transform: perspective(0px) translateZ(0);
     transform: perspective(0px) translateZ(0);
     vertical-align: inherit;
-    padding-right: 1vh;
+    padding-right: 7px; /* Was 1 */
     -webkit-transition-duration: 0.3s;
     -moz-transition-duration: 0.3s;
     transition-duration: 0.3s;
@@ -1075,14 +1065,14 @@ html, body {
 .newt-sidebar-center a:before {
     content: "\f0da";
     font-family: FontAwesome;
-    font-size: 1.6vh;
+    font-size: 11px; /* Was 1.6 */
     text-decoration: none;
     display: inline-block;
     -webkit-transform: perspective(0px) translateZ(0);
     -moz-transform: perspective(0px) translateZ(0);
     transform: perspective(0px) translateZ(0);
     vertical-align: inherit;
-    padding-right: 1vh;
+    padding-right: 7px; /* Was 1 */
     -webkit-transition-duration: 0.3s;
     -moz-transition-duration: 0.3s;
     transition-duration: 0.3s;
@@ -1122,14 +1112,14 @@ html, body {
 .newt-sidebar-right a:before {
     content: "\f0da";
     font-family: FontAwesome;
-    font-size: 1.6vh;
+    font-size: 11px; /* Was 1.6 */
     text-decoration: none;
     display: inline-block;
     -webkit-transform: perspective(0px) translateZ(0);
     -moz-transform: perspective(0px) translateZ(0);
     transform: perspective(0px) translateZ(0);
     vertical-align: inherit;
-    padding-right: 1vh;
+    padding-right: 7px; /* Was 1 */
     -webkit-transition-duration: 0.3s;
     -moz-transition-duration: 0.3s;
     transition-duration: 0.3s;
@@ -1157,16 +1147,16 @@ html, body {
     display: none;
     position: fixed;
     width: 50vw;
-    height: 50vh;
+    height: 337px; /* Was 50 */
     max-width: 100%;
     max-height: 100%;
     z-index: 100;
     left: 25vw;
-    top: 25vh;
+    top: 200px; /* Was 25 */
     background: rgba(14,11,22,.85);
     box-shadow: 0vw 0vw 1vw 0vw black;
     color: #efefef;
-    line-height: 2.0vh;
+    line-height: 14px; /* Was 2 */
 
 }
 
@@ -1178,7 +1168,7 @@ html, body {
     box-sizing: border-box;
     margin: 0;
     padding: 2.5%;
-    line-height: 2.75vh;
+    line-height: 19px; /* Was 2.75 */
     
     
 }
@@ -1203,7 +1193,7 @@ html, body {
 .newt-modal-one .newt-modal-close-button-one {
     position: absolute;
     z-index: 1;
-    top: 1vh;
+    top: 7px; /* Was 1 */
     right: 1.5vw;
     background: rgba(14,11,22,0);
     color: #efefef;
@@ -1212,7 +1202,7 @@ html, body {
 
 .newt-modal-close-button-one:before {
     content: "\f00d";
-    font-size: 2.5vh;
+    font-size: 17px; /* Was 2.5 */
     font-family: FontAwesome;
 }
 
@@ -1244,40 +1234,40 @@ html, body {
 
 .newt-modal-open-button-one:hover, .newt-modal-open-button-one:focus, .newt-modal-open-button-one:active {
     opacity: 1;
-    -webkit-transform: translateY(-1vh);
-    -moz-transform: translateY(-1vh);
-    transform: translateY(-1vh);
+    -webkit-transform: translateY(-7px); /* Was 1 */
+    -moz-transform: translateY(-7px); /* Was 1 */
+    transform: translateY(-7px); /* Was 1 */
 
 }
 
 .newt-modal-one-description {
     font-family: 'Josefin Sans', sans-serif;
     color: rgba(14,11,22,.85);
-    font-size: 3.0vh;
+    font-size: 20px; /* Was 3 */
 }
 
 .newt-modal-one-sub-description {
     font-family: 'Josefin Sans', sans-serif;
     color: rgba(14,11,22,.85);
-    font-size: 2vh;
+    font-size: 14px; /* Was 2 */
 }
 
 .newt-interior-modal-one-text {
     font-family: 'Josefin Sans', sans-serif;
     color: #efefef; /* Neutral 08 */
-    font-size: 2vh;  
+    font-size: 16px; /* Was 2 */  
 }
 
 .newt-interior-modal-one-description {
     font-family: 'Josefin Sans', sans-serif;
     color: #efefef; /* Neutral 08 */
-    font-size: 1.75vh;  
+    font-size: 16px; /* Was 1.75 */  
 }
 
 .newt-interior-modal-one-description a {
     color: #efefef; /* Neutral 08 */
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 2.0vh;
+    font-size: 16px; /* Was 2 */
     text-decoration: none;
     font-weight: bold;
     overflow-wrap: break-word;
@@ -1297,16 +1287,16 @@ html, body {
     display: none;
     position: fixed;
     width: 50vw;
-    height: 50vh;
+    height: 337px; /* Was 50 */
     max-width: 100%;
     max-height: 100%;
     z-index: 100;
     left: 25vw;
-    top: 25vh;
+    top: 200px; /* Was 25 */
     background: rgba(14,11,22,.85);
     box-shadow: 0vw 0vw 1vw 0vw black;
     color: #efefef;
-    line-height: 2.0vh;
+    line-height: 14px; /* Was 2 */
 
 }
 
@@ -1318,7 +1308,7 @@ html, body {
     box-sizing: border-box;
     margin: 0;
     padding: 2.5%;
-    line-height: 2.75vh;
+    line-height: 19px; /* Was 2.75 */
     
 }
 
@@ -1342,7 +1332,7 @@ html, body {
 .newt-modal-two .newt-modal-close-button-two {
     position: absolute;
     z-index: 1;
-    top: 1vh;
+    top: 7px; /* Was 1 */
     right: 1.5vw;
     background: rgba(14,11,22,0);
     color: #efefef;
@@ -1351,7 +1341,7 @@ html, body {
 
 .newt-modal-close-button-two:before {
     content: "\f00d";
-    font-size: 2.5vh;
+    font-size: 17px; /* Was 2.5 */
     font-family: FontAwesome;
 }
 
@@ -1384,38 +1374,38 @@ html, body {
 
 .newt-modal-open-button-two:hover, .newt-modal-open-button-two:focus, .newt-modal-open-button-two:active {
     opacity: 1;
-    -webkit-transform: translateY(-1vh);
-    -moz-transform: translateY(-1vh);
-    transform: translateY(-1vh);
+    -webkit-transform: translateY(-7px);  /* Was 1 */
+    -moz-transform: translateY(-7px); /* Was 1 */
+    transform: translateY(-7px);  /* Was 1 */
 } 
 
 .newt-modal-two-description {
     font-family: 'Josefin Sans', sans-serif;
     color: rgba(14,11,22,.85);
-    font-size: 3.0vh;
+    font-size: 20px; /* Was 3 */
 }
 
 .newt-modal-two-sub-description {
     font-family: 'Josefin Sans', sans-serif;
     color: rgba(14,11,22,.85);
-    font-size: 2vh;
+    font-size: 14px; /* Was 2 */
 }
 
 .newt-interior-modal-two-text {
     font-family: 'Josefin Sans', sans-serif;
     color: #efefef; /* Neutral 08 */
-    font-size: 2vh;  
+    font-size: 16px; /* Was 2 */  
 }
 
 .newt-interior-modal-two-description {
     font-family: 'Josefin Sans', sans-serif;
     color: #efefef; /* Neutral 08 */
-    font-size: 1.75vh;
+    font-size: 16px; /* Was 1.75 */
 }
 
 .newt-interior-modal-two-description a {
     color: #efefef; /* Neutral 08 */
-    font-size: 2.0vh;
+    font-size: 16px; /* Was 2 */
     text-decoration: none;
     font-weight: bold;
     overflow-wrap: break-word;
@@ -1428,30 +1418,41 @@ html, body {
 
 /* -- Modal Two End -- */
 
-/* -- Collapse Project One Start -- */
+/* -- Collapse Projects Start -- */
 
 .newt-collapse {
     color: #0e0b16; 
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 3vh;
+    font-size: 15px; /* Was 3 */
     font-weight: bold;
 }
 
-.newt-collapse a:hover {
+.newt-collapse a {
     color: #ff533d;
 }
+
+.newt-collapse-button {
+    background-color: #efefef;
+    width: 100%;
+    border: 1px solid rgba(0,0,0,0.1);
+    margin-bottom: 10px;
+    margin-top:  10px;
+    padding-top: 10px;
+  }
+
+/* -- Collapse Projects End -- */
 
 /* -- Splash Wrapper Start -- */
 
 .splash-desc-wrap {
     position: relative;
-    top: 40vh;
+    top: 270px; /* Was 40 */
     text-align: center;
 }
 
 .splash-desc-wrap-two {
     position: relative;
-    top: 40vh;
+    top: 270px; /* Was 40 */
 }
 
 /* -- Splash  Wrapper End -- */
@@ -1489,7 +1490,7 @@ html, body {
     font-family: 'Josefin Sans', sans-serif;
     width: 100%;
     text-align: center;
-    padding-top: 2vh;
+    padding-top: 14px; /* Was 2 */
 }
 
 /* -- Footer End -- */
@@ -1497,7 +1498,7 @@ html, body {
 /* -- Icon Description Styling Start -- */
 
 .icon-text {
-    font-size: 2vh;
+    font-size: 14px; /* Was 2 */
     color: #efefef;
     font-family: 'Josefin Sans', sans-serif;
     font-style: normal;
@@ -1512,7 +1513,7 @@ html, body {
 .icon-html5, .icon-css3, .icon-javascript, .icon-jquery, .icon-php, .icon-nodejs, .icon-grunt, .icon-bootstrap, .icon-git, .icon-wordpress, .icon-apache, .icon-oracle {
     color: #efefef;
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 5vh;
+    font-size: 34px; /* Was 5 */
 }
 
 .icon-html5:hover, .icon-css3:hover, .icon-javascript:hover, .icon-jquery:hover, .icon-php:hover, .icon-nodejs:hover, .icon-grunt:hover, .icon-bootstrap:hover, .icon-git:hover, .icon-wordpress:hover, .icon-apache:hover, .icon-oracle:hover {
@@ -1536,7 +1537,7 @@ html, body {
 
 .navbar-nav > li {
     float: none;
-    padding-top: 1.25vh
+    padding-top: 9px; /* Was 1.25 */
 }
 
 /* -- Center Nav Links End -- */
@@ -1554,7 +1555,7 @@ a:hover {
 @media (max-width: 320px) {
 
   .home-title {
-    padding-top: 10vh;
+    padding-top: 68px; /* Was 10 */
   }
 
 }
@@ -1574,7 +1575,7 @@ a:hover {
     }
 
     .navbar-nav > li > button {
-        font-size: 3vh;
+        font-size: 20px; /* Was 3 */
         width: 50%;
         text-align: center;
         padding-top: 10px;
@@ -1605,7 +1606,7 @@ a:hover {
         font-weight: normal;
         text-decoration: inherit;
         padding: 5px;
-        font-size: 2vh;
+        font-size: 14px; /* Was 2 */
     }
 
 
@@ -1641,6 +1642,7 @@ a:hover {
 
     .final-splash-result-one {
         margin-left: 24%;
+        margin-top: -100px;
     }
 
     .final-splash-result-two {
@@ -1656,7 +1658,7 @@ a:hover {
     }
 
     .continue-button-icon {
-        margin-left: 15%;
+        margin-left: 7%;
     }
 
     .cancel-button-icon {
@@ -1666,8 +1668,72 @@ a:hover {
 
     .home-img-middle {
         width: 20%;
-
     }
+
+    .splash-statement-one {
+        padding-top: 0px;
+    }
+
+    .splash-statement-two {
+        padding-top: 0px;
+    }
+
+    .splash-statement-three {
+        padding-top: 0px;
+    }
+
+    .home-subtitle {
+        padding-bottom: 75px;
+    }
+
+    #about {
+      height: 1850px;
+    }
+
+    .about-content {
+        padding-bottom: 50px;
+    }
+
+    .projects-description  {
+        padding-bottom: 25px;
+    }
+
+    .newt-modal-one-description {
+        font-size: 17px;
+        font-weight: bold
+  }
+
+  .newt-modal-two-description {
+        font-size: 17px;
+        font-weight: bold
+  }
+
+  #projects {
+    height: 500px;
+  }
+
+  #contact {
+      margin-top: 125px;
+      height: 500px;
+  }
+
+  .home-img-middle {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .contact-header {
+    padding-top: 20px;
+  }
+
+  .contact-content {
+    font-size: 15px;
+    line-height: 40px;
+    padding-top: 40px;
+    padding-bottom: 25px;
+    text-align: justify;
+
+  }
 }
 
 /* -- Center Nav Links For Devices From 0 To 767px (Table Sizes Start @ 768px) End -- */
@@ -1717,7 +1783,7 @@ a:hover {
       padding-bottom: 2.5%;
     }
 
-      .newt-modal-two-sub-description {
+    .newt-modal-two-sub-description {
       padding-bottom: 2.5%;
     }
 
@@ -1730,8 +1796,8 @@ a:hover {
 
 @media (min-width: 568px) and (max-width: 568px) {
 
-  .home-title {
-    padding-top: 17.5vh;
+    .home-title {
+    padding-top: 118px; /* Was 17.5 */
   }
 
     .newt-modal-open-button-one {
@@ -1769,7 +1835,7 @@ a:hover {
 @media (min-width: 569px) and (max-width: 736px) {
 
   .home-title {
-    padding-top: 17.5vh;
+    padding-top: 118px; /* Was 17.5 */
   }
 
   .newt-modal-open-button-one {
@@ -1849,3 +1915,547 @@ a:hover {
 }
 
 /* -- Fix Splash for iPad Pro End -- */
+
+/* -- Set Background Image To Scroll For Mobile Users Start -- */
+
+@media (max-width: 1199px) {
+
+    #home-background {
+        background-attachment: scroll;
+    }
+}
+
+/* -- Set Background Image To Scroll For Mobile Users End -- */
+
+/*
+---------------------------------------------
+| START SITE SPECIFIC ELEMENT CONFIGURATION |
+---------------------------------------------
+*/
+
+/* -- iPhone 5 Portrait Start -- */
+
+@media (min-width: 320px) and (max-width: 359px) {
+
+    .final-splash-result-one {
+        padding-top: 50px;
+        margin-left: 3%;
+    }
+
+    .final-splash-result-two {
+        margin-left: 3%;
+    }
+
+    .final-splash-result-three {
+        margin-left: 3%;
+    }
+
+    .continue-button-icon {
+        margin-left: 6.25%;
+    }
+
+    #home {
+        height: auto;
+        padding-bottom: 0;
+    }
+
+    #about {
+        height: auto;
+    }
+
+    #projects {
+        height: auto;
+    }
+
+    #contact {
+        margin-top: 20px;
+    }
+
+}
+
+/* -- iPhone 5 Portrait End -- */
+
+/* -- Galaxy S5 Portrait Start -- */
+
+@media (min-width: 360px) and (max-width: 374px) {
+
+    .final-splash-result-one {
+        padding-top: 50px;
+        margin-left: 7.5%;
+    }
+
+    .final-splash-result-two {
+        margin-left: 7.5%;
+    }
+
+    .final-splash-result-three {
+        margin-left: 7.5%;
+    }
+
+    .continue-button-icon {
+        margin-left: 11.75%;
+    }
+
+    #home {
+        height: auto;
+    }
+
+    #about {
+        height: auto;
+    }
+
+    #projects {
+        height: auto;
+    }
+
+    #contact {
+        margin-top: 15px;
+        height: 575px;
+    }
+
+    .contact-content {
+        padding-top: 22px;
+        padding-bottom: 115px;
+
+    }
+
+}
+
+/* -- Galaxy S5 Portrait End -- */
+    
+    
+/* -- 375px To 411px Start -- */
+
+@media (min-width: 375px) and (max-width: 411px) {
+
+    .splash-statement-one {
+        padding-top: 0px;
+    }
+
+    .splash-statement-two {
+        padding-top: 0px;
+    }
+
+    .splash-statement-three {
+        padding-top: 0px;
+    }
+
+    .final-splash-result-one {
+        padding-top: 50px;
+        margin-left: 11%;
+    }
+
+    .final-splash-result-two {
+        margin-left: 11%;
+    }
+
+    .final-splash-result-three {
+        margin-left: 11%;
+    }
+
+    .continue-button-icon {
+        margin-left: 14.5%;
+    }
+
+    .home-subtitle {
+        padding-bottom: 75px;
+    }
+
+    #home {
+        height: auto;
+    }
+
+    #about {
+        height: auto;
+    }
+
+    .about-content {
+        padding-bottom: 50px;
+    }
+
+    .projects-description {
+        padding-bottom: 25px;
+    }
+
+    .newt-modal-one-description {
+        font-size: 17px;
+        font-weight: bold
+    }
+
+    .newt-modal-two-description {
+        font-size: 17px;
+        font-weight: bold
+    }
+
+    #projects {
+        height: auto;
+    }
+
+    #contact {
+        margin-top: 25px;
+        height: 600px;
+    }
+
+    .home-img-middle {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .contact-header {
+        padding-top: 20px;
+    }
+
+    .contact-content {
+        font-size: 15px;
+        line-height: 40px;
+        padding-top: 40px;
+        padding-bottom: 115px;
+        text-align: justify;
+    }
+
+}
+
+/* -- 375px To 411px End -- */
+
+/* -- 412px To 567px Start -- */
+
+@media (min-width: 412px) and (max-width: 567px) {
+
+    .splash-statement-one {
+        padding-top: 0px;
+    }
+
+    .splash-statement-two {
+        padding-top: 0px;
+    }
+
+    .splash-statement-three {
+        padding-top: 0px;
+    }
+
+    .final-splash-result-one {
+        padding-top: 75px;
+        margin-left: 14%;
+    }
+
+    .final-splash-result-two {
+        margin-left: 14%;
+    }
+
+    .final-splash-result-three {
+        margin-left: 14%;
+    }
+
+    .continue-button-icon {
+        margin-left: 17%;
+    }
+
+    .home-subtitle {
+        padding-bottom: 75px;
+    }
+
+    #home {
+        height: auto;
+    }
+
+    #about {
+        height: auto;
+    }
+
+    .about-content {
+        padding-bottom: 50px;
+    }
+
+    .projects-description  {
+        padding-bottom: 25px;
+    }
+
+    .newt-modal-one-description {
+        font-size: 17px;
+        font-weight: bold
+    }
+
+    .newt-modal-two-description {
+        font-size: 17px;
+        font-weight: bold
+    }
+
+    #projects {
+        height: auto;
+    }
+
+    #contact {
+        margin-top: 25px;
+        height: 660px;
+    }
+
+    .home-img-middle {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .contact-header {
+        padding-top: 20px;
+    }
+
+    .contact-content {
+        font-size: 15px;
+        line-height: 40px;
+        padding-top: 40px;
+        padding-bottom: 160px;
+        text-align: justify;
+    }
+
+}
+
+/* -- 412px To 567px End -- */
+
+/* -- iPhone 5 Landscape Start -- */
+
+@media (min-width: 568px) and (max-width: 639px) {
+
+    .splash-statement-one {
+        margin-top: -135px;
+    }
+
+    .splash-statement-two {
+        margin-top: -135px;
+    }
+
+    .splash-statement-three {
+        margin-top: -135px;
+    }
+
+    .final-splash-result-one {
+        margin-top: -200px;
+        margin-left: 24%;
+    }
+
+    .final-splash-result-two {
+        margin-left: 24%;
+    }
+
+    .final-splash-result-three {
+        margin-left: 24%;
+    }
+
+    .continue-button-icon {
+        margin-left: 26%;
+    }
+
+    #home {
+        height: auto;
+    }
+
+    #about {
+        height: auto;
+    }
+
+    #projects {
+        height: auto;
+    }
+
+    #contact {
+        margin-top: 20px;
+        height: auto;
+    }
+
+    .contact-header {
+        padding-top: 60px;
+    }
+
+    .contact-content {
+        font-size: 15px;
+        line-height: 40px;
+        padding-top: 40px;
+        padding-bottom: 35px;
+        text-align: justify;
+    }
+}
+
+/* -- iPhone 5 Landscape End -- */
+
+/* -- Galaxy S5 Landscape Start -- */
+
+@media (min-width: 640px) and (max-width: 666px) {
+
+    .final-splash-result-one {
+        margin-top: -200px;
+        margin-left: 27%;
+    }
+
+    .final-splash-result-two {
+        margin-left: 27%;
+    }
+
+    .final-splash-result-three {
+        margin-left: 27%;
+    }
+
+    .continue-button-icon {
+        margin-left: 29%;
+    }
+
+    #home {
+        height: auto;
+    }
+
+    #about {
+        height: auto;
+    }
+
+    #projects {
+        height: auto;
+    }
+
+    #contact {
+        margin-top: 25px;
+        height: auto;
+    }
+
+    .contact-header {
+        padding-top: 60px;
+    }
+
+    .contact-content {
+        font-size: 15px;
+        line-height: 40px;
+        padding-top: 40px;
+        padding-bottom: 45px;
+        text-align: justify;
+    }
+}
+
+/* -- Galaxy S5 Landscape End -- */
+
+/* -- iPhone 6 Landscape Start -- */
+
+@media (min-width: 667px) and (max-height: 731px) {
+
+    .splash-statement-one {
+        margin-top: -120px;
+    }
+
+    .splash-statement-two {
+        margin-top: -120px;
+    }
+
+    .splash-statement-three {
+        margin-top: -120px;
+    }
+
+    .final-splash-result-one {
+        margin-top: -175px;
+        margin-left: 27.5%;
+    }
+
+    .final-splash-result-two {
+        margin-left: 27.5%;
+    }
+
+    .final-splash-result-three {
+        margin-left: 27.5%;
+    }
+
+    .continue-button-icon {
+        margin-left: 29.5%;
+    }
+
+    #home {
+        height: auto;
+    }
+
+    #about {
+        height: auto;
+    }
+
+    #projects {
+        height: auto;
+    }
+
+    #contact {
+        margin-top: 25px;
+        height: auto;
+    }
+
+    .contact-header {
+        padding-top: 60px;
+    }
+
+    .contact-content {
+        font-size: 15px;
+        line-height: 40px;
+        padding-top: 40px;
+        padding-bottom: 45px;
+        text-align: justify;
+    }
+
+}
+
+/* -- iPhone 6 Landscape End -- */
+
+/* -- Nexus 6P Landscape Start -- */
+
+@media (min-width: 732px)  {
+
+    .splash-statement-one {
+        margin-top: -110px;
+    }
+
+    .splash-statement-two {
+        margin-top: -110px;
+    }
+
+    .splash-statement-three {
+        margin-top: -110px;
+    }
+
+    .final-splash-result-one {
+        margin-top: -160px;
+        margin-left: 29%;
+    }
+
+    .final-splash-result-two {
+        margin-left: 29%;
+    }
+
+    .final-splash-result-three {
+        margin-left: 29%;
+    }
+
+    .continue-button-icon {
+        margin-left: 31%;
+    }
+
+    #home {
+        height: auto;
+    }
+
+    #about {
+        height: auto;
+    }
+
+    #projects {
+        height: auto;
+    }
+
+    #contact {
+        margin-top: 25px;
+        height: auto;
+    }
+
+    .contact-header {
+        padding-top: 60px;
+    }
+
+    .contact-content {
+        font-size: 15px;
+        line-height: 40px;
+        padding-top: 40px;
+        padding-bottom: 45px;
+        text-align: justify;
+    }
+
+}
+
+/* -- Nexus 6P Landscape End -- */
