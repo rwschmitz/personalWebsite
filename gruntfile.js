@@ -35,7 +35,7 @@ module.exports = function(grunt) {
             build: {
                 // Specify which files to minify
                 files: {
-                    'dist/css/style.min.css' : 'src/css/style.css'
+                    'dist/css/style.min.css' : 'src/css/style.css',
                 }
             }
         },

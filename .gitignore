@@ -5,3 +5,4 @@ node_modules/
 imgs/
 *.json
 /src/css/fontmfizz
+/dist/css/fontmfizz

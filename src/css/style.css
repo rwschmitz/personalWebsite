@@ -1738,60 +1738,6 @@ a:hover {
 
 /* -- Center Nav Links For Devices From 0 To 767px (Table Sizes Start @ 768px) End -- */
 
-/* -- Center Project Panels From 768px To 1023px (Tablet Up To But Not Including iPad Pro (1024px)) Start -- */
-
-@media (min-width: 768px) and (max-width: 1023px) {
-
-      .newt-modal-open-button-one {
-        opacity: 1;
-        margin-left: 15vw;
-    }
-
-    .newt-modal-open-button-two {
-        opacity: 1;
-        margin-left: 15vw;
-    }
-
-    .newt-modal-one-sub-description {
-      padding-bottom: 2.5%;
-    }
-
-      .newt-modal-two-sub-description {
-      padding-bottom: 2.5%;
-    }
-
-
-}
-
-/* -- Center Project Panels From 768px To 1023px (Tablet Up To But Not Including iPad Pro (1024px)) End -- */
-
-/* -- Center Project Panels From 1024px To 1199px (From Laptop/iPad Pro Up To But Not Including Desktop (1200px)) Start -- */
-
-@media (min-width: 1024px) and (max-width: 1199px) {
-
-      .newt-modal-open-button-one {
-        opacity: 1;
-        margin-left: 25vw;
-    }
-
-    .newt-modal-open-button-two {
-        opacity: 1;
-        margin-left: 25vw;
-    }
-
-    .newt-modal-one-sub-description {
-      padding-bottom: 2.5%;
-    }
-
-    .newt-modal-two-sub-description {
-      padding-bottom: 2.5%;
-    }
-
-
-}
-
-/* -- Center Project Panels From 1024px To 1199px (From Laptop/iPad Pro Up To But Not Including Desktop (1200px)) End -- */
-
 /* -- Fix Landscape Orientation For iPhone 5 (568px) Start -- */
 
 @media (min-width: 568px) and (max-width: 568px) {
@@ -1868,53 +1814,142 @@ a:hover {
 
 /* -- Fix Landscape Orientation From 569px To 736px End -- */
 
-/* -- Fix Splash for iPad Start -- */
+/* -- Fix iPad Start -- */
 
 @media (min-width: 768px) and (max-width: 1023px) {
 
-  .final-splash-result-one {
-    margin-left: 35%;
-  }
-  
-  .final-splash-result-two {
-    margin-left: 35%;
-  }
+    .final-splash-result-one {
+        margin-left: 31%;
+    }
 
-  .final-splash-result-three {
-    margin-left: 35%;
-  }
+    .final-splash-result-two {
+        margin-left: 31%;
+    }
 
-  .continue-button-icon {
-    margin-left: 27%;
-  }
+    .final-splash-result-three {
+        margin-left: 31%;
+    }
+
+    .continue-button-icon {
+        margin-left: 33%;
+    }
+
+    #home {
+        height: auto;
+    }
+
+    #about {
+        height: auto;
+    }
+
+    #projects {
+        height: auto;
+    }
+
+    .newt-modal-open-button-one {
+        opacity: 1;
+        margin-left: 15vw;
+    } 
+
+    .newt-modal-open-button-two {
+        opacity: 1;
+        margin-left: 15vw;
+    }
+
+    .newt-modal-one-sub-description {
+        padding-bottom: 2.5%;
+    }
+
+    .newt-modal-two-sub-description {
+        padding-bottom: 2.5%;
+    }
+
+    #contact {
+        margin-top: 20px;
+        height: 985px;
+    }
+
+    .contact-header {
+        padding-top: 60px;
+    }
+
+    .contact-content {
+        padding-top: 40px;
+        padding-bottom: 300px;
+        text-align: justify;
+    }
 
 }
 
-/* -- Fix Splash for iPad End -- */
+/* -- Fix iPad End -- */
 
-/* -- Fix Splash for iPad Pro Start -- */
+/* -- Fix iPad Pro Start -- */
 
 @media (min-width: 1024px) and (max-width: 1199px) {
 
-  .final-splash-result-one {
-    margin-left: 32%;
-  }
-  
-  .final-splash-result-two {
-    margin-left: 32%;
-  }
+    .final-splash-result-one {
+        margin-left: 37.5%;
+    }
 
-  .final-splash-result-three {
-    margin-left: 32%;
-  }
+    .final-splash-result-two {
+        margin-left: 37.5%;
+    }
 
-  .continue-button-icon {
-    margin-left: 24%;
-  }
+    .final-splash-result-three {
+        margin-left: 37.5%;
+    }
+
+    .continue-button-icon {
+        margin-left: 39.5%;
+    }
+
+    .newt-modal-open-button-one {
+        opacity: 1;
+        margin-left: 25vw;
+    }
+
+    .newt-modal-open-button-two {
+        opacity: 1;
+        margin-left: 25vw;
+    }
+
+    .newt-modal-one-sub-description {
+        padding-bottom: 2.5%;
+    }
+
+    .newt-modal-two-sub-description {
+        padding-bottom: 2.5%;
+    }
+
+    #home {
+        height: auto;
+    }
+
+    #about {
+        height: auto;
+    }
+
+    #projects {
+        height: auto;
+    }
+
+    #contact {
+        margin-top: 20px;
+        height: 1300px;
+    }
+
+    .contact-header {
+        padding-top: 35px;
+    }
+
+    .contact-content {
+        padding-top: 175px;
+        padding-bottom: 545px;
+    }
 
 }
 
-/* -- Fix Splash for iPad Pro End -- */
+/* -- Fix iPad Pro End -- */
 
 /* -- Set Background Image To Scroll For Mobile Users Start -- */
 
@@ -1969,6 +2004,7 @@ a:hover {
 
     #contact {
         margin-top: 20px;
+        height: auto;
     }
 
 }
@@ -2396,7 +2432,7 @@ a:hover {
 
 /* -- Nexus 6P Landscape Start -- */
 
-@media (min-width: 732px)  {
+@media (min-width: 732px) and (max-width: 767px)  {
 
     .splash-statement-one {
         margin-top: -110px;
@@ -2459,3 +2495,87 @@ a:hover {
 }
 
 /* -- Nexus 6P Landscape End -- */
+
+/* -- iPad Pro Landscape Start -- */
+
+@media (min-width: 1366px) and (max-width: 1366px) {
+
+    #home {
+        height: auto;
+    }
+
+    #about {
+        height: auto;
+    }
+
+    #projects {
+        height: 1024px;
+    }
+
+    #contact {
+        height: 990px;
+    }
+
+    .contact-content {
+        padding-bottom: 360px;
+    }
+}
+
+/* -- iPad Pro Landscape End -- */
+
+/* -- 4K Start -- */
+
+@media (min-width: 2560px) {
+
+    .newt-splash {
+        height: 1080px;
+    }
+
+    .continue-button-icon {
+        margin-left: 42.5%;
+    }
+
+    #home {
+        height: 1081px;
+    }
+
+    .home-subtitle {
+        padding-bottom: 400px;
+    }
+
+    #about {
+        height: 1081px;
+    }
+
+    #projects {
+        height: 1081px;
+    }
+
+    .newt-modal-one-description {
+        margin-left: -17.5%;
+    }
+
+    .newt-modal-one-sub-description {
+        margin-left: -17.5%;
+    }
+
+    .newt-modal-two-description {
+        margin-left: -17.5%;
+    }
+
+    .newt-modal-two-sub-description {
+        margin-left: -17.5%;
+    }
+
+    #contact {
+        height: 1045px;
+    }
+
+    .contact-content {
+        padding-top: 75px;
+        padding-bottom: 365px;
+    }
+
+}
+
+/* -- 4K End -- */
