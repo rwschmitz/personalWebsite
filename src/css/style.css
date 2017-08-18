@@ -463,7 +463,6 @@ html, body {
 .newt-nav-main {
     display: block;
     background-color: rgba(255, 83, 61, .9); /* Coral 22 */
-    box-shadow: 0vw 0vw 1vw 0vw black;
     margin: 0 auto;
     position: fixed;
     left: 0;
@@ -499,8 +498,8 @@ html, body {
     left: 50%;
     right: 50%;
     bottom: 0;
-    background: rgba(14,11,22,.85); /* Void 05 */
-    height: 2px; /* Was 0.2 */
+    background: #efefef; /* Void 05 */
+    height: 1px; /* Was 0.2 */
     -webkit-transition-property: left, right;
     -moz-transition-property: left, right;
     transition-property: left, right;
@@ -523,7 +522,7 @@ html, body {
 
 
 .newt-nav-main li:hover:before, .newt-nav-main li:focus,before, .newt-nav-main li:active:before {
-    background-color: rgba(14,11,22,.85); /* Void 05 */
+    background-color: #efefef; /* Void 05 */
     left: 0;
     right: 0;
 
@@ -633,7 +632,6 @@ html, body {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
-    box-shadow: 0px 0px 10px 3px black;
     background-attachment: fixed;
     background-repeat: no-repeat;
 
@@ -755,7 +753,6 @@ html, body {
 .home-img-middle {
     width: 125px; /* Was 10 */
     border-radius: 5%;
-    box-shadow: 0px 0px 8px 0px black;
     margin-top: 50px; /* Was 2 */
     margin-bottom: 25px; /* Was 2 */
 }
@@ -1526,7 +1523,13 @@ html, body {
 ----------------------------------
 | MODIFICATIONS TO BOOTSTRAP CSS |  
 ----------------------------------
-*/ 
+*/
+
+/* -- Navbar Start -- */
+
+.navbar-default {
+    border-color: transparent;
+}
 
 
 /* -- Center Nav Links Start -- */
