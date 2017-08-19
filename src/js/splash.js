@@ -20,3 +20,49 @@ $(function() {
                 $('div.newt-splash').fadeOut(1000);
             });
 });
+
+/* Enables scrolling after continue button is clicked. */
+
+$(function() {
+    $('button.continue-button-icon').on('click',
+        function() {
+        $('.newt-nav-main').css('display', 'block');
+    });
+});
+
+$(function() {
+    $('button.continue-button-icon').on('click',
+        function() {
+        $("#home, #about, #projects").css('display', 'inline-block');
+    });
+});
+
+$(function() {
+    $('button.continue-button-icon').on('click',
+        function() {
+        $("#contact, .newt-footer").css('display', 'inherit');
+    });
+});
+
+/* Enables scrolling after cancel button is clicked. */
+
+$(function() {
+    $('button.cancel-button-icon').on('click',
+        function() {
+        $('.newt-nav-main').css('display', 'block');
+    });
+});
+
+$(function() {
+    $('button.cancel-button-icon').on('click',
+        function() {
+        $("#home, #about, #projects").css('display', 'inline-block');
+    });
+});
+
+$(function() {
+    $('button.cancel-button-icon').on('click',
+        function() {
+        $("#contact, .newt-footer").css('display', 'inherit');
+    });
+});
