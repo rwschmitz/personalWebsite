@@ -3,6 +3,7 @@ Author: Rudolph Schmitz
 Author URI: https://www.rudolphschmitz.com
 */
 
+
 /* Site colors:
  ------------------------------------------------------
 | #efefef; Neutral 08                                  |
@@ -14,64 +15,76 @@ Author URI: https://www.rudolphschmitz.com
  ------------------------------------------------------
 */
 
-html, body {
-    margin: 0;
-    padding: 0;
-    background-color: #efefef;
+html,
+body {
+   margin: 0;
+   padding: 0;
+   background-color: #efefef;
 }
 
 .newt-splash {
-    background-color: #efefef;
-    margin: 0 auto;
-    height: 974px; /* Was 100 */
-    width: 100%;
-    top: 0;
-    position: absolute;
-    z-index: 2;
+   background-color: #efefef;
+   margin: 0 auto;
+   height: 974px;
+   /* Was 100 */
+   width: 100%;
+   top: 0;
+   position: absolute;
+   z-index: 2;
 }
+
 
 /* -- Statement One Start -- */
 
 .splash-statement-one {
-    display: none;
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 34px; /* Was 5 */
-    text-align: center;
-    padding-top: 100px;
+   display: none;
+   font-family: 'Josefin Sans', sans-serif;
+   font-size: 34px;
+   /* Was 5 */
+   text-align: center;
+   padding-top: 100px;
 }
 
+
 /* -- Statement One End -- */
+
 
 /* -- Statement Two Start -- */
 
 .splash-statement-two {
-    display: none;
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 34px; /* Was 5 */
-    text-align: center;
-    padding-top: 100px;
+   display: none;
+   font-family: 'Josefin Sans', sans-serif;
+   font-size: 34px;
+   /* Was 5 */
+   text-align: center;
+   padding-top: 100px;
 }
+
 
 /* -- Statement Two End -- */
 
+
 /* -- Statement Three Start -- */
 
-
 .splash-statement-three {
-    display: none;
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 34px; /* Was 5 */
-    text-align: center;
-    padding-top: 100px;
+   display: none;
+   font-family: 'Josefin Sans', sans-serif;
+   font-size: 34px;
+   /* Was 5 */
+   text-align: center;
+   padding-top: 100px;
 }
 
+
 /* -- Statement Three End -- */
+
 
 /* -- Continue Button Start -- */
 
 .continue-button-ID {
-    display: none;
+   display: none;
 }
+
 
 /* -- Continue Button End -- */
 
@@ -79,1349 +92,1556 @@ html, body {
 /* -- Continue Button Styling Start -- */
 
 .continue-button-icon {
-    background-color: #efefef;
-    border: none;
-    color: #231f20;
-    padding: 7px 1vw; /* Was 1 */
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 20px; /* Was 3 */
-    margin: 0.4vw 2px; /* Was 0.2 */
-    cursor: pointer;
-    border-radius: 10px;
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: bold;
-    z-index: 1;
-    position: relative;
-    margin-left: 42%;
+   background-color: #efefef;
+   border: none;
+   color: #231f20;
+   padding: 7px 1vw;
+   /* Was 1 */
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 20px;
+   /* Was 3 */
+   margin: 0.4vw 2px;
+   /* Was 0.2 */
+   cursor: pointer;
+   border-radius: 10px;
+   font-family: 'Josefin Sans', sans-serif;
+   font-weight: bold;
+   z-index: 1;
+   position: relative;
+   margin-left: 42%;
 }
 
 .continue-button-icon:focus {
-    outline: 0;
+   outline: 0;
 }
+
 
 /* -- Continue Button Styling End -- */
 
+
 /* -- Continue Button Animation Start -- */
 
-
 .continue-button-animation {
-    display: inline-block;
-    vertical-align: middle;
-    -webkit-transform: perspective(1px) translateZ(0);
-    -moz-transform: perspective(1px) translateZ(0);
-    transform: perspective(1px) translateZ(0);
-    box-shadow: 0 0 1px transparent;
-    overflow: hidden;
-    -webkit-transition-duration: 0.3s;
-    -moz-transition-duration: 0.3s;
-    transition-duration: 0.3s;
-    -webkit-transition-property: color, background-color;
-    -moz-transition-property: color, background-color;
-    transition-property: color, background-color;
+   display: inline-block;
+   vertical-align: middle;
+   -webkit-transform: perspective(1px) translateZ(0);
+   -moz-transform: perspective(1px) translateZ(0);
+   transform: perspective(1px) translateZ(0);
+   box-shadow: 0 0 1px transparent;
+   overflow: hidden;
+   -webkit-transition-duration: 0.3s;
+   -moz-transition-duration: 0.3s;
+   transition-duration: 0.3s;
+   -webkit-transition-property: color, background-color;
+   -moz-transition-property: color, background-color;
+   transition-property: color, background-color;
 }
 
-
-.continue-button-animation:hover, .continue-button-animation:focus, .continue-button-animation:active {
-    background-color: #ff533d;
-    color: white;
+.continue-button-animation:hover,
+.continue-button-animation:focus,
+.continue-button-animation:active {
+   background-color: #ff533d;
+   color: white;
 }
 
 
 /* -- Continue Button Animation End -- */
 
+
 /* -- Click Me Styling Start -- */
 
 .click-me {
-    background-color: transparent;
-    font-size: 10px; /* Was 1.5 */
-    font-family: 'Permanent Marker', cursive;
-    margin-top: 0;
+   background-color: transparent;
+   font-size: 10px;
+   /* Was 1.5 */
+   font-family: 'Permanent Marker', cursive;
+   margin-top: 0;
 }
 
+
 /* -- Click Me Styling End -- */
+
 
 /* -- Final Splash Result Start -- */
 
 .final-splash-result-one {
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 20px;
-    font-weight: bold;
-    text-align: left;
-    margin-left: 42%;
-    margin-top: 120px;
-    -webkit-animation-name: statement-one-animation-text;
-    -moz-animation-name: statement-one-animation-text;
-    animation-name: statement-one-animation-text;
-    -webkit-animation-duration: 500ms;
-    -moz-animation-duration: 500ms;
-    animation-duration: 500ms;
-    -webkit-animation-delay: 9000ms;
-    -moz-animation-delay: 9000ms;
-    animation-delay: 9000ms;
-    -webkit-animation-fill-mode: forwards;
-    -moz-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
-    opacity: 0;
+   font-family: 'Josefin Sans', sans-serif;
+   font-size: 20px;
+   font-weight: bold;
+   text-align: left;
+   margin-left: 42%;
+   margin-top: 120px;
+   -webkit-animation-name: statement-one-animation-text;
+   -moz-animation-name: statement-one-animation-text;
+   animation-name: statement-one-animation-text;
+   -webkit-animation-duration: 500ms;
+   -moz-animation-duration: 500ms;
+   animation-duration: 500ms;
+   -webkit-animation-delay: 9000ms;
+   -moz-animation-delay: 9000ms;
+   animation-delay: 9000ms;
+   -webkit-animation-fill-mode: forwards;
+   -moz-animation-fill-mode: forwards;
+   animation-fill-mode: forwards;
+   opacity: 0;
 }
 
 .final-splash-result-one:before {
-    content: "\f00c";
-    font-size: 14px; /* Was 2 */
-    font-family: FontAwesome;
-    text-decoration: inherit;
-    margin-right: 1vw;
-    -webkit-animation-name: statement-one-animation-color;
-    -moz-animation-name: statement-one-animation-color;
-    animation-name: statement-one-animation-color;
-    -webkit-animation-duration: 500ms;
-    -moz-animation-duration: 500ms;
-    animation-duration: 500ms;
-    -webkit-animation-delay: 9500ms;
-    -moz-animation-delay: 9500ms;
-    animation-delay: 9500ms;
-    -webkit-animation-fill-mode: forwards;
-    -moz-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
-
-    
+   content: "\f00c";
+   font-size: 14px;
+   /* Was 2 */
+   font-family: FontAwesome;
+   text-decoration: inherit;
+   margin-right: 1vw;
+   -webkit-animation-name: statement-one-animation-color;
+   -moz-animation-name: statement-one-animation-color;
+   animation-name: statement-one-animation-color;
+   -webkit-animation-duration: 500ms;
+   -moz-animation-duration: 500ms;
+   animation-duration: 500ms;
+   -webkit-animation-delay: 9500ms;
+   -moz-animation-delay: 9500ms;
+   animation-delay: 9500ms;
+   -webkit-animation-fill-mode: forwards;
+   -moz-animation-fill-mode: forwards;
+   animation-fill-mode: forwards;
 }
 
 @-webkit-keyframes statement-one-animation-text {
-    100%{opacity: 1;}
+   100% {
+      opacity: 1;
+   }
 }
 
 @-moz-keyframes statement-one-animation-text {
-    100%{opacity: 1;}
+   100% {
+      opacity: 1;
+   }
 }
 
 @keyframes statement-one-animation-text {
-    100%{opacity: 1;}
+   100% {
+      opacity: 1;
+   }
 }
 
 @-webkit-keyframes statement-one-animation-color {
-    100%{color: #ff533d;}
+   100% {
+      color: #ff533d;
+   }
 }
 
 @-moz-keyframes statement-one-animation-color {
-    100%{color: #ff533d;}
+   100% {
+      color: #ff533d;
+   }
 }
 
 @keyframes statement-one-animation-color {
-    100%{color: #ff533d;}
+   100% {
+      color: #ff533d;
+   }
 }
 
 .final-splash-result-two {
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 20px;
-    font-weight: bold;
-    text-align: left;
-    margin-left: 42%;
-    -webkit-animation-name: statement-two-animation-text;
-    -moz-animation-name: statement-two-animation-text;
-    animation-name: statement-two-animation-text;
-    -webkit-animation-duration: 500ms;
-    -moz-animation-duration: 500ms;
-    animation-duration: 500ms;
-    -webkit-animation-delay: 10000ms;
-    -moz-animation-delay: 10000ms;
-    animation-delay: 10000ms;
-    -webkit-animation-fill-mode: forwards;
-    -moz-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
-    opacity: 0;
+   font-family: 'Josefin Sans', sans-serif;
+   font-size: 20px;
+   font-weight: bold;
+   text-align: left;
+   margin-left: 42%;
+   -webkit-animation-name: statement-two-animation-text;
+   -moz-animation-name: statement-two-animation-text;
+   animation-name: statement-two-animation-text;
+   -webkit-animation-duration: 500ms;
+   -moz-animation-duration: 500ms;
+   animation-duration: 500ms;
+   -webkit-animation-delay: 10000ms;
+   -moz-animation-delay: 10000ms;
+   animation-delay: 10000ms;
+   -webkit-animation-fill-mode: forwards;
+   -moz-animation-fill-mode: forwards;
+   animation-fill-mode: forwards;
+   opacity: 0;
 }
 
 .final-splash-result-two:before {
-    content: "\f00c";
-    font-size: 14px; /* Was 2 */
-    font-family: FontAwesome;
-    text-decoration: inherit;
-    margin-right: 1vw;
-    -webkit-animation-name: statement-two-animation-color;
-    -moz-animation-name: statement-two-animation-color;
-    animation-name: statement-two-animation-color;
-    -webkit-animation-duration: 500ms;
-    -moz-animation-duration: 500ms;
-    animation-duration: 500ms;
-    -webkit-animation-delay: 10500ms;
-    -moz-animation-delay: 10500ms;
-    animation-delay: 10500ms;
-    -webkit-animation-fill-mode: forwards;
-    -moz-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
-
-    
+   content: "\f00c";
+   font-size: 14px;
+   /* Was 2 */
+   font-family: FontAwesome;
+   text-decoration: inherit;
+   margin-right: 1vw;
+   -webkit-animation-name: statement-two-animation-color;
+   -moz-animation-name: statement-two-animation-color;
+   animation-name: statement-two-animation-color;
+   -webkit-animation-duration: 500ms;
+   -moz-animation-duration: 500ms;
+   animation-duration: 500ms;
+   -webkit-animation-delay: 10500ms;
+   -moz-animation-delay: 10500ms;
+   animation-delay: 10500ms;
+   -webkit-animation-fill-mode: forwards;
+   -moz-animation-fill-mode: forwards;
+   animation-fill-mode: forwards;
 }
 
 @keyframes statement-two-animation-text {
-    100%{opacity: 1;}
+   100% {
+      opacity: 1;
+   }
 }
 
 @-webkit-keyframes statement-two-animation-text {
-    100%{opacity: 1;}
+   100% {
+      opacity: 1;
+   }
 }
 
 @-moz-keyframes statement-two-animation-text {
-    100%{opacity: 1;}
+   100% {
+      opacity: 1;
+   }
 }
 
 @-webkit-keyframes statement-two-animation-color {
-    100%{color: #ff533d;}
+   100% {
+      color: #ff533d;
+   }
 }
 
 @-moz-keyframes statement-two-animation-color {
-    100%{color: #ff533d;}
+   100% {
+      color: #ff533d;
+   }
 }
 
 @keyframes statement-two-animation-color {
-    100%{color: #ff533d;}
+   100% {
+      color: #ff533d;
+   }
 }
 
 .final-splash-result-three {
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 20px;
-    font-weight: bold;
-    text-align: left;
-    margin-left: 42%;
-    -webkit-animation-name: statement-three-animation-text;
-    -moz-animation-name: statement-three-animation-text;
-    animation-name: statement-three-animation-text;
-    -webkit-animation-duration: 500ms;
-    -moz-animation-duration: 500ms;
-    animation-duration: 500ms;
-    -webkit-animation-delay: 11000ms;
-    -moz-animation-delay: 11000ms;
-    animation-delay: 11000ms;
-    -webkit-animation-fill-mode: forwards;
-    -moz-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
-    opacity: 0;
+   font-family: 'Josefin Sans', sans-serif;
+   font-size: 20px;
+   font-weight: bold;
+   text-align: left;
+   margin-left: 42%;
+   -webkit-animation-name: statement-three-animation-text;
+   -moz-animation-name: statement-three-animation-text;
+   animation-name: statement-three-animation-text;
+   -webkit-animation-duration: 500ms;
+   -moz-animation-duration: 500ms;
+   animation-duration: 500ms;
+   -webkit-animation-delay: 11000ms;
+   -moz-animation-delay: 11000ms;
+   animation-delay: 11000ms;
+   -webkit-animation-fill-mode: forwards;
+   -moz-animation-fill-mode: forwards;
+   animation-fill-mode: forwards;
+   opacity: 0;
 }
 
 .final-splash-result-three:before {
-    content: "\f00c";
-    font-size: 14px; /* Was 2 */
-    font-family: FontAwesome;
-    text-decoration: inherit;
-    margin-right: 1vw;
-    -webkit-animation-name: statement-three-animation-color;
-    -moz-animation-name: statement-three-animation-color;
-    animation-name: statement-three-animation-color;
-    -webkit-animation-duration: 500ms;
-    -moz-animation-duration: 500ms;
-    animation-duration: 500ms;
-    -webkit-animation-delay: 11500ms;
-    -moz-animation-delay: 11500ms;
-    animation-delay: 11500ms;
-    -webkit-animation-fill-mode: forwards;
-    -moz-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
-
-    
+   content: "\f00c";
+   font-size: 14px;
+   /* Was 2 */
+   font-family: FontAwesome;
+   text-decoration: inherit;
+   margin-right: 1vw;
+   -webkit-animation-name: statement-three-animation-color;
+   -moz-animation-name: statement-three-animation-color;
+   animation-name: statement-three-animation-color;
+   -webkit-animation-duration: 500ms;
+   -moz-animation-duration: 500ms;
+   animation-duration: 500ms;
+   -webkit-animation-delay: 11500ms;
+   -moz-animation-delay: 11500ms;
+   animation-delay: 11500ms;
+   -webkit-animation-fill-mode: forwards;
+   -moz-animation-fill-mode: forwards;
+   animation-fill-mode: forwards;
 }
 
 @-webkit-keyframes statement-three-animation-text {
-    100%{opacity: 1;}
+   100% {
+      opacity: 1;
+   }
 }
 
 @-moz-keyframes statement-three-animation-text {
-    100%{opacity: 1;}
+   100% {
+      opacity: 1;
+   }
 }
 
 @keyframes statement-three-animation-text {
-    100%{opacity: 1;}
+   100% {
+      opacity: 1;
+   }
 }
 
 @-webkit-keyframes statement-three-animation-color {
-    100%{color: #ff533d;}
+   100% {
+      color: #ff533d;
+   }
 }
 
 @-moz-keyframes statement-three-animation-color {
-    100%{color: #ff533d;}
+   100% {
+      color: #ff533d;
+   }
 }
 
 @keyframes statement-three-animation-color {
-    100%{color: #ff533d;}
+   100% {
+      color: #ff533d;
+   }
 }
 
+
 /* -- Final Splash Result End -- */
+
 
 /* -- Cancel Button Styling Start -- */
 
 .cancel-button-icon {
-    display: inline-block;
-    position: relative;
-    background-color: #efefef;
-    border: none;
-    border-radius: 5px;
-    opacity: 0.75;
-    color: #231f20;
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 15px; /* Was 1.5 */
-    text-align: center;
-    text-decoration: none;
-    font-weight: bold;
-    cursor: pointer;
-    z-index: 1;
-    margin-left: 94%;
-    margin-top: -25%;
-    width: auto;
+   display: inline-block;
+   position: relative;
+   background-color: #efefef;
+   border: none;
+   border-radius: 5px;
+   opacity: 0.75;
+   color: #231f20;
+   font-family: 'Josefin Sans', sans-serif;
+   font-size: 15px;
+   /* Was 1.5 */
+   text-align: center;
+   text-decoration: none;
+   font-weight: bold;
+   cursor: pointer;
+   z-index: 1;
+   margin-left: 94%;
+   margin-top: -25%;
+   width: auto;
 }
 
 .cancel-button-icon:focus {
-    outline: 0;
+   outline: 0;
 }
+
 
 /* -- Cancel Button Styling End -- */
 
+
 /* -- Cancel Button Animation Start -- */
 
-
 .cancel-button-animation {
-    display: inline-block;
-    vertical-align: middle;
-    -webkit-transform: perspective(1px) translateZ(0);
-    -moz-transform: perspective(1px) translateZ(0);
-    transform: perspective(1px) translateZ(0);
-    box-shadow: 0 0 1px transparent;
-    overflow: hidden;
-    -webkit-transition-duration: 0.3s;
-    -moz-transition-duration: 0.3s;
-    transition-duration: 0.3s;
-    -webkit-transition-property: color, background-color;
-    -moz-transition-property: color, background-color;
-    transition-property: color, background-color;
+   display: inline-block;
+   vertical-align: middle;
+   -webkit-transform: perspective(1px) translateZ(0);
+   -moz-transform: perspective(1px) translateZ(0);
+   transform: perspective(1px) translateZ(0);
+   box-shadow: 0 0 1px transparent;
+   overflow: hidden;
+   -webkit-transition-duration: 0.3s;
+   -moz-transition-duration: 0.3s;
+   transition-duration: 0.3s;
+   -webkit-transition-property: color, background-color;
+   -moz-transition-property: color, background-color;
+   transition-property: color, background-color;
 }
 
-.cancel-button-animation:hover, .cancel-button-animation:focus, .cancel-button-animation:active {
-    background-color: #ff533d;
-    color: white;
+.cancel-button-animation:hover,
+.cancel-button-animation:focus,
+.cancel-button-animation:active {
+   background-color: #ff533d;
+   color: white;
 }
 
 
 /* -- Cancel Button Animation End -- */
 
+
 /* -- Navigation Start -- */
 
 .newt-nav-main {
-    display: none; /* Load after clicking continue or cancel button from splash */
-    background-color: rgba(255, 83, 61, .9); /* Coral 22 */
-    margin: 0 auto;
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 100%;
-    z-index: 1;
+   display: none;
+   /* Load after clicking continue or cancel button from splash */
+   background-color: rgba(255, 83, 61, .9);
+   /* Coral 22 */
+   margin: 0 auto;
+   position: fixed;
+   left: 0;
+   top: 0;
+   width: 100%;
+   z-index: 1;
 }
 
 .newt-nav-main ul {
-    text-align: center;
+   text-align: center;
 }
 
 .newt-nav-main li {
-    display: inline-block;
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-left: 1.5vw;
-    padding-right: 1.5vw;
-    vertical-align: middle;
-    -webkit-transform: perspective(1px) translateZ(0);
-    -moz-transform: perspective(1px) translateZ(0);
-    transform: perspective(1px) translateZ(0);
-    box-shadow: 0 0 1vw transparent;
-    position: relative;
-    overflow: hidden;
-
+   display: inline-block;
+   padding-top: 0;
+   padding-bottom: 0;
+   padding-left: 1.5vw;
+   padding-right: 1.5vw;
+   vertical-align: middle;
+   -webkit-transform: perspective(1px) translateZ(0);
+   -moz-transform: perspective(1px) translateZ(0);
+   transform: perspective(1px) translateZ(0);
+   box-shadow: 0 0 1vw transparent;
+   position: relative;
+   overflow: hidden;
 }
 
 .newt-nav-main li:before {
-    content: "";
-    position: absolute;
-    z-index: -1;
-    left: 50%;
-    right: 50%;
-    bottom: 0;
-    background: #efefef; /* Void 05 */
-    height: 1px; /* Was 0.2 */
-    -webkit-transition-property: left, right;
-    -moz-transition-property: left, right;
-    transition-property: left, right;
-    -webkit-transition-duration: 0.3s;
-    -moz-transition-duration: 0.3s;
-    transition-duration: 0.3s;
-    -webkit-transition-timing-function: ease-in-out;
-    -moz-transition-timing-function: ease-in-out;
-    transition-timing-function: ease-in-out;
+   content: "";
+   position: absolute;
+   z-index: -1;
+   left: 50%;
+   right: 50%;
+   bottom: 0;
+   background: #efefef;
+   /* Void 05 */
+   height: 1px;
+   /* Was 0.2 */
+   -webkit-transition-property: left, right;
+   -moz-transition-property: left, right;
+   transition-property: left, right;
+   -webkit-transition-duration: 0.3s;
+   -moz-transition-duration: 0.3s;
+   transition-duration: 0.3s;
+   -webkit-transition-timing-function: ease-in-out;
+   -moz-transition-timing-function: ease-in-out;
+   transition-timing-function: ease-in-out;
 }
-
 
 .newt-nav-main li a {
-    text-align: center;
-    color: #efefef; /* Neutral 08 */
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 10px; /* Was 1.5 */
-    text-decoration: none;
+   text-align: center;
+   color: #efefef;
+   /* Neutral 08 */
+   font-family: 'Josefin Sans', sans-serif;
+   font-size: 10px;
+   /* Was 1.5 */
+   text-decoration: none;
 }
 
-
-.newt-nav-main li:hover:before, .newt-nav-main li:focus,before, .newt-nav-main li:active:before {
-    background-color: #efefef; /* Void 05 */
-    left: 0;
-    right: 0;
-
+.newt-nav-main li:hover:before,
+.newt-nav-main li:focus,
+before,
+.newt-nav-main li:active:before {
+   background-color: #efefef;
+   /* Void 05 */
+   left: 0;
+   right: 0;
 }
+
 
 /* -- Navigation End -- */
+
 
 /* -- Link Jumping Start -- */
 
 .home-button {
-    text-align: center;
-    color: #efefef; /* Neutral 08 */
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 17px; /* Was 1.5 */
-    text-decoration: none;
-    background-color: rgba(255,83,61,0);
-    padding: 0;
-    border: none;
-
+   text-align: center;
+   color: #efefef;
+   /* Neutral 08 */
+   font-family: 'Josefin Sans', sans-serif;
+   font-size: 17px;
+   /* Was 1.5 */
+   text-decoration: none;
+   background-color: rgba(255, 83, 61, 0);
+   padding: 0;
+   border: none;
 }
 
 .home-button:focus {
-    outline: 0;
+   outline: 0;
 }
 
 .about-button {
-    text-align: center;
-    color: #efefef; /* Neutral 08 */
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 17px; /* Was 1.5 */
-    text-decoration: none;
-    background-color: rgba(255,83,61,0);
-    padding: 0;
-    border: none;
-
+   text-align: center;
+   color: #efefef;
+   /* Neutral 08 */
+   font-family: 'Josefin Sans', sans-serif;
+   font-size: 17px;
+   /* Was 1.5 */
+   text-decoration: none;
+   background-color: rgba(255, 83, 61, 0);
+   padding: 0;
+   border: none;
 }
 
 .about-button:focus {
-    outline: 0;
+   outline: 0;
 }
 
 .projects-button {
-    text-align: center;
-    color: #efefef; /* Neutral 08 */
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 17px; /* Was 1.5 */
-    text-decoration: none;
-    background-color: rgba(255,83,61,0);
-    padding: 0;
-    border: none;
-
+   text-align: center;
+   color: #efefef;
+   /* Neutral 08 */
+   font-family: 'Josefin Sans', sans-serif;
+   font-size: 17px;
+   /* Was 1.5 */
+   text-decoration: none;
+   background-color: rgba(255, 83, 61, 0);
+   padding: 0;
+   border: none;
 }
 
 .projects-button:focus {
-    outline: 0;
+   outline: 0;
 }
 
 .blog-button {
-    text-align: center;
-    color: #efefef; /* Neutral 08 */
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 17px; /* Was 1.5 */
-    text-decoration: none;
-    background-color: rgba(255,83,61,0);
-    padding: 0;
-    border: none;
-
+   text-align: center;
+   color: #efefef;
+   /* Neutral 08 */
+   font-family: 'Josefin Sans', sans-serif;
+   font-size: 17px;
+   /* Was 1.5 */
+   text-decoration: none;
+   background-color: rgba(255, 83, 61, 0);
+   padding: 0;
+   border: none;
 }
 
 .blog-button:focus {
-    outline: 0;
+   outline: 0;
 }
 
 .contact-button {
-    text-align: center;
-    color: #efefef; /* Neutral 08 */
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 17px; /* Was 1.5 */
-    text-decoration: none;
-    background-color: rgba(255,83,61,0);
-    padding: 0;
-    border: none;
-
+   text-align: center;
+   color: #efefef;
+   /* Neutral 08 */
+   font-family: 'Josefin Sans', sans-serif;
+   font-size: 17px;
+   /* Was 1.5 */
+   text-decoration: none;
+   background-color: rgba(255, 83, 61, 0);
+   padding: 0;
+   border: none;
 }
 
 .contact-button:focus {
-    outline: 0;
+   outline: 0;
 }
+
 
 /* -- Link Jumping End -- */
 
 
 /* -- Home Content Start -- */
 
-
 #home {
-    position: relative;
-    display: none; /* Load after clicking continue or cancel button from splash */
-    background: #efefef;
-    height: 974px;
-    width: 100%;
-    padding-bottom: 34px; /* Was 5 */
+   position: relative;
+   display: none;
+   /* Load after clicking continue or cancel button from splash */
+   background: #efefef;
+   height: 974px;
+   width: 100%;
+   padding-bottom: 34px;
+   /* Was 5 */
 }
 
 #home-background {
-    background-image: linear-gradient(rgba(255,255,255,0.9),rgba(255,255,255,0.1)), url('../imgs/keyboard.jpeg');
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-
+   background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.1)), url('../imgs/keyboard.jpeg');
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   background-size: cover;
+   background-attachment: fixed;
+   background-repeat: no-repeat;
 }
 
-
 .home-title {
-    color: #efefef;
-    font-family: 'Quicksand', sans-serif;
-    font-size: 50px; /* Was 5 */
-    text-align: center;
-    letter-spacing: 0.25vw;
-    text-shadow: 1px 1px 1px black;
-    padding-top: 60px; /* Was 50 */
-    
+   color: #efefef;
+   font-family: 'Quicksand', sans-serif;
+   font-size: 50px;
+   /* Was 5 */
+   text-align: center;
+   letter-spacing: 0.25vw;
+   text-shadow: 1px 1px 1px black;
+   padding-top: 60px;
+   /* Was 50 */
 }
 
 .home-subtitle {
-    color: #efefef;
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 20px; /* Was 2.25 */
-    text-align: center;
-    letter-spacing: 0.25vw;
-    padding-bottom: 320px; /* Was 35 */
-    text-shadow: 1px 1px 1px black;
+   color: #efefef;
+   font-family: 'Josefin Sans', sans-serif;
+   font-size: 20px;
+   /* Was 2.25 */
+   text-align: center;
+   letter-spacing: 0.25vw;
+   padding-bottom: 320px;
+   /* Was 35 */
+   text-shadow: 1px 1px 1px black;
 }
 
 .home-content {
-    color: #0e0b16;
-    font-family: 'Quicksand', sans-serif;
-    font-size: 16px; /* Was 1.8 */
-    font-weight: bold;
-    padding-top: 35px; /* Was 2 */
-    padding-bottom: 57px; /* Was 5 */
-    line-height: 22px; /* Was 3.25 */
-    text-align: center;
-}
-
-.home-info {
-    color: #0e0b16;
-    font-family: 'Quicksand', sans-serif;
-    font-size: 16px; /* Was 1.75 */
-    text-align: justify;
-    font-weight: 500;
-    padding-bottom: 40px;
-   
+   color: #0e0b16;
+   font-family: 'Quicksand', sans-serif;
+   font-size: 16px;
+   /* Was 1.8 */
+   font-weight: bold;
+   padding-top: 35px;
+   /* Was 2 */
+   padding-bottom: 57px;
+   /* Was 5 */
+   line-height: 22px;
+   /* Was 3.25 */
+   text-align: center;
 }
 
 .home-info a {
     color: #ff533d;
     text-decoration: none;
+ }
+
+.home-info1, .home-info2, .home-info3, .home-info4, .home-info5 {
+   color: #0e0b16;
+   font-family: 'Quicksand', sans-serif;
+   font-size: 16px;
+   /* Was 1.75 */
+   font-weight: 500;
+   padding-top: 20px;
+   padding-bottom: 40px;
+   display: none;
+   width: 200%;
 }
+
+.home-info1 a, .home-info2 a, .home-info3 a, .home-info4 a, .home-info5 a {
+    color: #ff533d;
+}
+
+
+
+
+
+
+.fa-leaf, .fa-cutlery, .fa-gamepad, .fa-lightbulb-o, .fa-desktop {
+   font-size: 60px;
+   text-align: center;
+}
+
+.fa-leaf:hover, .fa-cutlery:hover, .fa-gamepad:hover, .fa-lightbulb-o:hover, .fa-desktop:hover {
+   color: #ff533d;
+}
+
 
 /* -- 1ST ICON PROPERTIES -- */
 
-
 .home-img-left {
-    font-size: 40px; /* Was 5 */
-    text-align: center;
+   font-size: 40px;
+   /* Was 5 */
+   text-align: center;
 }
 
 .home-img-left:before {
-    content: "\f06c";
-    font-family: FontAwesome;
+   content: "\f06c";
+   font-family: FontAwesome;
 }
 
 .home-img-left-text {
-    color: #0e0b16; 
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 18px; /* Was 2 */
-    font-weight: bold;
-    text-align: center;
+   color: #0e0b16;
+   font-family: 'Josefin Sans', sans-serif;
+   font-size: 18px;
+   /* Was 2 */
+   font-weight: bold;
+   width: 100%;
 }
+
 
 /* -- 2ND ICON PROPERTIES -- */
 
 .home-img-center {
-    font-size: 40px; /* Was 5 */
-    text-align: center;
+   font-size: 40px;
+   /* Was 5 */
+   text-align: center;
 }
 
 .home-img-center:before {
-    content: "\f0f5";
-    font-family: FontAwesome;
+   content: "\f0f5";
+   font-family: FontAwesome;
 }
 
 .home-img-center-text {
-    color: #0e0b16; 
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 18px; /* Was 2 */
-    font-weight: bold;
-    text-align: center;
+   color: #0e0b16;
+   font-family: 'Josefin Sans', sans-serif;
+   font-size: 18px;
+   /* Was 2 */
+   font-weight: bold;
+   text-align: center;
+   width: 100%;
 }
+
 
 /* -- 3RD ICON PROPERTIES -- */
 
 .home-img-right {
-    font-size: 40px; /* Was 5 */
-    text-align: center;
-
+   font-size: 40px;
+   /* Was 5 */
+   text-align: center;
 }
 
 .home-img-right:before {
-    content: "\f11b";
-    font-family: FontAwesome;
+   content: "\f11b";
+   font-family: FontAwesome;
 }
 
 .home-img-right-text {
-    color: #0e0b16; 
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 18px; /* Was 2 */
-    font-weight: bold;
-    text-align: center;
+   color: #0e0b16;
+   font-family: 'Josefin Sans', sans-serif;
+   font-size: 18px;
+   /* Was 2 */
+   font-weight: bold;
+   text-align: center;
+   width: 100%;
 }
 
 
 /* -- CENTER IMAGE PROPERTIES -- */
 
 .home-img-middle {
-    width: 125px; /* Was 10 */
-    border-radius: 5%;
-    margin-top: 50px; /* Was 2 */
-    margin-bottom: 25px; /* Was 2 */
+   width: 125px;
+   /* Was 10 */
+   border-radius: 5%;
+   margin-top: 50px;
+   /* Was 2 */
+   margin-bottom: 25px;
+   /* Was 2 */
 }
+
 
 /* -- 4TH ICON PROPERTIES -- */
 
 .home-img-lower-left {
-    font-size: 40px; /* Was 5 */
-    text-align: center;
-
+   font-size: 40px;
+   /* Was 5 */
+   text-align: center;
 }
 
 .home-img-lower-left:before {
-    content: "\f0eb";
-    font-family: FontAwesome;
+   content: "\f0eb";
+   font-family: FontAwesome;
 }
 
 .home-img-lower-left-text {
-    color: #0e0b16; 
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 18px; /* Was 2 */
-    font-weight: bold;
-    text-align: center;
+   color: #0e0b16;
+   font-family: 'Josefin Sans', sans-serif;
+   font-size: 18px;
+   /* Was 2 */
+   font-weight: bold;
+   text-align: center;
+   width: 100%;
 }
+
 
 /* -- 5TH ICON PROPERTIES -- */
 
 .home-img-lower-right {
-    font-size: 40px; /* Was 5 */
-    text-align: center;
+   font-size: 40px;
+   /* Was 5 */
+   text-align: center;
 }
 
 .home-img-lower-right:before {
-    content: "\f108";
-    font-family: FontAwesome;
+   content: "\f108";
+   font-family: FontAwesome;
 }
 
 .home-img-lower-right-text {
-    color: #0e0b16; 
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 18px; /* Was 2 */
-    font-weight: bold;
-    text-align: center;
+   color: #0e0b16;
+   font-family: 'Josefin Sans', sans-serif;
+   font-size: 18px;
+   /* Was 2 */
+   font-weight: bold;
+   text-align: center;
+   width: 100%;
 }
 
 .edge-of-page {
-    margin: 0;
-    padding: 0;
+   margin: 0;
+   padding: 0;
 }
 
+
 /* -- Home Content End -- */
+
 
 /* -- About Content Start -- */
 
 #about {
-    background: rgba(14,11,22,.85); /* Void 05 */
-    position: relative;
-    height: 974px;
-    width: 100%;
-    display: none; /* Load after clicking continue or cancel button from splash */
-    padding-bottom: 54px; /* Was 5 */
+   background: rgba(14, 11, 22, .85);
+   /* Void 05 */
+   position: relative;
+   height: 974px;
+   width: 100%;
+   display: none;
+   /* Load after clicking continue or cancel button from splash */
+   padding-bottom: 54px;
+   /* Was 5 */
 }
 
 .about-header {
-    color: #efefef; /* Neutral 08 */
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 25px; /* Was 3 */
-    font-weight: bold;
-    width: 100%;
-    padding-top: 68px; /* Was 10 */
-    padding-bottom: 34px; /* Was 5 */ 
+   color: #efefef;
+   /* Neutral 08 */
+   font-family: 'Josefin Sans', sans-serif;
+   font-size: 25px;
+   /* Was 3 */
+   font-weight: bold;
+   width: 100%;
+   padding-top: 68px;
+   /* Was 10 */
+   padding-bottom: 34px;
+   /* Was 5 */
 }
 
 .about-titles {
-    color: #efefef; /* Neutral 08 */
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 25px; /* Was 3 */
-    font-weight: bold;
-    width: 100%;
-    padding-bottom: 34px; /* Was 5 */ 
+   color: #efefef;
+   /* Neutral 08 */
+   font-family: 'Josefin Sans', sans-serif;
+   font-size: 25px;
+   /* Was 3 */
+   font-weight: bold;
+   width: 100%;
+   padding-bottom: 34px;
+   /* Was 5 */
 }
 
 .about-content {
-    color: #efefef; /* Neutral 08 */
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 17px; /* Was 2 */
-    font-weight: bold;
-    width: 100%;
-    text-align: justify;
-    padding-bottom: 165px; /* Was 10 */
+   color: #efefef;
+   /* Neutral 08 */
+   font-family: 'Josefin Sans', sans-serif;
+   font-size: 17px;
+   /* Was 2 */
+   font-weight: bold;
+   width: 100%;
+   text-align: justify;
+   padding-bottom: 165px;
+   /* Was 10 */
 }
 
+
 /* -- About Content End -- */
+
 
 /* -- Projects Content Start -- */
 
 #projects {
-    background: #efefef; /* Neutral 08 */
-    position: relative;
-    height: 974px;
-    width: 100%;
-    display: none; /* Load after clicking continue or cancel button from splash */
-    padding-top: 68px; /* Was 10 */
+   background: #efefef;
+   /* Neutral 08 */
+   position: relative;
+   height: 974px;
+   width: 100%;
+   display: none;
+   /* Load after clicking continue or cancel button from splash */
+   padding-top: 68px;
+   /* Was 10 */
 }
 
 .projects-header {
-    color: #0e0b16; 
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 25px; /* Was 3 */
-    font-weight: bold;
-    width: 100%;
-    padding-bottom: 34px; /* Was 5 */
+   color: #0e0b16;
+   font-family: 'Josefin Sans', sans-serif;
+   font-size: 25px;
+   /* Was 3 */
+   font-weight: bold;
+   width: 100%;
+   padding-bottom: 34px;
+   /* Was 5 */
 }
 
 .projects-description {
-    color: #0e0b16; 
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 17px; /* Was 2 */
-    font-weight: bold;
-    width: 100%;
-    padding-bottom: 200px; /* Was 10 */
+   color: #0e0b16;
+   font-family: 'Josefin Sans', sans-serif;
+   font-size: 17px;
+   /* Was 2 */
+   font-weight: bold;
+   width: 100%;
+   padding-bottom: 200px;
+   /* Was 10 */
 }
 
 .projects-content {
-    color: #0e0b16; /* Void 05 */
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 11px; /* Was 1.6 */
-    line-height: 0.5;
-    padding-top: 34px; /* Was 5 */
-    padding-left: 10vw;
+   color: #0e0b16;
+   /* Void 05 */
+   font-family: 'Josefin Sans', sans-serif;
+   font-size: 11px;
+   /* Was 1.6 */
+   line-height: 0.5;
+   padding-top: 34px;
+   /* Was 5 */
+   padding-left: 10vw;
 }
 
+
 /* -- Projects Content End -- */
+
 
 /* -- Blog Content Start -- */
 
 #blog {
-    background: rgba(14,11,22,.85); /* Void 05 */
-    position: relative;
-    height: 674px; /* Was 100 */
-    display: none; /* Load after clicking continue or cancel button from splash */
+   background: rgba(14, 11, 22, .85);
+   /* Void 05 */
+   position: relative;
+   height: 674px;
+   /* Was 100 */
+   display: none;
+   /* Load after clicking continue or cancel button from splash */
 }
 
 .blog-content {
-    color: #efefef; /* Neutral 08 */
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 11px; /* Was 1.6 */
-    line-height: 0.5;
-    padding-top: 34px; /* Was 5 */
-    padding-left: 5vw;
+   color: #efefef;
+   /* Neutral 08 */
+   font-family: 'Josefin Sans', sans-serif;
+   font-size: 11px;
+   /* Was 1.6 */
+   line-height: 0.5;
+   padding-top: 34px;
+   /* Was 5 */
+   padding-left: 5vw;
 }
 
+
 /* -- Blog Content End -- */
+
 
 /* -- Contact Content Start -- */
 
 #contact {
-    background: rgba(14,11,22,.85); /* Void 05 */
-    position: relative;
-    height: 934px;
-    width: 100%;
-    display: none; /* Load after clicking continue or cancel button from splash */
+   background: rgba(14, 11, 22, .85);
+   /* Void 05 */
+   position: relative;
+   height: 934px;
+   width: 100%;
+   display: none;
+   /* Load after clicking continue or cancel button from splash */
 }
 
 .contact-header {
-    color: #efefef; 
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 25px; /* Was 3 */
-    font-weight: bold;
-    width: 100%;
-    padding-top: 65px; /* Was 2.5 */
-    padding-bottom: 34px; /* Was 5 */
+   color: #efefef;
+   font-family: 'Josefin Sans', sans-serif;
+   font-size: 25px;
+   /* Was 3 */
+   font-weight: bold;
+   width: 100%;
+   padding-top: 65px;
+   /* Was 2.5 */
+   padding-bottom: 34px;
+   /* Was 5 */
 }
 
-
 .contact-content {
-    color: #efefef; /* Neutral 08 */
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 17px; /* Was 2 */
-    font-weight: bold;
-    line-height: 40px;
-    padding-top: 25px;
-    padding-bottom: 325px;
+   color: #efefef;
+   /* Neutral 08 */
+   font-family: 'Josefin Sans', sans-serif;
+   font-size: 17px;
+   /* Was 2 */
+   font-weight: bold;
+   line-height: 40px;
+   padding-top: 25px;
+   padding-bottom: 325px;
 }
 
 .contact-content-mail-icon:before {
-    content: "\f003";
-    font-family: FontAwesome;
-    font-size: 50px; /* Was 4.6 */
-    text-decoration: none;
-    color: #efefef;
+   content: "\f003";
+   font-family: FontAwesome;
+   font-size: 50px;
+   /* Was 4.6 */
+   text-decoration: none;
+   color: #efefef;
 }
 
 .contact-content-mail-icon:hover:before {
-    -webkit-color: #ff533d;
-    -moz-color: #ff533d;
-    color: #ff533d;
+   -webkit-color: #ff533d;
+   -moz-color: #ff533d;
+   color: #ff533d;
 }
 
 .contact-content-github-icon:before {
-    content: "\f09b";
-    font-family: FontAwesome;
-    font-size: 50px; /* Was 4.6 */
-    text-decoration: none;
-    color: #efefef;
+   content: "\f09b";
+   font-family: FontAwesome;
+   font-size: 50px;
+   /* Was 4.6 */
+   text-decoration: none;
+   color: #efefef;
 }
 
 .contact-content-github-icon:hover:before {
-    -webkit-color: #ff533d;
-    -moz-color: #ff533d;
-    color: #ff533d;
+   -webkit-color: #ff533d;
+   -moz-color: #ff533d;
+   color: #ff533d;
 }
 
 .contact-content-linkedin-icon:before {
-    content: "\f08c";
-    font-family: FontAwesome;
-    font-size: 50px; /* Was 4.6 */
-    text-decoration: none;
-    color: #efefef;
+   content: "\f08c";
+   font-family: FontAwesome;
+   font-size: 50px;
+   /* Was 4.6 */
+   text-decoration: none;
+   color: #efefef;
 }
 
 .contact-content-linkedin-icon:hover:before {
-    -webkit-color: #ff533d;
-    -moz-color: #ff533d;
-    color: #ff533d;
+   -webkit-color: #ff533d;
+   -moz-color: #ff533d;
+   color: #ff533d;
 }
-
 
 
 /* -- Contact Content End -- */
 
 
-
 /* -- Start Container For All Footer Sidebars -- */
 
 .newt-sidebar-container {
-    position: relative;
-    left: 20vw;
-    width: 60vw;
-    z-index: -1;
+   position: relative;
+   left: 20vw;
+   width: 60vw;
+   z-index: -1;
 }
 
+
 /* -- End Container For All Footer Sidebars -- */
+
 
 /* -- Left Sidebar Start -- */
 
 .newt-sidebar-left {
-    width: 20vw;
-    background-color: #efefef; /* Neutral 08 */
-    text-align: center;
-    color: rgba(14,11,22,.9); /* Void 05 */
-    font-family: 'Josefin Sans', sans-serif;
-    float: left;
-
+   width: 20vw;
+   background-color: #efefef;
+   /* Neutral 08 */
+   text-align: center;
+   color: rgba(14, 11, 22, .9);
+   /* Void 05 */
+   font-family: 'Josefin Sans', sans-serif;
+   float: left;
 }
 
 .newt-sidebar-left a {
-    color: rgba(14,11,22,.9); /* Void 05 */
-    text-decoration: none;
+   color: rgba(14, 11, 22, .9);
+   /* Void 05 */
+   text-decoration: none;
 }
 
 .newt-sidebar-left a:before {
-    content: "\f0da";
-    font-family: FontAwesome;
-    font-size: 11px; /* Was 1.6 */
-    text-decoration: none;
-    display: inline-block;
-    -webkit-transform: perspective(0px) translateZ(0);
-    -moz-transform: perspective(0px) translateZ(0);
-    transform: perspective(0px) translateZ(0);
-    vertical-align: inherit;
-    padding-right: 7px; /* Was 1 */
-    -webkit-transition-duration: 0.3s;
-    -moz-transition-duration: 0.3s;
-    transition-duration: 0.3s;
-    -webkit-transition-timing-function: linear;
-    -moz-timing-function: linear;
-    transition-timing-function: linear;
-    box-shadow: 0px 0px 1px transparent;
-  
+   content: "\f0da";
+   font-family: FontAwesome;
+   font-size: 11px;
+   /* Was 1.6 */
+   text-decoration: none;
+   display: inline-block;
+   -webkit-transform: perspective(0px) translateZ(0);
+   -moz-transform: perspective(0px) translateZ(0);
+   transform: perspective(0px) translateZ(0);
+   vertical-align: inherit;
+   padding-right: 7px;
+   /* Was 1 */
+   -webkit-transition-duration: 0.3s;
+   -moz-transition-duration: 0.3s;
+   transition-duration: 0.3s;
+   -webkit-transition-timing-function: linear;
+   -moz-timing-function: linear;
+   transition-timing-function: linear;
+   box-shadow: 0px 0px 1px transparent;
 }
 
 .newt-sidebar-left a:hover:before {
-        -webkit-transform: translateX(5px);
-        -moz-transform: translateX(5px);
-        transform: translateX(5px);
-        color: #ff533d;
+   -webkit-transform: translateX(5px);
+   -moz-transform: translateX(5px);
+   transform: translateX(5px);
+   color: #ff533d;
 }
 
+
 /* -- Left Sidebar End -- */
+
 
 /* -- Center Sidebar Start -- */
 
 .newt-sidebar-center {
-    width: 20vw;
-    background-color: #efefef;
-    text-align: center;
-    color: rgba(14,11,22,.9); /* Void 05 */
-    font-family: 'Josefin Sans', sans-serif;
-    float: left;
-
+   width: 20vw;
+   background-color: #efefef;
+   text-align: center;
+   color: rgba(14, 11, 22, .9);
+   /* Void 05 */
+   font-family: 'Josefin Sans', sans-serif;
+   float: left;
 }
 
 .newt-sidebar-center a {
-    color: rgba(14,11,22,.9); /* Void 05 */
-    text-decoration: none;
+   color: rgba(14, 11, 22, .9);
+   /* Void 05 */
+   text-decoration: none;
 }
 
 .newt-sidebar-center a:before {
-    content: "\f0da";
-    font-family: FontAwesome;
-    font-size: 11px; /* Was 1.6 */
-    text-decoration: none;
-    display: inline-block;
-    -webkit-transform: perspective(0px) translateZ(0);
-    -moz-transform: perspective(0px) translateZ(0);
-    transform: perspective(0px) translateZ(0);
-    vertical-align: inherit;
-    padding-right: 7px; /* Was 1 */
-    -webkit-transition-duration: 0.3s;
-    -moz-transition-duration: 0.3s;
-    transition-duration: 0.3s;
-    -webkit-transition-timing-function: linear;
-    -moz-transition-timing-function: linear;
-    transition-timing-function: linear;
-    box-shadow: 0px 0px 1px transparent;
-  
+   content: "\f0da";
+   font-family: FontAwesome;
+   font-size: 11px;
+   /* Was 1.6 */
+   text-decoration: none;
+   display: inline-block;
+   -webkit-transform: perspective(0px) translateZ(0);
+   -moz-transform: perspective(0px) translateZ(0);
+   transform: perspective(0px) translateZ(0);
+   vertical-align: inherit;
+   padding-right: 7px;
+   /* Was 1 */
+   -webkit-transition-duration: 0.3s;
+   -moz-transition-duration: 0.3s;
+   transition-duration: 0.3s;
+   -webkit-transition-timing-function: linear;
+   -moz-transition-timing-function: linear;
+   transition-timing-function: linear;
+   box-shadow: 0px 0px 1px transparent;
 }
 
 .newt-sidebar-center a:hover:before {
-        -webkit-transform: translateX(5px);
-        -moz-transform: translateX(5px);
-        transform: translateX(5px);
-        color: #ff533d;
+   -webkit-transform: translateX(5px);
+   -moz-transform: translateX(5px);
+   transform: translateX(5px);
+   color: #ff533d;
 }
 
+
 /* -- Center Sidebar End -- */
+
 
 /* -- Right Sidebar Start -- */
 
 .newt-sidebar-right {
-    width: 20vw;
-    background-color: #efefef;
-    text-align: center;
-    color: rgba(14,11,22,.9); /* Void 05 */
-    font-family: 'Josefin Sans', sans-serif;
-    float: left;
-
+   width: 20vw;
+   background-color: #efefef;
+   text-align: center;
+   color: rgba(14, 11, 22, .9);
+   /* Void 05 */
+   font-family: 'Josefin Sans', sans-serif;
+   float: left;
 }
 
 .newt-sidebar-right a {
-    color: rgba(14,11,22,.9); /* Void 05 */
-    text-decoration: none;
+   color: rgba(14, 11, 22, .9);
+   /* Void 05 */
+   text-decoration: none;
 }
 
 .newt-sidebar-right a:before {
-    content: "\f0da";
-    font-family: FontAwesome;
-    font-size: 11px; /* Was 1.6 */
-    text-decoration: none;
-    display: inline-block;
-    -webkit-transform: perspective(0px) translateZ(0);
-    -moz-transform: perspective(0px) translateZ(0);
-    transform: perspective(0px) translateZ(0);
-    vertical-align: inherit;
-    padding-right: 7px; /* Was 1 */
-    -webkit-transition-duration: 0.3s;
-    -moz-transition-duration: 0.3s;
-    transition-duration: 0.3s;
-    -webkit-transition-timing-function: linear;
-    -moz-transition-timing-function: linear;
-    transition-timing-function: linear;
-    box-shadow: 0px 0px 1px transparent;
-  
+   content: "\f0da";
+   font-family: FontAwesome;
+   font-size: 11px;
+   /* Was 1.6 */
+   text-decoration: none;
+   display: inline-block;
+   -webkit-transform: perspective(0px) translateZ(0);
+   -moz-transform: perspective(0px) translateZ(0);
+   transform: perspective(0px) translateZ(0);
+   vertical-align: inherit;
+   padding-right: 7px;
+   /* Was 1 */
+   -webkit-transition-duration: 0.3s;
+   -moz-transition-duration: 0.3s;
+   transition-duration: 0.3s;
+   -webkit-transition-timing-function: linear;
+   -moz-transition-timing-function: linear;
+   transition-timing-function: linear;
+   box-shadow: 0px 0px 1px transparent;
 }
 
 .newt-sidebar-right a:hover:before {
-        -webkit-transform: translateX(5px);
-        -moz-transform: translateX(5px);
-        transform: translateX(5px);
-        color: #ff533d;
+   -webkit-transform: translateX(5px);
+   -moz-transform: translateX(5px);
+   transform: translateX(5px);
+   color: #ff533d;
 }
-
 
 
 /* -- Right Sidebar End -- */
 
+
 /* -- Modal One Start -- */
 
 .newt-modal-one {
-    display: none;
-    position: fixed;
-    width: 50vw;
-    height: 337px; /* Was 50 */
-    max-width: 100%;
-    max-height: 100%;
-    z-index: 100;
-    left: 25vw;
-    top: 200px; /* Was 25 */
-    background: rgba(14,11,22,.85);
-    box-shadow: 0vw 0vw 1vw 0vw black;
-    color: #efefef;
-    line-height: 14px; /* Was 2 */
-
+   display: none;
+   position: fixed;
+   width: 50vw;
+   height: 337px;
+   /* Was 50 */
+   max-width: 100%;
+   max-height: 100%;
+   z-index: 100;
+   left: 25vw;
+   top: 200px;
+   /* Was 25 */
+   background: rgba(14, 11, 22, .85);
+   box-shadow: 0vw 0vw 1vw 0vw black;
+   color: #efefef;
+   line-height: 14px;
+   /* Was 2 */
 }
 
 .newt-modal-contents-one {
-    font-family: 'Josefin Sans', sans-serif;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 2.5%;
-    line-height: 19px; /* Was 2.75 */
-    
-    
+   font-family: 'Josefin Sans', sans-serif;
+   width: 100%;
+   height: 100%;
+   overflow: auto;
+   box-sizing: border-box;
+   margin: 0;
+   padding: 2.5%;
+   line-height: 19px;
+   /* Was 2.75 */
 }
 
 .newt-modal-overlay-one {
-    display: none;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 50;
-    background: rgba(14,11,22,.75);
+   display: none;
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   z-index: 50;
+   background: rgba(14, 11, 22, .75);
 }
 
-
-
 .newt-modal-closed-one {
-    display: none;
+   display: none;
 }
 
 .newt-modal-one .newt-modal-close-button-one {
-    position: absolute;
-    z-index: 1;
-    top: 7px; /* Was 1 */
-    right: 1.5vw;
-    background: rgba(14,11,22,0);
-    color: #efefef;
-    border: none;
+   position: absolute;
+   z-index: 1;
+   top: 7px;
+   /* Was 1 */
+   right: 1.5vw;
+   background: rgba(14, 11, 22, 0);
+   color: #efefef;
+   border: none;
 }
 
 .newt-modal-close-button-one:before {
-    content: "\f00d";
-    font-size: 17px; /* Was 2.5 */
-    font-family: FontAwesome;
+   content: "\f00d";
+   font-size: 17px;
+   /* Was 2.5 */
+   font-family: FontAwesome;
 }
 
 .newt-modal-close-button-one:hover {
-    color: #ff533d;
-    opacity: 1;
+   color: #ff533d;
+   opacity: 1;
 }
 
 .newt-modal-close-button-one:focus {
-    outline: 0;
+   outline: 0;
 }
 
 .newt-modal-open-button-one {
-    border: 0;
-    padding: 0;
-    color: #efefef; /* Neutral 08 */
-    box-shadow: 0vw 0vw 0.1vw 0.05vw black;
-    -webkit-transition-duration: 250ms;
-    -moz-transition-duration: 250ms;
-    transition-duration: 250ms;
-    -webkit-transition-timing-function: linear;
-    -moz-transition-timing-function: linear;
-    transition-timing-function: linear;
-    -webkit-transition-property: all;
-    -moz-transition-property: all;
-    transition-property: all;
-    opacity: .5;
+   border: 0;
+   padding: 0;
+   color: #efefef;
+   /* Neutral 08 */
+   box-shadow: 0vw 0vw 0.1vw 0.05vw black;
+   -webkit-transition-duration: 250ms;
+   -moz-transition-duration: 250ms;
+   transition-duration: 250ms;
+   -webkit-transition-timing-function: linear;
+   -moz-transition-timing-function: linear;
+   transition-timing-function: linear;
+   -webkit-transition-property: all;
+   -moz-transition-property: all;
+   transition-property: all;
+   opacity: .5;
 }
 
-.newt-modal-open-button-one:hover, .newt-modal-open-button-one:focus, .newt-modal-open-button-one:active {
-    opacity: 1;
-    -webkit-transform: translateY(-7px); /* Was 1 */
-    -moz-transform: translateY(-7px); /* Was 1 */
-    transform: translateY(-7px); /* Was 1 */
-
+.newt-modal-open-button-one:hover,
+.newt-modal-open-button-one:focus,
+.newt-modal-open-button-one:active {
+   opacity: 1;
+   -webkit-transform: translateY(-7px);
+   /* Was 1 */
+   -moz-transform: translateY(-7px);
+   /* Was 1 */
+   transform: translateY(-7px);
+   /* Was 1 */
 }
 
 .newt-modal-one-description {
-    font-family: 'Josefin Sans', sans-serif;
-    color: rgba(14,11,22,.85);
-    font-size: 20px; /* Was 3 */
+   font-family: 'Josefin Sans', sans-serif;
+   color: rgba(14, 11, 22, .85);
+   font-size: 20px;
+   /* Was 3 */
 }
 
 .newt-modal-one-sub-description {
-    font-family: 'Josefin Sans', sans-serif;
-    color: rgba(14,11,22,.85);
-    font-size: 14px; /* Was 2 */
+   font-family: 'Josefin Sans', sans-serif;
+   color: rgba(14, 11, 22, .85);
+   font-size: 14px;
+   /* Was 2 */
 }
 
 .newt-interior-modal-one-text {
-    font-family: 'Josefin Sans', sans-serif;
-    color: #efefef; /* Neutral 08 */
-    font-size: 16px; /* Was 2 */  
+   font-family: 'Josefin Sans', sans-serif;
+   color: #efefef;
+   /* Neutral 08 */
+   font-size: 16px;
+   /* Was 2 */
 }
 
 .newt-interior-modal-one-description {
-    font-family: 'Josefin Sans', sans-serif;
-    color: #efefef; /* Neutral 08 */
-    font-size: 16px; /* Was 1.75 */  
+   font-family: 'Josefin Sans', sans-serif;
+   color: #efefef;
+   /* Neutral 08 */
+   font-size: 16px;
+   /* Was 1.75 */
 }
 
 .newt-interior-modal-one-description a {
-    color: #efefef; /* Neutral 08 */
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 16px; /* Was 2 */
-    text-decoration: none;
-    font-weight: bold;
-    overflow-wrap: break-word;
+   color: #efefef;
+   /* Neutral 08 */
+   font-family: 'Josefin Sans', sans-serif;
+   font-size: 16px;
+   /* Was 2 */
+   text-decoration: none;
+   font-weight: bold;
+   overflow-wrap: break-word;
 }
 
 .newt-interior-modal-one-description a:hover {
-  color: #ff533d;
+   color: #ff533d;
 }
-
 
 
 /* -- Modal One End -- */
 
+
 /* -- Modal Two Start -- */
 
 .newt-modal-two {
-    display: none;
-    position: fixed;
-    width: 50vw;
-    height: 337px; /* Was 50 */
-    max-width: 100%;
-    max-height: 100%;
-    z-index: 100;
-    left: 25vw;
-    top: 200px; /* Was 25 */
-    background: rgba(14,11,22,.85);
-    box-shadow: 0vw 0vw 1vw 0vw black;
-    color: #efefef;
-    line-height: 14px; /* Was 2 */
-
+   display: none;
+   position: fixed;
+   width: 50vw;
+   height: 337px;
+   /* Was 50 */
+   max-width: 100%;
+   max-height: 100%;
+   z-index: 100;
+   left: 25vw;
+   top: 200px;
+   /* Was 25 */
+   background: rgba(14, 11, 22, .85);
+   box-shadow: 0vw 0vw 1vw 0vw black;
+   color: #efefef;
+   line-height: 14px;
+   /* Was 2 */
 }
 
 .newt-modal-contents-two {
-    font-family: 'Josefin Sans', sans-serif;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 2.5%;
-    line-height: 19px; /* Was 2.75 */
-    
+   font-family: 'Josefin Sans', sans-serif;
+   width: 100%;
+   height: 100%;
+   overflow: auto;
+   box-sizing: border-box;
+   margin: 0;
+   padding: 2.5%;
+   line-height: 19px;
+   /* Was 2.75 */
 }
 
 .newt-modal-overlay-two {
-    display: none;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 50;
-    background: rgba(14,11,22,.75);
+   display: none;
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   z-index: 50;
+   background: rgba(14, 11, 22, .75);
 }
 
-
-
 .newt-modal-closed-two {
-    display: none;
+   display: none;
 }
 
 .newt-modal-two .newt-modal-close-button-two {
-    position: absolute;
-    z-index: 1;
-    top: 7px; /* Was 1 */
-    right: 1.5vw;
-    background: rgba(14,11,22,0);
-    color: #efefef;
-    border: none;
+   position: absolute;
+   z-index: 1;
+   top: 7px;
+   /* Was 1 */
+   right: 1.5vw;
+   background: rgba(14, 11, 22, 0);
+   color: #efefef;
+   border: none;
 }
 
 .newt-modal-close-button-two:before {
-    content: "\f00d";
-    font-size: 17px; /* Was 2.5 */
-    font-family: FontAwesome;
+   content: "\f00d";
+   font-size: 17px;
+   /* Was 2.5 */
+   font-family: FontAwesome;
 }
 
 .newt-modal-close-button-two:hover {
-    color: #ff533d;
-    opacity: 1;
+   color: #ff533d;
+   opacity: 1;
 }
 
 .newt-modal-close-button-two:focus {
-    outline: 0;
+   outline: 0;
 }
-
 
 .newt-modal-open-button-two {
-    border: 0;
-    padding: 0;
-    color: #efefef; /* Neutral 08 */
-    box-shadow: 0vw 0vw 0.1vw 0.05vw black;
-    -webkit-transition-duration: 250ms;
-    -moz-transition-duration: 250ms;
-    transition-duration: 250ms;
-    -webkit-transition-timing-function: linear;
-    -moz-transition-timing-function: linear;
-    transition-timing-function: linear;
-    -webkit-transition-property: all;
-    -moz-transition-property: all;
-    transition-property: all;
-    opacity: .5;
+   border: 0;
+   padding: 0;
+   color: #efefef;
+   /* Neutral 08 */
+   box-shadow: 0vw 0vw 0.1vw 0.05vw black;
+   -webkit-transition-duration: 250ms;
+   -moz-transition-duration: 250ms;
+   transition-duration: 250ms;
+   -webkit-transition-timing-function: linear;
+   -moz-transition-timing-function: linear;
+   transition-timing-function: linear;
+   -webkit-transition-property: all;
+   -moz-transition-property: all;
+   transition-property: all;
+   opacity: .5;
 }
 
-.newt-modal-open-button-two:hover, .newt-modal-open-button-two:focus, .newt-modal-open-button-two:active {
-    opacity: 1;
-    -webkit-transform: translateY(-7px);  /* Was 1 */
-    -moz-transform: translateY(-7px); /* Was 1 */
-    transform: translateY(-7px);  /* Was 1 */
-} 
+.newt-modal-open-button-two:hover,
+.newt-modal-open-button-two:focus,
+.newt-modal-open-button-two:active {
+   opacity: 1;
+   -webkit-transform: translateY(-7px);
+   /* Was 1 */
+   -moz-transform: translateY(-7px);
+   /* Was 1 */
+   transform: translateY(-7px);
+   /* Was 1 */
+}
 
 .newt-modal-two-description {
-    font-family: 'Josefin Sans', sans-serif;
-    color: rgba(14,11,22,.85);
-    font-size: 20px; /* Was 3 */
+   font-family: 'Josefin Sans', sans-serif;
+   color: rgba(14, 11, 22, .85);
+   font-size: 20px;
+   /* Was 3 */
 }
 
 .newt-modal-two-sub-description {
-    font-family: 'Josefin Sans', sans-serif;
-    color: rgba(14,11,22,.85);
-    font-size: 14px; /* Was 2 */
+   font-family: 'Josefin Sans', sans-serif;
+   color: rgba(14, 11, 22, .85);
+   font-size: 14px;
+   /* Was 2 */
 }
 
 .newt-interior-modal-two-text {
-    font-family: 'Josefin Sans', sans-serif;
-    color: #efefef; /* Neutral 08 */
-    font-size: 16px; /* Was 2 */  
+   font-family: 'Josefin Sans', sans-serif;
+   color: #efefef;
+   /* Neutral 08 */
+   font-size: 16px;
+   /* Was 2 */
 }
 
 .newt-interior-modal-two-description {
-    font-family: 'Josefin Sans', sans-serif;
-    color: #efefef; /* Neutral 08 */
-    font-size: 16px; /* Was 1.75 */
+   font-family: 'Josefin Sans', sans-serif;
+   color: #efefef;
+   /* Neutral 08 */
+   font-size: 16px;
+   /* Was 1.75 */
 }
 
 .newt-interior-modal-two-description a {
-    color: #efefef; /* Neutral 08 */
-    font-size: 16px; /* Was 2 */
-    text-decoration: none;
-    font-weight: bold;
-    overflow-wrap: break-word;
+   color: #efefef;
+   /* Neutral 08 */
+   font-size: 16px;
+   /* Was 2 */
+   text-decoration: none;
+   font-weight: bold;
+   overflow-wrap: break-word;
 }
 
 .newt-interior-modal-two-description a:hover {
-  color: #ff533d;
+   color: #ff533d;
 }
 
 
 /* -- Modal Two End -- */
 
+
 /* -- Collapse Projects Start -- */
 
 .newt-collapse {
-    color: #0e0b16; 
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 15px; /* Was 3 */
-    font-weight: bold;
+   color: #0e0b16;
+   font-family: 'Josefin Sans', sans-serif;
+   font-size: 15px;
+   /* Was 3 */
+   font-weight: bold;
 }
 
 .newt-collapse a {
-    color: #ff533d;
+   color: #ff533d;
 }
 
 .newt-collapse-button {
-    background-color: #efefef;
-    width: 100%;
-    border: 1px solid rgba(0,0,0,0.1);
-    margin-bottom: 10px;
-    margin-top:  10px;
-    padding-top: 10px;
-  }
+   background-color: #efefef;
+   width: 100%;
+   border: 1px solid rgba(0, 0, 0, 0.1);
+   margin-bottom: 10px;
+   margin-top: 10px;
+   padding-top: 10px;
+}
+
 
 /* -- Collapse Projects End -- */
+
 
 /* -- Splash Wrapper Start -- */
 
 .splash-desc-wrap {
-    position: relative;
-    top: 270px; /* Was 40 */
-    text-align: center;
+   position: relative;
+   top: 270px;
+   /* Was 40 */
+   text-align: center;
 }
 
 .splash-desc-wrap-two {
-    position: relative;
-    top: 270px; /* Was 40 */
+   position: relative;
+   top: 270px;
+   /* Was 40 */
 }
 
+
 /* -- Splash  Wrapper End -- */
+
 
 /* -- About Description Wrapper Start -- */
 
 .about-desc-wrap {
-    text-align: center;
+   text-align: center;
 }
 
+
 /* -- About Description Wrapper End -- */
+
 
 /* -- Projects Description Wrapper Start -- */
 
 .proj-desc-wrap {
-    text-align: center;
+   text-align: center;
 }
 
+
 /* -- Projects Description Wrapper End -- */
+
 
 /* -- Contact Description Wrapper Start -- */
 
 .contact-desc-wrap {
-    text-align: center;
+   text-align: center;
 }
+
 
 /* -- Contact Description Wrapper End -- */
 
@@ -1429,42 +1649,72 @@ html, body {
 /* -- Footer Start -- */
 
 .newt-footer {
-    background-color: rgba(14,11,22,.85); /* Void 05 */
-    color: #efefef; /* Neutral 08 */
-    font-family: 'Josefin Sans', sans-serif;
-    width: 100%;
-    text-align: center;
-    padding-top: 14px; /* Was 2 */
-    display: none; /* Load after clicking continue or cancel button from splash */
+   background-color: rgba(14, 11, 22, .85);
+   /* Void 05 */
+   color: #efefef;
+   /* Neutral 08 */
+   font-family: 'Josefin Sans', sans-serif;
+   width: 100%;
+   text-align: center;
+   padding-top: 14px;
+   /* Was 2 */
+   display: none;
+   /* Load after clicking continue or cancel button from splash */
 }
 
+
 /* -- Footer End -- */
+
 
 /* -- Icon Description Styling Start -- */
 
 .icon-text {
-    font-size: 14px; /* Was 2 */
-    color: #efefef;
-    font-family: 'Josefin Sans', sans-serif;
-    font-style: normal;
+   font-size: 14px;
+   /* Was 2 */
+   color: #efefef;
+   font-family: 'Josefin Sans', sans-serif;
+   font-style: normal;
 }
+
 
 /* 
 -----------------------------------
 | MODIFICATIONS TO Font-Mfizz CSS |  
 -----------------------------------
-*/ 
+*/
 
-.icon-html5, .icon-css3, .icon-javascript, .icon-jquery, .icon-php, .icon-nodejs, .icon-grunt, .icon-bootstrap, .icon-git, .icon-wordpress, .icon-apache, .icon-oracle {
-    color: #efefef;
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 34px; /* Was 5 */
+.icon-html5,
+.icon-css3,
+.icon-javascript,
+.icon-jquery,
+.icon-php,
+.icon-nodejs,
+.icon-grunt,
+.icon-bootstrap,
+.icon-git,
+.icon-wordpress,
+.icon-apache,
+.icon-oracle {
+   color: #efefef;
+   font-family: 'Josefin Sans', sans-serif;
+   font-size: 34px;
+   /* Was 5 */
 }
 
-.icon-html5:hover, .icon-css3:hover, .icon-javascript:hover, .icon-jquery:hover, .icon-php:hover, .icon-nodejs:hover, .icon-grunt:hover, .icon-bootstrap:hover, .icon-git:hover, .icon-wordpress:hover, .icon-apache:hover, .icon-oracle:hover {
-    color: #ff533d;
+.icon-html5:hover,
+.icon-css3:hover,
+.icon-javascript:hover,
+.icon-jquery:hover,
+.icon-php:hover,
+.icon-nodejs:hover,
+.icon-grunt:hover,
+.icon-bootstrap:hover,
+.icon-git:hover,
+.icon-wordpress:hover,
+.icon-apache:hover,
+.icon-oracle:hover {
+   color: #ff533d;
 }
-
 
 
 /* 
@@ -1473,445 +1723,380 @@ html, body {
 ----------------------------------
 */
 
+
 /* -- Navbar Start -- */
 
 .navbar-default {
-    border-color: transparent;
+   border-color: transparent;
 }
 
 
 /* -- Center Nav Links Start -- */
 
 .navbar-nav {
-    float: none;
+   float: none;
 }
 
 .navbar-nav > li {
-    float: none;
-    padding-top: 9px; /* Was 1.25 */
+   float: none;
+   padding-top: 9px;
+   /* Was 1.25 */
 }
 
+
 /* -- Center Nav Links End -- */
+
 
 /* -- Fix Icons In Contact Section Start -- */
 
 a:hover {
-  text-decoration: none;
+   text-decoration: none;
 }
 
+
 /* -- Fix Icons In Contact Section End -- */
+
 
 /* -- Fix Navbar Overlapping Name for iPhone 5 (320px) Start -- */
 
 @media (max-width: 320px) {
-
-  .home-title {
-    padding-top: 68px; /* Was 10 */
-  }
-
+   .home-title {
+      padding-top: 68px;
+      /* Was 10 */
+   }
 }
 
+
 /* -- Fix Navbar Overlapping Name for iPhone 5 (320px) End -- */
+
 
 /* -- Center Nav Links For Devices From 0 To 767px (Table Sizes Start @ 768px) Start */
 
 @media (max-width: 767px) {
-
-
-    .navbar-nav > li {
-        width: 50%;
-        float: left;
-        padding: 5px 0;
-        text-align: center; 
-    }
-
-    .navbar-nav > li > button {
-        font-size: 20px; /* Was 3 */
-        width: 50%;
-        text-align: center;
-        padding-top: 10px;
-        padding-bottom: 10px;
-    }
-
-    .navbar-nav > li > button.home-button {
-        text-align: left;
-    }
-
-    .navbar-nav > li > button.about-button {
-        text-align: left;
-    }
-
-    .navbar-nav > li > button.projects-button {
-        text-align: left;
-    }
-
-    .navbar-nav > li > button.contact-button {
-        text-align: left;
-    }
-
-
-    .navbar-nav > li > button:before {
-        content: "\f054";
-        font-family: FontAwesome;
-        font-style: normal;
-        font-weight: normal;
-        text-decoration: inherit;
-        padding: 5px;
-        font-size: 14px; /* Was 2 */
-    }
-
-
-    .navbar-default .navbar-toggle {
-        border-color: transparent;
-
-
-    }
-    .navbar-default .navbar-toggle:hover {
-        background-color: transparent;
-    }
-
-
-    .navbar-default .navbar-toggle .icon-bar {
-        background-color: #eaeaea;
-    }
-
-    .navbar-toggle .icon-bar {
-        display: block;
-        width: 22px;
-        height: 2px;
-        border-radius: 1px;
-    }
-
-
-    .newt-modal-open-button-one {
-        opacity: 1;
-    }
-
-    .newt-modal-open-button-two {
-        opacity: 1;
-    }
-
-    .final-splash-result-one {
-        margin-left: 24%;
-        margin-top: -100px;
-    }
-
-    .final-splash-result-two {
-        margin-left: 24%;
-    }
-
-    .final-splash-result-three {
-        margin-left: 24%;
-    }
-
-    .continue-button-ID {
-        padding-top: 10%;
-    }
-
-    .continue-button-icon {
-        margin-left: 7%;
-    }
-
-    .cancel-button-icon {
-        margin-left: 77%;
-        margin-top: 170%
-    }
-
-    .home-img-middle {
-        width: 20%;
-    }
-
-    .splash-statement-one {
-        padding-top: 0px;
-    }
-
-    .splash-statement-two {
-        padding-top: 0px;
-    }
-
-    .splash-statement-three {
-        padding-top: 0px;
-    }
-
-    .home-subtitle {
-        padding-bottom: 75px;
-    }
-
-    #about {
+   .navbar-nav > li {
+      width: 50%;
+      float: left;
+      padding: 5px 0;
+      text-align: center;
+   }
+   .navbar-nav > li > button {
+      font-size: 20px;
+      /* Was 3 */
+      width: 50%;
+      text-align: center;
+      padding-top: 10px;
+      padding-bottom: 10px;
+   }
+   .navbar-nav > li > button.home-button {
+      text-align: left;
+   }
+   .navbar-nav > li > button.about-button {
+      text-align: left;
+   }
+   .navbar-nav > li > button.projects-button {
+      text-align: left;
+   }
+   .navbar-nav > li > button.contact-button {
+      text-align: left;
+   }
+   .navbar-nav > li > button:before {
+      content: "\f054";
+      font-family: FontAwesome;
+      font-style: normal;
+      font-weight: normal;
+      text-decoration: inherit;
+      padding: 5px;
+      font-size: 14px;
+      /* Was 2 */
+   }
+   .navbar-default .navbar-toggle {
+      border-color: transparent;
+   }
+   .navbar-default .navbar-toggle:hover {
+      background-color: transparent;
+   }
+   .navbar-default .navbar-toggle .icon-bar {
+      background-color: #eaeaea;
+   }
+   .navbar-toggle .icon-bar {
+      display: block;
+      width: 22px;
+      height: 2px;
+      border-radius: 1px;
+   }
+   .newt-modal-open-button-one {
+      opacity: 1;
+   }
+   .newt-modal-open-button-two {
+      opacity: 1;
+   }
+   .final-splash-result-one {
+      margin-left: 24%;
+      margin-top: -100px;
+   }
+   .final-splash-result-two {
+      margin-left: 24%;
+   }
+   .final-splash-result-three {
+      margin-left: 24%;
+   }
+   .continue-button-ID {
+      padding-top: 10%;
+   }
+   .continue-button-icon {
+      margin-left: 7%;
+   }
+   .cancel-button-icon {
+      margin-left: 77%;
+      margin-top: 170%
+   }
+   .home-img-middle {
+      width: 20%;
+   }
+   .splash-statement-one {
+      padding-top: 0px;
+   }
+   .splash-statement-two {
+      padding-top: 0px;
+   }
+   .splash-statement-three {
+      padding-top: 0px;
+   }
+   .home-subtitle {
+      padding-bottom: 75px;
+   }
+   #about {
       height: 1850px;
-    }
-
-    .about-content {
-        padding-bottom: 50px;
-    }
-
-    .projects-description  {
-        padding-bottom: 25px;
-    }
-
-    .newt-modal-one-description {
-        font-size: 17px;
-        font-weight: bold
-  }
-
-  .newt-modal-two-description {
-        font-size: 17px;
-        font-weight: bold
-  }
-
-  #projects {
-    height: 500px;
-  }
-
-  #contact {
+   }
+   .about-content {
+      padding-bottom: 50px;
+   }
+   .projects-description {
+      padding-bottom: 25px;
+   }
+   .newt-modal-one-description {
+      font-size: 17px;
+      font-weight: bold
+   }
+   .newt-modal-two-description {
+      font-size: 17px;
+      font-weight: bold
+   }
+   #projects {
+      height: 500px;
+   }
+   #contact {
       margin-top: 125px;
       height: 500px;
-  }
-
-  .home-img-middle {
-    margin-top: 0px;
-    margin-bottom: 0px;
-  }
-
-  .contact-header {
-    padding-top: 20px;
-  }
-
-  .contact-content {
-    font-size: 15px;
-    line-height: 40px;
-    padding-top: 40px;
-    padding-bottom: 25px;
-    text-align: justify;
-
-  }
+   }
+   .home-img-middle {
+      margin-top: 0px;
+      margin-bottom: 0px;
+   }
+   .contact-header {
+      padding-top: 20px;
+   }
+   .contact-content {
+      font-size: 15px;
+      line-height: 40px;
+      padding-top: 40px;
+      padding-bottom: 25px;
+      text-align: justify;
+   }
 }
 
+
 /* -- Center Nav Links For Devices From 0 To 767px (Table Sizes Start @ 768px) End -- */
+
 
 /* -- Fix Landscape Orientation For iPhone 5 (568px) Start -- */
 
 @media (min-width: 568px) and (max-width: 568px) {
-
-    .home-title {
-    padding-top: 118px; /* Was 17.5 */
-  }
-
-    .newt-modal-open-button-one {
-    opacity: 1;
-    margin-left: 3vw;
-  }
-
-  .newt-modal-open-button-two {
-    opacity: 1;
-    margin-left: 3vw;
-  }
-
-  .newt-modal-one-description {
-    padding-top: 2.5%;
-  }
-
-  .newt-modal-two-description {
-    padding-top: 2.5%;
-  }
-
-  .newt-modal-one-sub-description {
-    padding-bottom: 2.5%;
-  }
-
-  .newt-modal-two-sub-description {
-    padding-bottom: 2.5%;
-  }
-
+   .home-title {
+      padding-top: 118px;
+      /* Was 17.5 */
+   }
+   .newt-modal-open-button-one {
+      opacity: 1;
+      margin-left: 3vw;
+   }
+   .newt-modal-open-button-two {
+      opacity: 1;
+      margin-left: 3vw;
+   }
+   .newt-modal-one-description {
+      padding-top: 2.5%;
+   }
+   .newt-modal-two-description {
+      padding-top: 2.5%;
+   }
+   .newt-modal-one-sub-description {
+      padding-bottom: 2.5%;
+   }
+   .newt-modal-two-sub-description {
+      padding-bottom: 2.5%;
+   }
 }
 
+
 /* -- Fix Landscape Orientation For iPhone 5 (568px) End -- */
+
 
 /* -- Fix Landscape Orientation From 568px To 736px Start -- */
 
 @media (min-width: 569px) and (max-width: 736px) {
-
-  .home-title {
-    padding-top: 118px; /* Was 17.5 */
-  }
-
-  .newt-modal-open-button-one {
-    opacity: 1;
-    margin-left: 11.25vw;
-  }
-
-  .newt-modal-open-button-two {
-    opacity: 1;
-    margin-left: 11.25vw;
-  }
-
-    .newt-modal-one-description {
-    padding-top: 2.5%;
-  }
-
-  .newt-modal-two-description {
-    padding-top: 2.5%;
-  }
-
-  .newt-modal-one-sub-description {
-    padding-bottom: 2.5%;
-  }
-
-  .newt-modal-two-sub-description {
-    padding-bottom: 2.5%;
-  }
-
+   .home-title {
+      padding-top: 118px;
+      /* Was 17.5 */
+   }
+   .newt-modal-open-button-one {
+      opacity: 1;
+      margin-left: 11.25vw;
+   }
+   .newt-modal-open-button-two {
+      opacity: 1;
+      margin-left: 11.25vw;
+   }
+   .newt-modal-one-description {
+      padding-top: 2.5%;
+   }
+   .newt-modal-two-description {
+      padding-top: 2.5%;
+   }
+   .newt-modal-one-sub-description {
+      padding-bottom: 2.5%;
+   }
+   .newt-modal-two-sub-description {
+      padding-bottom: 2.5%;
+   }
 }
 
+
 /* -- Fix Landscape Orientation From 569px To 736px End -- */
+
 
 /* -- Fix iPad Start -- */
 
 @media (min-width: 768px) and (max-width: 1023px) {
-
-    .final-splash-result-one {
-        margin-left: 31%;
-    }
-
-    .final-splash-result-two {
-        margin-left: 31%;
-    }
-
-    .final-splash-result-three {
-        margin-left: 31%;
-    }
-
-    .continue-button-icon {
-        margin-left: 33%;
-    }
-
-    #home {
-        height: auto;
-    }
-
-    #about {
-        height: auto;
-    }
-
-    #projects {
-        height: auto;
-    }
-
-    .newt-modal-open-button-one {
-        opacity: 1;
-        margin-left: 15vw;
-    } 
-
-    .newt-modal-open-button-two {
-        opacity: 1;
-        margin-left: 15vw;
-    }
-
-    .newt-modal-one-sub-description {
-        padding-bottom: 2.5%;
-    }
-
-    .newt-modal-two-sub-description {
-        padding-bottom: 2.5%;
-    }
-
-    #contact {
-        margin-top: 20px;
-        height: 985px;
-    }
-
-    .contact-header {
-        padding-top: 60px;
-    }
-
-    .contact-content {
-        padding-top: 40px;
-        padding-bottom: 300px;
-        text-align: justify;
-    }
-
+   .final-splash-result-one {
+      margin-left: 31%;
+   }
+   .final-splash-result-two {
+      margin-left: 31%;
+   }
+   .final-splash-result-three {
+      margin-left: 31%;
+   }
+   .continue-button-icon {
+      margin-left: 33%;
+   }
+   #home {
+      height: auto;
+   }
+   #about {
+      height: auto;
+   }
+   #projects {
+      height: auto;
+   }
+   .newt-modal-open-button-one {
+      opacity: 1;
+      margin-left: 15vw;
+   }
+   .newt-modal-open-button-two {
+      opacity: 1;
+      margin-left: 15vw;
+   }
+   .newt-modal-one-sub-description {
+      padding-bottom: 2.5%;
+   }
+   .newt-modal-two-sub-description {
+      padding-bottom: 2.5%;
+   }
+   #contact {
+      margin-top: 20px;
+      height: 985px;
+   }
+   .contact-header {
+      padding-top: 60px;
+   }
+   .contact-content {
+      padding-top: 40px;
+      padding-bottom: 300px;
+      text-align: justify;
+   }
 }
 
+
 /* -- Fix iPad End -- */
+
 
 /* -- Fix iPad Pro Start -- */
 
 @media (min-width: 1024px) and (max-width: 1199px) {
-
-    .final-splash-result-one {
-        margin-left: 37.5%;
-    }
-
-    .final-splash-result-two {
-        margin-left: 37.5%;
-    }
-
-    .final-splash-result-three {
-        margin-left: 37.5%;
-    }
-
-    .continue-button-icon {
-        margin-left: 39.5%;
-    }
-
-    .newt-modal-open-button-one {
-        opacity: 1;
-        margin-left: 25vw;
-    }
-
-    .newt-modal-open-button-two {
-        opacity: 1;
-        margin-left: 25vw;
-    }
-
-    .newt-modal-one-sub-description {
-        padding-bottom: 2.5%;
-    }
-
-    .newt-modal-two-sub-description {
-        padding-bottom: 2.5%;
-    }
-
-    #home {
-        height: auto;
-    }
-
-    #about {
-        height: auto;
-    }
-
-    #projects {
-        height: auto;
-    }
-
-    #contact {
-        margin-top: 20px;
-        height: 1300px;
-    }
-
-    .contact-header {
-        padding-top: 35px;
-    }
-
-    .contact-content {
-        padding-top: 175px;
-        padding-bottom: 545px;
-    }
-
+   .final-splash-result-one {
+      margin-left: 37.5%;
+   }
+   .final-splash-result-two {
+      margin-left: 37.5%;
+   }
+   .final-splash-result-three {
+      margin-left: 37.5%;
+   }
+   .continue-button-icon {
+      margin-left: 39.5%;
+   }
+   .newt-modal-open-button-one {
+      opacity: 1;
+      margin-left: 25vw;
+   }
+   .newt-modal-open-button-two {
+      opacity: 1;
+      margin-left: 25vw;
+   }
+   .newt-modal-one-sub-description {
+      padding-bottom: 2.5%;
+   }
+   .newt-modal-two-sub-description {
+      padding-bottom: 2.5%;
+   }
+   #home {
+      height: auto;
+   }
+   #about {
+      height: auto;
+   }
+   #projects {
+      height: auto;
+   }
+   #contact {
+      margin-top: 20px;
+      height: 1300px;
+   }
+   .contact-header {
+      padding-top: 35px;
+   }
+   .contact-content {
+      padding-top: 175px;
+      padding-bottom: 545px;
+   }
 }
 
+
 /* -- Fix iPad Pro End -- */
+
 
 /* -- Set Background Image To Scroll For Mobile Users Start -- */
 
 @media (max-width: 1199px) {
-
-    #home-background {
-        background-attachment: scroll;
-    }
+   #home-background {
+      background-attachment: scroll;
+   }
 }
 
+
 /* -- Set Background Image To Scroll For Mobile Users End -- */
+
 
 /*
 ---------------------------------------------
@@ -1919,614 +2104,514 @@ a:hover {
 ---------------------------------------------
 */
 
+
 /* -- iPhone 5 Portrait Start -- */
 
 @media (min-width: 320px) and (max-width: 359px) {
-
-    .final-splash-result-one {
-        padding-top: 50px;
-        margin-left: 3%;
-    }
-
-    .final-splash-result-two {
-        margin-left: 3%;
-    }
-
-    .final-splash-result-three {
-        margin-left: 3%;
-    }
-
-    .continue-button-icon {
-        margin-left: 6.25%;
-    }
-
-    #home {
-        height: auto;
-        padding-bottom: 0;
-    }
-
-    #about {
-        height: auto;
-    }
-
-    #projects {
-        height: auto;
-    }
-
-    #contact {
-        margin-top: 20px;
-        height: auto;
-    }
-
+   .newt-splash {
+      height: auto;
+   }
+   .final-splash-result-one {
+      padding-top: 50px;
+      margin-left: 3%;
+   }
+   .final-splash-result-two {
+      margin-left: 3%;
+   }
+   .final-splash-result-three {
+      margin-left: 3%;
+   }
+   .continue-button-icon {
+      margin-left: 6.25%;
+   }
+   .cancel-button-icon {
+      margin-top: -140%;
+      margin-left: 33%;
+   }
+   #home {
+      height: auto;
+      padding-bottom: 0;
+   }
+   #about {
+      height: auto;
+   }
+   #projects {
+      height: auto;
+   }
+   #contact {
+      margin-top: 20px;
+      height: auto;
+   }
+   .home-img-middle {
+      width: 125px;
+   }
 }
 
+
 /* -- iPhone 5 Portrait End -- */
+
 
 /* -- Galaxy S5 Portrait Start -- */
 
 @media (min-width: 360px) and (max-width: 374px) {
-
-    .final-splash-result-one {
-        padding-top: 50px;
-        margin-left: 7.5%;
-    }
-
-    .final-splash-result-two {
-        margin-left: 7.5%;
-    }
-
-    .final-splash-result-three {
-        margin-left: 7.5%;
-    }
-
-    .continue-button-icon {
-        margin-left: 11.75%;
-    }
-
-    #home {
-        height: auto;
-    }
-
-    #about {
-        height: auto;
-    }
-
-    #projects {
-        height: auto;
-    }
-
-    #contact {
-        margin-top: 15px;
-        height: 575px;
-    }
-
-    .contact-content {
-        padding-top: 22px;
-        padding-bottom: 115px;
-
-    }
-
+   .final-splash-result-one {
+      padding-top: 50px;
+      margin-left: 7.5%;
+   }
+   .final-splash-result-two {
+      margin-left: 7.5%;
+   }
+   .final-splash-result-three {
+      margin-left: 7.5%;
+   }
+   .continue-button-icon {
+      margin-left: 11.75%;
+   }
+   #home {
+      height: auto;
+   }
+   #about {
+      height: auto;
+   }
+   #projects {
+      height: auto;
+   }
+   #contact {
+      margin-top: 15px;
+      height: 575px;
+   }
+   .contact-content {
+      padding-top: 22px;
+      padding-bottom: 115px;
+   }
 }
 
+
 /* -- Galaxy S5 Portrait End -- */
-    
-    
+
+
 /* -- 375px To 411px Start -- */
 
 @media (min-width: 375px) and (max-width: 411px) {
-
-    .splash-statement-one {
-        padding-top: 0px;
-    }
-
-    .splash-statement-two {
-        padding-top: 0px;
-    }
-
-    .splash-statement-three {
-        padding-top: 0px;
-    }
-
-    .final-splash-result-one {
-        padding-top: 50px;
-        margin-left: 11%;
-    }
-
-    .final-splash-result-two {
-        margin-left: 11%;
-    }
-
-    .final-splash-result-three {
-        margin-left: 11%;
-    }
-
-    .continue-button-icon {
-        margin-left: 14.5%;
-    }
-
-    .home-subtitle {
-        padding-bottom: 75px;
-    }
-
-    #home {
-        height: auto;
-    }
-
-    #about {
-        height: auto;
-    }
-
-    .about-content {
-        padding-bottom: 50px;
-    }
-
-    .projects-description {
-        padding-bottom: 25px;
-    }
-
-    .newt-modal-one-description {
-        font-size: 17px;
-        font-weight: bold
-    }
-
-    .newt-modal-two-description {
-        font-size: 17px;
-        font-weight: bold
-    }
-
-    #projects {
-        height: auto;
-    }
-
-    #contact {
-        margin-top: 25px;
-        height: 600px;
-    }
-
-    .home-img-middle {
-        margin-top: 0px;
-        margin-bottom: 0px;
-    }
-
-    .contact-header {
-        padding-top: 20px;
-    }
-
-    .contact-content {
-        font-size: 15px;
-        line-height: 40px;
-        padding-top: 40px;
-        padding-bottom: 115px;
-        text-align: justify;
-    }
-
+   .splash-statement-one {
+      padding-top: 0px;
+   }
+   .splash-statement-two {
+      padding-top: 0px;
+   }
+   .splash-statement-three {
+      padding-top: 0px;
+   }
+   .final-splash-result-one {
+      padding-top: 50px;
+      margin-left: 11%;
+   }
+   .final-splash-result-two {
+      margin-left: 11%;
+   }
+   .final-splash-result-three {
+      margin-left: 11%;
+   }
+   .continue-button-icon {
+      margin-left: 14.5%;
+   }
+   .home-subtitle {
+      padding-bottom: 75px;
+   }
+   #home {
+      height: auto;
+   }
+   #about {
+      height: auto;
+   }
+   .about-content {
+      padding-bottom: 50px;
+   }
+   .projects-description {
+      padding-bottom: 25px;
+   }
+   .newt-modal-one-description {
+      font-size: 17px;
+      font-weight: bold
+   }
+   .newt-modal-two-description {
+      font-size: 17px;
+      font-weight: bold
+   }
+   #projects {
+      height: auto;
+   }
+   #contact {
+      margin-top: 25px;
+      height: 600px;
+   }
+   .home-img-middle {
+      margin-top: 0px;
+      margin-bottom: 0px;
+   }
+   .contact-header {
+      padding-top: 20px;
+   }
+   .contact-content {
+      font-size: 15px;
+      line-height: 40px;
+      padding-top: 40px;
+      padding-bottom: 115px;
+      text-align: justify;
+   }
 }
 
+
 /* -- 375px To 411px End -- */
+
 
 /* -- 412px To 567px Start -- */
 
 @media (min-width: 412px) and (max-width: 567px) {
-
-    .splash-statement-one {
-        padding-top: 0px;
-    }
-
-    .splash-statement-two {
-        padding-top: 0px;
-    }
-
-    .splash-statement-three {
-        padding-top: 0px;
-    }
-
-    .final-splash-result-one {
-        padding-top: 75px;
-        margin-left: 14%;
-    }
-
-    .final-splash-result-two {
-        margin-left: 14%;
-    }
-
-    .final-splash-result-three {
-        margin-left: 14%;
-    }
-
-    .continue-button-icon {
-        margin-left: 17%;
-    }
-
-    .home-subtitle {
-        padding-bottom: 75px;
-    }
-
-    #home {
-        height: auto;
-    }
-
-    #about {
-        height: auto;
-    }
-
-    .about-content {
-        padding-bottom: 50px;
-    }
-
-    .projects-description  {
-        padding-bottom: 25px;
-    }
-
-    .newt-modal-one-description {
-        font-size: 17px;
-        font-weight: bold
-    }
-
-    .newt-modal-two-description {
-        font-size: 17px;
-        font-weight: bold
-    }
-
-    #projects {
-        height: auto;
-    }
-
-    #contact {
-        margin-top: 25px;
-        height: 660px;
-    }
-
-    .home-img-middle {
-        margin-top: 0px;
-        margin-bottom: 0px;
-    }
-
-    .contact-header {
-        padding-top: 20px;
-    }
-
-    .contact-content {
-        font-size: 15px;
-        line-height: 40px;
-        padding-top: 40px;
-        padding-bottom: 160px;
-        text-align: justify;
-    }
-
+   .splash-statement-one {
+      padding-top: 0px;
+   }
+   .splash-statement-two {
+      padding-top: 0px;
+   }
+   .splash-statement-three {
+      padding-top: 0px;
+   }
+   .final-splash-result-one {
+      padding-top: 75px;
+      margin-left: 14%;
+   }
+   .final-splash-result-two {
+      margin-left: 14%;
+   }
+   .final-splash-result-three {
+      margin-left: 14%;
+   }
+   .continue-button-icon {
+      margin-left: 17%;
+   }
+   .home-subtitle {
+      padding-bottom: 75px;
+   }
+   #home {
+      height: auto;
+   }
+   #about {
+      height: auto;
+   }
+   .about-content {
+      padding-bottom: 50px;
+   }
+   .projects-description {
+      padding-bottom: 25px;
+   }
+   .newt-modal-one-description {
+      font-size: 17px;
+      font-weight: bold
+   }
+   .newt-modal-two-description {
+      font-size: 17px;
+      font-weight: bold
+   }
+   #projects {
+      height: auto;
+   }
+   #contact {
+      margin-top: 25px;
+      height: 660px;
+   }
+   .home-img-middle {
+      margin-top: 0px;
+      margin-bottom: 0px;
+   }
+   .contact-header {
+      padding-top: 20px;
+   }
+   .contact-content {
+      font-size: 15px;
+      line-height: 40px;
+      padding-top: 40px;
+      padding-bottom: 160px;
+      text-align: justify;
+   }
 }
 
+
 /* -- 412px To 567px End -- */
+
 
 /* -- iPhone 5 Landscape Start -- */
 
 @media (min-width: 568px) and (max-width: 639px) {
-
-    .splash-statement-one {
-        margin-top: -135px;
-    }
-
-    .splash-statement-two {
-        margin-top: -135px;
-    }
-
-    .splash-statement-three {
-        margin-top: -135px;
-    }
-
-    .final-splash-result-one {
-        margin-top: -200px;
-        margin-left: 24%;
-    }
-
-    .final-splash-result-two {
-        margin-left: 24%;
-    }
-
-    .final-splash-result-three {
-        margin-left: 24%;
-    }
-
-    .continue-button-icon {
-        margin-left: 26%;
-    }
-
-    #home {
-        height: auto;
-    }
-
-    #about {
-        height: auto;
-    }
-
-    #projects {
-        height: auto;
-    }
-
-    #contact {
-        margin-top: 20px;
-        height: auto;
-    }
-
-    .contact-header {
-        padding-top: 60px;
-    }
-
-    .contact-content {
-        font-size: 15px;
-        line-height: 40px;
-        padding-top: 40px;
-        padding-bottom: 35px;
-        text-align: justify;
-    }
+   .splash-statement-one {
+      margin-top: -135px;
+   }
+   .splash-statement-two {
+      margin-top: -135px;
+   }
+   .splash-statement-three {
+      margin-top: -135px;
+   }
+   .final-splash-result-one {
+      margin-top: -200px;
+      margin-left: 24%;
+   }
+   .final-splash-result-two {
+      margin-left: 24%;
+   }
+   .final-splash-result-three {
+      margin-left: 24%;
+   }
+   .continue-button-icon {
+      margin-left: 26%;
+   }
+   #home {
+      height: auto;
+   }
+   #about {
+      height: auto;
+   }
+   #projects {
+      height: auto;
+   }
+   #contact {
+      margin-top: 20px;
+      height: auto;
+   }
+   .contact-header {
+      padding-top: 60px;
+   }
+   .contact-content {
+      font-size: 15px;
+      line-height: 40px;
+      padding-top: 40px;
+      padding-bottom: 35px;
+      text-align: justify;
+   }
 }
 
+
 /* -- iPhone 5 Landscape End -- */
+
 
 /* -- Galaxy S5 Landscape Start -- */
 
 @media (min-width: 640px) and (max-width: 666px) {
-
-    .final-splash-result-one {
-        margin-top: -200px;
-        margin-left: 27%;
-    }
-
-    .final-splash-result-two {
-        margin-left: 27%;
-    }
-
-    .final-splash-result-three {
-        margin-left: 27%;
-    }
-
-    .continue-button-icon {
-        margin-left: 29%;
-    }
-
-    #home {
-        height: auto;
-    }
-
-    #about {
-        height: auto;
-    }
-
-    #projects {
-        height: auto;
-    }
-
-    #contact {
-        margin-top: 25px;
-        height: auto;
-    }
-
-    .contact-header {
-        padding-top: 60px;
-    }
-
-    .contact-content {
-        font-size: 15px;
-        line-height: 40px;
-        padding-top: 40px;
-        padding-bottom: 45px;
-        text-align: justify;
-    }
+   .final-splash-result-one {
+      margin-top: -200px;
+      margin-left: 27%;
+   }
+   .final-splash-result-two {
+      margin-left: 27%;
+   }
+   .final-splash-result-three {
+      margin-left: 27%;
+   }
+   .continue-button-icon {
+      margin-left: 29%;
+   }
+   #home {
+      height: auto;
+   }
+   #about {
+      height: auto;
+   }
+   #projects {
+      height: auto;
+   }
+   #contact {
+      margin-top: 25px;
+      height: auto;
+   }
+   .contact-header {
+      padding-top: 60px;
+   }
+   .contact-content {
+      font-size: 15px;
+      line-height: 40px;
+      padding-top: 40px;
+      padding-bottom: 45px;
+      text-align: justify;
+   }
 }
 
+
 /* -- Galaxy S5 Landscape End -- */
+
 
 /* -- iPhone 6 Landscape Start -- */
 
 @media (min-width: 667px) and (max-height: 731px) {
-
-    .splash-statement-one {
-        margin-top: -120px;
-    }
-
-    .splash-statement-two {
-        margin-top: -120px;
-    }
-
-    .splash-statement-three {
-        margin-top: -120px;
-    }
-
-    .final-splash-result-one {
-        margin-top: -175px;
-        margin-left: 27.5%;
-    }
-
-    .final-splash-result-two {
-        margin-left: 27.5%;
-    }
-
-    .final-splash-result-three {
-        margin-left: 27.5%;
-    }
-
-    .continue-button-icon {
-        margin-left: 29.5%;
-    }
-
-    #home {
-        height: auto;
-    }
-
-    #about {
-        height: auto;
-    }
-
-    #projects {
-        height: auto;
-    }
-
-    #contact {
-        margin-top: 25px;
-        height: auto;
-    }
-
-    .contact-header {
-        padding-top: 60px;
-    }
-
-    .contact-content {
-        font-size: 15px;
-        line-height: 40px;
-        padding-top: 40px;
-        padding-bottom: 45px;
-        text-align: justify;
-    }
-
+   .splash-statement-one {
+      margin-top: -120px;
+   }
+   .splash-statement-two {
+      margin-top: -120px;
+   }
+   .splash-statement-three {
+      margin-top: -120px;
+   }
+   .final-splash-result-one {
+      margin-top: -175px;
+      margin-left: 27.5%;
+   }
+   .final-splash-result-two {
+      margin-left: 27.5%;
+   }
+   .final-splash-result-three {
+      margin-left: 27.5%;
+   }
+   .continue-button-icon {
+      margin-left: 29.5%;
+   }
+   #home {
+      height: auto;
+   }
+   #about {
+      height: auto;
+   }
+   #projects {
+      height: auto;
+   }
+   #contact {
+      margin-top: 25px;
+      height: auto;
+   }
+   .contact-header {
+      padding-top: 60px;
+   }
+   .contact-content {
+      font-size: 15px;
+      line-height: 40px;
+      padding-top: 40px;
+      padding-bottom: 45px;
+      text-align: justify;
+   }
 }
+
 
 /* -- iPhone 6 Landscape End -- */
 
+
 /* -- Nexus 6P Landscape Start -- */
 
-@media (min-width: 732px) and (max-width: 767px)  {
-
-    .splash-statement-one {
-        margin-top: -110px;
-    }
-
-    .splash-statement-two {
-        margin-top: -110px;
-    }
-
-    .splash-statement-three {
-        margin-top: -110px;
-    }
-
-    .final-splash-result-one {
-        margin-top: -160px;
-        margin-left: 29%;
-    }
-
-    .final-splash-result-two {
-        margin-left: 29%;
-    }
-
-    .final-splash-result-three {
-        margin-left: 29%;
-    }
-
-    .continue-button-icon {
-        margin-left: 31%;
-    }
-
-    #home {
-        height: auto;
-    }
-
-    #about {
-        height: auto;
-    }
-
-    #projects {
-        height: auto;
-    }
-
-    #contact {
-        margin-top: 25px;
-        height: auto;
-    }
-
-    .contact-header {
-        padding-top: 60px;
-    }
-
-    .contact-content {
-        font-size: 15px;
-        line-height: 40px;
-        padding-top: 40px;
-        padding-bottom: 45px;
-        text-align: justify;
-    }
-
+@media (min-width: 732px) and (max-width: 767px) {
+   .splash-statement-one {
+      margin-top: -110px;
+   }
+   .splash-statement-two {
+      margin-top: -110px;
+   }
+   .splash-statement-three {
+      margin-top: -110px;
+   }
+   .final-splash-result-one {
+      margin-top: -160px;
+      margin-left: 29%;
+   }
+   .final-splash-result-two {
+      margin-left: 29%;
+   }
+   .final-splash-result-three {
+      margin-left: 29%;
+   }
+   .continue-button-icon {
+      margin-left: 31%;
+   }
+   #home {
+      height: auto;
+   }
+   #about {
+      height: auto;
+   }
+   #projects {
+      height: auto;
+   }
+   #contact {
+      margin-top: 25px;
+      height: auto;
+   }
+   .contact-header {
+      padding-top: 60px;
+   }
+   .contact-content {
+      font-size: 15px;
+      line-height: 40px;
+      padding-top: 40px;
+      padding-bottom: 45px;
+      text-align: justify;
+   }
 }
 
+
 /* -- Nexus 6P Landscape End -- */
+
 
 /* -- iPad Pro Landscape Start -- */
 
 @media (min-width: 1366px) and (max-width: 1366px) {
-
-    #home {
-        height: auto;
-    }
-
-    #about {
-        height: auto;
-    }
-
-    #projects {
-        height: 1024px;
-    }
-
-    #contact {
-        height: 990px;
-    }
-
-    .contact-content {
-        padding-bottom: 360px;
-    }
+   #home {
+      height: auto;
+   }
+   #about {
+      height: auto;
+   }
+   #projects {
+      height: 1024px;
+   }
+   #contact {
+      height: 990px;
+   }
+   .contact-content {
+      padding-bottom: 360px;
+   }
 }
 
+
 /* -- iPad Pro Landscape End -- */
+
 
 /* -- 4K Start -- */
 
 @media (min-width: 2560px) {
-
-    .newt-splash {
-        height: 1080px;
-    }
-
-    .continue-button-icon {
-        margin-left: 42.5%;
-    }
-
-    #home {
-        height: 1081px;
-    }
-
-    .home-subtitle {
-        padding-bottom: 400px;
-    }
-
-    #about {
-        height: 1081px;
-    }
-
-    #projects {
-        height: 1081px;
-    }
-
-    .newt-modal-one-description {
-        margin-left: -17.5%;
-    }
-
-    .newt-modal-one-sub-description {
-        margin-left: -17.5%;
-    }
-
-    .newt-modal-two-description {
-        margin-left: -17.5%;
-    }
-
-    .newt-modal-two-sub-description {
-        margin-left: -17.5%;
-    }
-
-    #contact {
-        height: 1045px;
-    }
-
-    .contact-content {
-        padding-top: 75px;
-        padding-bottom: 365px;
-    }
-
+   .newt-splash {
+      height: 1080px;
+   }
+   .continue-button-icon {
+      margin-left: 42.5%;
+   }
+   #home {
+      height: 1081px;
+   }
+   .home-subtitle {
+      padding-bottom: 400px;
+   }
+   #about {
+      height: 1081px;
+   }
+   #projects {
+      height: 1081px;
+   }
+   .newt-modal-one-description {
+      margin-left: -17.5%;
+   }
+   .newt-modal-one-sub-description {
+      margin-left: -17.5%;
+   }
+   .newt-modal-two-description {
+      margin-left: -17.5%;
+   }
+   .newt-modal-two-sub-description {
+      margin-left: -17.5%;
+   }
+   #contact {
+      height: 1045px;
+   }
+   .contact-content {
+      padding-top: 75px;
+      padding-bottom: 365px;
+   }
 }
+
 
 /* -- 4K End -- */
