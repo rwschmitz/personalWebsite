@@ -697,10 +697,26 @@ before,
    text-align: center;
 }
 
+/* -- Start Home Info For Screens < 1200px -- */
+
 .home-info a {
     color: #ff533d;
     text-decoration: none;
  }
+
+ .home-info {
+    color: #0e0b16;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px; /* Was 1.75 */
+    text-align: justify;
+    font-weight: 500;
+    padding-bottom: 40px;
+   
+}
+
+/* -- End Home Info For Screens < 1200px -- */
+
+/* -- Start Home Info For Screens >= 1200px -- */
 
 .home-info1, .home-info2, .home-info3, .home-info4, .home-info5 {
    color: #0e0b16;
@@ -718,9 +734,11 @@ before,
     color: #ff533d;
 }
 
+/* -- End Home Info For Screens >= 1200px -- */
 
 
 
+/* -- Start Icons For Screens > 1200px -- */
 
 
 .fa-leaf, .fa-cutlery, .fa-gamepad, .fa-lightbulb-o, .fa-desktop {
@@ -731,6 +749,8 @@ before,
 .fa-leaf:hover, .fa-cutlery:hover, .fa-gamepad:hover, .fa-lightbulb-o:hover, .fa-desktop:hover {
    color: #ff533d;
 }
+
+/* -- End Icons For Screens > 1200px -- */
 
 
 /* -- 1ST ICON PROPERTIES -- */
@@ -752,6 +772,7 @@ before,
    font-size: 18px;
    /* Was 2 */
    font-weight: bold;
+   text-align: center;
    width: 100%;
 }
 
