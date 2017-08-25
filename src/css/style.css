@@ -423,9 +423,7 @@ body {
    font-weight: bold;
    cursor: pointer;
    z-index: 1;
-   margin-left: 94%;
-   margin-top: -25%;
-   width: auto;
+   width: 140px;
 }
 
 .cancel-button-icon:focus {
@@ -695,6 +693,16 @@ before,
    line-height: 22px;
    /* Was 3.25 */
    text-align: center;
+}
+
+.home-content-large {
+    color: #0e0b16;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 10px;
+    line-height: 22px;
+    text-align: center;
 }
 
 /* -- Start Home Info For Screens < 1200px -- */
@@ -1068,6 +1076,13 @@ before,
    padding-bottom: 325px;
 }
 
+.contact-icon-desc {
+    color: #efefef;
+    font-size: 14px;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
 .contact-content-mail-icon:before {
    content: "\f003";
    font-family: FontAwesome;
@@ -1298,9 +1313,9 @@ before,
    left: 25vw;
    top: 200px;
    /* Was 25 */
-   background: rgba(14, 11, 22, .85);
+   background: #efefef;
    box-shadow: 0vw 0vw 1vw 0vw black;
-   color: #efefef;
+   color: rgba(14, 11, 22, .85); 
    line-height: 14px;
    /* Was 2 */
 }
@@ -1338,8 +1353,8 @@ before,
    top: 7px;
    /* Was 1 */
    right: 1.5vw;
-   background: rgba(14, 11, 22, 0);
-   color: #efefef;
+   background: transparent;
+   color: rgba(14, 11, 22, .85);
    border: none;
 }
 
@@ -1405,7 +1420,7 @@ before,
 
 .newt-interior-modal-one-text {
    font-family: 'Josefin Sans', sans-serif;
-   color: #efefef;
+   color: rgba(14, 11, 22, .85);
    /* Neutral 08 */
    font-size: 16px;
    /* Was 2 */
@@ -1413,14 +1428,14 @@ before,
 
 .newt-interior-modal-one-description {
    font-family: 'Josefin Sans', sans-serif;
-   color: #efefef;
+   color: rgba(14, 11, 22, .85);
    /* Neutral 08 */
    font-size: 16px;
    /* Was 1.75 */
 }
 
 .newt-interior-modal-one-description a {
-   color: #efefef;
+   color: rgba(14, 11, 22, .85);
    /* Neutral 08 */
    font-family: 'Josefin Sans', sans-serif;
    font-size: 16px;
@@ -1452,9 +1467,9 @@ before,
    left: 25vw;
    top: 200px;
    /* Was 25 */
-   background: rgba(14, 11, 22, .85);
+   background: #efefef;
    box-shadow: 0vw 0vw 1vw 0vw black;
-   color: #efefef;
+   color: rgba(14, 11, 22, .85);
    line-height: 14px;
    /* Was 2 */
 }
@@ -1492,8 +1507,8 @@ before,
    top: 7px;
    /* Was 1 */
    right: 1.5vw;
-   background: rgba(14, 11, 22, 0);
-   color: #efefef;
+   background: transparent;
+   color: rgba(14, 11, 22, .85);
    border: none;
 }
 
@@ -1559,7 +1574,7 @@ before,
 
 .newt-interior-modal-two-text {
    font-family: 'Josefin Sans', sans-serif;
-   color: #efefef;
+   color: rgba(14, 11, 22, .85);
    /* Neutral 08 */
    font-size: 16px;
    /* Was 2 */
@@ -1567,14 +1582,14 @@ before,
 
 .newt-interior-modal-two-description {
    font-family: 'Josefin Sans', sans-serif;
-   color: #efefef;
+   color: rgba(14, 11, 22, .85);
    /* Neutral 08 */
    font-size: 16px;
    /* Was 1.75 */
 }
 
 .newt-interior-modal-two-description a {
-   color: #efefef;
+   color: rgba(14, 11, 22, .85);
    /* Neutral 08 */
    font-size: 16px;
    /* Was 2 */
@@ -1594,7 +1609,7 @@ before,
 /* -- Collapse Projects Start -- */
 
 .newt-collapse {
-   color: #0e0b16;
+   color: rgba(14, 11, 22, .85);
    font-family: 'Josefin Sans', sans-serif;
    font-size: 15px;
    /* Was 3 */
@@ -1791,7 +1806,7 @@ a:hover {
 /* -- Fix Navbar Overlapping Name for iPhone 5 (320px) End -- */
 
 
-/* -- Center Nav Links For Devices From 0 To 767px (Table Sizes Start @ 768px) Start */
+/* -- Center Nav Links For Devices From 0 To 767px (Tablet Sizes Start @ 768px) Start */
 
 @media (max-width: 767px) {
    .navbar-nav > li {
@@ -1866,10 +1881,6 @@ a:hover {
    }
    .continue-button-icon {
       margin-left: 7%;
-   }
-   .cancel-button-icon {
-      margin-left: 77%;
-      margin-top: 170%
    }
    .home-img-middle {
       width: 20%;
@@ -2145,10 +2156,6 @@ a:hover {
    .continue-button-icon {
       margin-left: 6.25%;
    }
-   .cancel-button-icon {
-      margin-top: -140%;
-      margin-left: 33%;
-   }
    #home {
       height: auto;
       padding-bottom: 0;
@@ -2163,6 +2170,9 @@ a:hover {
       margin-top: 20px;
       height: auto;
    }
+   .contact-header {
+    padding-top: 55px;
+   }
    .home-img-middle {
       width: 125px;
    }
@@ -2175,6 +2185,9 @@ a:hover {
 /* -- Galaxy S5 Portrait Start -- */
 
 @media (min-width: 360px) and (max-width: 374px) {
+    .newt-splash {
+        height: auto;
+     }
    .final-splash-result-one {
       padding-top: 50px;
       margin-left: 7.5%;
@@ -2188,6 +2201,9 @@ a:hover {
    .continue-button-icon {
       margin-left: 11.75%;
    }
+   .cancel-button-icon {
+    margin-left: 5%;
+}
    #home {
       height: auto;
    }
@@ -2203,7 +2219,10 @@ a:hover {
    }
    .contact-content {
       padding-top: 22px;
-      padding-bottom: 115px;
+      padding-bottom: 75px;
+   }
+   .home-img-middle {
+       width: 125px;
    }
 }
 
@@ -2214,6 +2233,9 @@ a:hover {
 /* -- 375px To 411px Start -- */
 
 @media (min-width: 375px) and (max-width: 411px) {
+    .newt-splash {
+        height: auto;
+    }
    .splash-statement-one {
       padding-top: 0px;
    }
@@ -2235,6 +2257,9 @@ a:hover {
    }
    .continue-button-icon {
       margin-left: 14.5%;
+   }
+   .cancel-button-icon {
+       margin-left: 5%;
    }
    .home-subtitle {
       padding-bottom: 75px;
@@ -2269,6 +2294,7 @@ a:hover {
    .home-img-middle {
       margin-top: 0px;
       margin-bottom: 0px;
+      width: 125px;
    }
    .contact-header {
       padding-top: 20px;
@@ -2277,7 +2303,7 @@ a:hover {
       font-size: 15px;
       line-height: 40px;
       padding-top: 40px;
-      padding-bottom: 115px;
+      padding-bottom: 75px;
       text-align: justify;
    }
 }
@@ -2289,6 +2315,9 @@ a:hover {
 /* -- 412px To 567px Start -- */
 
 @media (min-width: 412px) and (max-width: 567px) {
+    .newt-splash {
+        height: auto;
+     }
    .splash-statement-one {
       padding-top: 0px;
    }
@@ -2310,6 +2339,9 @@ a:hover {
    }
    .continue-button-icon {
       margin-left: 17%;
+   }
+   .cancel-button-icon {
+       margin-left: 7%;
    }
    .home-subtitle {
       padding-bottom: 75px;
@@ -2344,6 +2376,7 @@ a:hover {
    .home-img-middle {
       margin-top: 0px;
       margin-bottom: 0px;
+      width: 125px;
    }
    .contact-header {
       padding-top: 20px;
@@ -2352,7 +2385,7 @@ a:hover {
       font-size: 15px;
       line-height: 40px;
       padding-top: 40px;
-      padding-bottom: 160px;
+      padding-bottom: 140px;
       text-align: justify;
    }
 }
@@ -2364,6 +2397,9 @@ a:hover {
 /* -- iPhone 5 Landscape Start -- */
 
 @media (min-width: 568px) and (max-width: 639px) {
+    .newt-splash {
+        height: auto;
+     }
    .splash-statement-one {
       margin-top: -135px;
    }
@@ -2418,6 +2454,9 @@ a:hover {
 /* -- Galaxy S5 Landscape Start -- */
 
 @media (min-width: 640px) and (max-width: 666px) {
+    .newt-splash {
+        height: auto;
+     }
    .final-splash-result-one {
       margin-top: -200px;
       margin-left: 27%;
@@ -2463,6 +2502,9 @@ a:hover {
 /* -- iPhone 6 Landscape Start -- */
 
 @media (min-width: 667px) and (max-height: 731px) {
+    .newt-splash {
+        height: auto;
+     }
    .splash-statement-one {
       margin-top: -120px;
    }
@@ -2517,6 +2559,9 @@ a:hover {
 /* -- Nexus 6P Landscape Start -- */
 
 @media (min-width: 732px) and (max-width: 767px) {
+    .newt-splash {
+        height: auto;
+     }
    .splash-statement-one {
       margin-top: -110px;
    }
