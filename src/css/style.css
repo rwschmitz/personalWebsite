@@ -2009,7 +2009,7 @@ a:hover {
 
 /* -- Fix iPad Start -- */
 
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 768px) and (max-width: 959px) {
    .final-splash-result-one {
       margin-left: 31%;
    }
@@ -2021,6 +2021,9 @@ a:hover {
    }
    .continue-button-icon {
       margin-left: 33%;
+   }
+   .cancel-button-icon {
+       margin-left: 22%;
    }
    #home {
       height: auto;
@@ -2054,13 +2057,89 @@ a:hover {
    }
    .contact-content {
       padding-top: 40px;
-      padding-bottom: 300px;
+      padding-bottom: 295px;
       text-align: justify;
+      line-height: 50px;
+   }
+   .home-img-middle {
+       width: 175px;
    }
 }
 
 
 /* -- Fix iPad End -- */
+
+/* -- Fix Asus Nexus 7 Start -- */
+
+@media (min-width: 960px) and (max-width: 1023px) {
+    .splash-desc-wrap {
+        top: 140px;
+    }
+    .splash-desc-wrap-two {
+        top: 100px;
+    }
+    .final-splash-result-one {
+       margin-left: 35%;
+    }
+    .final-splash-result-two {
+       margin-left: 35%;
+    }
+    .final-splash-result-three {
+       margin-left: 35%;
+    }
+    .continue-button-icon {
+       margin-left: 37%;
+    }
+    .cancel-button-icon {
+        margin-left: 25%;
+    }
+    #home {
+       height: auto;
+    }
+    #about {
+       height: auto;
+    }
+    #projects {
+       height: auto;
+    }
+    .newt-modal-open-button-one {
+       opacity: 1;
+       margin-left: 15vw;
+    }
+    .newt-modal-open-button-two {
+       opacity: 1;
+       margin-left: 15vw;
+    }
+    .newt-modal-one-sub-description {
+       padding-bottom: 2.5%;
+    }
+    .newt-modal-two-sub-description {
+       padding-bottom: 2.5%;
+    }
+    #contact {
+       margin-top: 20px;
+       height: auto;
+    }
+    .contact-header {
+       padding-top: 60px;
+    }
+    .contact-content {
+       padding-top: 40px;
+       padding-bottom: 295px;
+       text-align: justify;
+       line-height: 50px;
+    }
+    .home-img-middle {
+        width: 175px;
+    }
+ }
+ 
+ 
+ /* -- Fix Asus Nexus 7 End -- */
+
+
+
+
 
 
 /* -- Fix iPad Pro Start -- */
@@ -2077,6 +2156,9 @@ a:hover {
    }
    .continue-button-icon {
       margin-left: 39.5%;
+   }
+   .cancel-button-icon {
+       margin-left: 26%;
    }
    .newt-modal-open-button-one {
       opacity: 1;
@@ -2110,7 +2192,10 @@ a:hover {
    }
    .contact-content {
       padding-top: 175px;
-      padding-bottom: 545px;
+      padding-bottom: 500px;
+   }
+   .home-img-middle {
+       width: 225px;
    }
 }
 
@@ -2422,6 +2507,9 @@ a:hover {
    .continue-button-icon {
       margin-left: 26%;
    }
+   .cancel-button-icon {
+       margin-left: 14%;
+   }
    #home {
       height: auto;
    }
@@ -2457,6 +2545,9 @@ a:hover {
     .newt-splash {
         height: auto;
      }
+     .splash-desc-wrap {
+        top: 140px;
+    }
    .final-splash-result-one {
       margin-top: -200px;
       margin-left: 27%;
@@ -2469,6 +2560,9 @@ a:hover {
    }
    .continue-button-icon {
       margin-left: 29%;
+   }
+   .cancel-button-icon {
+       margin-left: 17%;
    }
    #home {
       height: auto;
@@ -2501,7 +2595,7 @@ a:hover {
 
 /* -- iPhone 6 Landscape Start -- */
 
-@media (min-width: 667px) and (max-height: 731px) {
+@media (min-width: 667px) and (max-width: 731px) {
     .newt-splash {
         height: auto;
      }
@@ -2526,6 +2620,9 @@ a:hover {
    }
    .continue-button-icon {
       margin-left: 29.5%;
+   }
+   .cancel-button-icon {
+       margin-left: 18%;
    }
    #home {
       height: auto;
@@ -2584,6 +2681,9 @@ a:hover {
    .continue-button-icon {
       margin-left: 31%;
    }
+   .cancel-button-icon {
+       margin-left: 18%;
+   }
    #home {
       height: auto;
    }
@@ -2611,6 +2711,75 @@ a:hover {
 
 
 /* -- Nexus 6P Landscape End -- */
+
+/* -- Fix 1200 To 1279px Width Start -- */
+
+@media (min-width: 1200px) and (max-width: 1279px) {
+    .splash-statement-one {
+        margin-left: 0%;
+    }
+    .splash-statement-two {
+        margin-left: 0%;
+    }
+    .splash-statement-three {
+        margin-left: 0%;
+    }
+    .final-splash-result-one {
+       margin-left: 40%;
+    }
+    .final-splash-result-two {
+       margin-left: 40%;
+    }
+    .final-splash-result-three {
+       margin-left: 40%;
+    }
+    .continue-button-icon {
+       margin-left: 41.5%;
+    }
+    .cancel-button-icon {
+        margin-left: -75%;
+    }
+    .newt-modal-open-button-one {
+       opacity: 1;
+    }
+    .newt-modal-open-button-two {
+       opacity: 1;
+    }
+    .newt-modal-one-sub-description {
+       padding-bottom: 2.5%;
+    }
+    .newt-modal-two-sub-description {
+       padding-bottom: 2.5%;
+    }
+    #home {
+       height: auto;
+    }
+    #about {
+       height: auto;
+    }
+    #projects {
+       height: auto;
+    }
+    #contact {
+       margin-top: 20px;
+       height: auto;
+    }
+    .contact-header {
+       padding-top: 55px;
+    }
+    .contact-content {
+       padding-top: 125px;
+       padding-bottom: 275px;
+    }
+    .home-img-middle {
+        width: 150px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+ }
+ 
+ 
+/* -- Fix 1200 To 1279px Width End -- */
 
 
 /* -- iPad Pro Landscape Start -- */

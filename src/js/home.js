@@ -5,36 +5,242 @@ var gaming = false;
 var engineering = false;
 var programming = false;
 
+/*
+-----------------
+FOR HIKING ONLY |
+-----------------
+*/
 
 $('.fa-leaf').on('click',
-   function() {
-      if (allIcons) {
-         $(".fa-cutlery, .fa-gamepad, .fa-lightbulb-o, .fa-desktop, .home-img-center-text, .home-img-right-text, .home-img-lower-left-text, .home-img-lower-right-text").fadeOut(500);
-         $(".fa-leaf").delay(500).animate({
-            'marginLeft': "+=228%"
-         }, 500);
-         $(".home-info1").animate({
-            'marginLeft': "+=139%"
-         }, );
-         $(".home-info1").delay(1000).fadeIn();
-         allIcons = false;
-         hiking = true;
-      } else {
-         $(".fa-cutlery, .fa-gamepad, .fa-lightbulb-o, .fa-desktop, .home-img-center-text, .home-img-right-text, .home-img-lower-left-text, .home-img-lower-right-text").delay(1000).fadeIn();
-         $(".fa-leaf").delay(500).animate({
-            'marginLeft': "-=228%"
-         }, 500);
+function() {
+   if (window.matchMedia('(min-width: 1200px) and (max-width:1279px)').matches) {
+      $(function() {
+         if (allIcons) {
+            $(".fa-cutlery, .fa-gamepad, .fa-lightbulb-o, .fa-desktop, .home-img-center-text, .home-img-right-text, .home-img-lower-left-text, .home-img-lower-right-text").fadeOut(500);
+            $(".fa-leaf").delay(500).animate({
+               'marginLeft': "+=230%"
+            }, 500);
+            $(".home-info1").animate({
+               'marginLeft': "+=153%"
+            }, );
+            $(".home-info1").delay(1000).fadeIn();
+            allIcons = false;
+            hiking = true;
+         } else {
+            $(".fa-cutlery, .fa-gamepad, .fa-lightbulb-o, .fa-desktop, .home-img-center-text, .home-img-right-text, .home-img-lower-left-text, .home-img-lower-right-text").delay(1000).fadeIn();
+            $(".fa-leaf").delay(500).animate({
+               'marginLeft': "-=230%"
+            }, 500);
 
-         $(".home-info1").fadeOut(500);
-         $(".home-info1").animate({
-            'marginLeft': "-=139%"
-         }, );
-         allIcons = true;
-         hiking = false;
-      };
-   });
+            $(".home-info1").fadeOut(500);
+            $(".home-info1").animate({
+               'marginLeft': "-=153%"
+            }, );
+            allIcons = true;
+            hiking = false;
+         };
+      });
+   };
+});
 
-/* Spacing comment */
+$('.fa-leaf').on('click',
+function() {
+   if (window.matchMedia('(min-width: 1280px) and (max-width:1365px)').matches) {
+      $(function() {
+         if (allIcons) {
+            $(".fa-cutlery, .fa-gamepad, .fa-lightbulb-o, .fa-desktop, .home-img-center-text, .home-img-right-text, .home-img-lower-left-text, .home-img-lower-right-text").fadeOut(500);
+            $(".fa-leaf").delay(500).animate({
+               'marginLeft': "+=228%"
+            }, 500);
+            $(".home-info1").animate({
+               'marginLeft': "+=146%"
+            }, );
+            $(".home-info1").delay(1000).fadeIn();
+            allIcons = false;
+            hiking = true;
+         } else {
+            $(".fa-cutlery, .fa-gamepad, .fa-lightbulb-o, .fa-desktop, .home-img-center-text, .home-img-right-text, .home-img-lower-left-text, .home-img-lower-right-text").delay(1000).fadeIn();
+            $(".fa-leaf").delay(500).animate({
+               'marginLeft': "-=228%"
+            }, 500);
+
+            $(".home-info1").fadeOut(500);
+            $(".home-info1").animate({
+               'marginLeft': "-=146%"
+            }, );
+            allIcons = true;
+            hiking = false;
+         };
+      });
+   };
+});
+
+$('.fa-leaf').on('click',
+function() {
+   if (window.matchMedia('(min-width: 1366px) and (max-width:1439px)').matches) {
+      $(function() {
+         if (allIcons) {
+            $(".fa-cutlery, .fa-gamepad, .fa-lightbulb-o, .fa-desktop, .home-img-center-text, .home-img-right-text, .home-img-lower-left-text, .home-img-lower-right-text").fadeOut(500);
+            $(".fa-leaf").delay(500).animate({
+               'marginLeft': "+=228%"
+            }, 500);
+            $(".home-info1").animate({
+               'marginLeft': "+=146%"
+            }, );
+            $(".home-info1").delay(1000).fadeIn();
+            allIcons = false;
+            hiking = true;
+         } else {
+            $(".fa-cutlery, .fa-gamepad, .fa-lightbulb-o, .fa-desktop, .home-img-center-text, .home-img-right-text, .home-img-lower-left-text, .home-img-lower-right-text").delay(1000).fadeIn();
+            $(".fa-leaf").delay(500).animate({
+               'marginLeft': "-=228%"
+            }, 500);
+
+            $(".home-info1").fadeOut(500);
+            $(".home-info1").animate({
+               'marginLeft': "-=146%"
+            }, );
+            allIcons = true;
+            hiking = false;
+         };
+      });
+   };
+});
+
+$('.fa-leaf').on('click',
+function() {
+   if (window.matchMedia('(min-width: 1440px) and (max-width:1599px)').matches) {
+      $(function() {
+         if (allIcons) {
+            $(".fa-cutlery, .fa-gamepad, .fa-lightbulb-o, .fa-desktop, .home-img-center-text, .home-img-right-text, .home-img-lower-left-text, .home-img-lower-right-text").fadeOut(500);
+            $(".fa-leaf").delay(500).animate({
+               'marginLeft': "+=227%"
+            }, 500);
+            $(".home-info1").animate({
+               'marginLeft': "+=147%"
+            }, );
+            $(".home-info1").delay(1000).fadeIn();
+            allIcons = false;
+            hiking = true;
+         } else {
+            $(".fa-cutlery, .fa-gamepad, .fa-lightbulb-o, .fa-desktop, .home-img-center-text, .home-img-right-text, .home-img-lower-left-text, .home-img-lower-right-text").delay(1000).fadeIn();
+            $(".fa-leaf").delay(500).animate({
+               'marginLeft': "-=227%"
+            }, 500);
+
+            $(".home-info1").fadeOut(500);
+            $(".home-info1").animate({
+               'marginLeft': "-=147%"
+            }, );
+            allIcons = true;
+            hiking = false;
+         };
+      });
+   };
+});
+
+$('.fa-leaf').on('click',
+function() {
+   if (window.matchMedia('(min-width: 1600px) and (max-width:1679px)').matches) {
+      $(function() {
+         if (allIcons) {
+            $(".fa-cutlery, .fa-gamepad, .fa-lightbulb-o, .fa-desktop, .home-img-center-text, .home-img-right-text, .home-img-lower-left-text, .home-img-lower-right-text").fadeOut(500);
+            $(".fa-leaf").delay(500).animate({
+               'marginLeft': "+=226%"
+            }, 500);
+            $(".home-info1").animate({
+               'marginLeft': "+=146%"
+            }, );
+            $(".home-info1").delay(1000).fadeIn();
+            allIcons = false;
+            hiking = true;
+         } else {
+            $(".fa-cutlery, .fa-gamepad, .fa-lightbulb-o, .fa-desktop, .home-img-center-text, .home-img-right-text, .home-img-lower-left-text, .home-img-lower-right-text").delay(1000).fadeIn();
+            $(".fa-leaf").delay(500).animate({
+               'marginLeft': "-=226%"
+            }, 500);
+
+            $(".home-info1").fadeOut(500);
+            $(".home-info1").animate({
+               'marginLeft': "-=146%"
+            }, );
+            allIcons = true;
+            hiking = false;
+         };
+      });
+   };
+});
+
+$('.fa-leaf').on('click',
+function() {
+   if (window.matchMedia('(min-width: 1680px) and (max-width:2559px)').matches) {
+      $(function() {
+         if (allIcons) {
+            $(".fa-cutlery, .fa-gamepad, .fa-lightbulb-o, .fa-desktop, .home-img-center-text, .home-img-right-text, .home-img-lower-left-text, .home-img-lower-right-text").fadeOut(500);
+            $(".fa-leaf").delay(500).animate({
+               'marginLeft': "+=226%"
+            }, 500);
+            $(".home-info1").animate({
+               'marginLeft': "+=139%"
+            }, );
+            $(".home-info1").delay(1000).fadeIn();
+            allIcons = false;
+            hiking = true;
+         } else {
+            $(".fa-cutlery, .fa-gamepad, .fa-lightbulb-o, .fa-desktop, .home-img-center-text, .home-img-right-text, .home-img-lower-left-text, .home-img-lower-right-text").delay(1000).fadeIn();
+            $(".fa-leaf").delay(500).animate({
+               'marginLeft': "-=226%"
+            }, 500);
+
+            $(".home-info1").fadeOut(500);
+            $(".home-info1").animate({
+               'marginLeft': "-=139%"
+            }, );
+            allIcons = true;
+            hiking = false;
+         };
+      });
+   };
+});
+
+$('.fa-leaf').on('click',
+function() {
+   if (window.matchMedia('(min-width: 2560px)').matches) {
+      $(function() {
+         if (allIcons) {
+            $(".fa-cutlery, .fa-gamepad, .fa-lightbulb-o, .fa-desktop, .home-img-center-text, .home-img-right-text, .home-img-lower-left-text, .home-img-lower-right-text").fadeOut(500);
+            $(".fa-leaf").delay(500).animate({
+               'marginLeft': "+=223%"
+            }, 500);
+            $(".home-info1").animate({
+               'marginLeft': "+=136%"
+            }, );
+            $(".home-info1").delay(1000).fadeIn();
+            allIcons = false;
+            hiking = true;
+         } else {
+            $(".fa-cutlery, .fa-gamepad, .fa-lightbulb-o, .fa-desktop, .home-img-center-text, .home-img-right-text, .home-img-lower-left-text, .home-img-lower-right-text").delay(1000).fadeIn();
+            $(".fa-leaf").delay(500).animate({
+               'marginLeft': "-=223%"
+            }, 500);
+
+            $(".home-info1").fadeOut(500);
+            $(".home-info1").animate({
+               'marginLeft': "-=136%"
+            }, );
+            allIcons = true;
+            hiking = false;
+         };
+      });
+   };
+});
+
+
+/*
+-----------------
+FOR COOKING ONLY |
+-----------------
+*/
 
 $('.fa-cutlery').on('click',
    function() {
