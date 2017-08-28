@@ -2725,16 +2725,16 @@ a:hover {
         margin-left: 0%;
     }
     .final-splash-result-one {
-       margin-left: 40%;
+       margin-left: 37%;
     }
     .final-splash-result-two {
-       margin-left: 40%;
+       margin-left: 37%;
     }
     .final-splash-result-three {
-       margin-left: 40%;
+       margin-left: 37%;
     }
     .continue-button-icon {
-       margin-left: 41.5%;
+       margin-left: 38.5%;
     }
     .cancel-button-icon {
         margin-left: -75%;
@@ -2781,6 +2781,75 @@ a:hover {
  
 /* -- Fix 1200 To 1279px Width End -- */
 
+/* -- Fix 1280 To 1365px Width Start -- */
+
+@media (min-width: 1280px) and (max-width: 1365px) {
+    .splash-statement-one {
+        margin-left: 0%;
+    }
+    .splash-statement-two {
+        margin-left: 0%;
+    }
+    .splash-statement-three {
+        margin-left: 0%;
+    }
+    .final-splash-result-one {
+       margin-left: 37%;
+    }
+    .final-splash-result-two {
+       margin-left: 37%;
+    }
+    .final-splash-result-three {
+       margin-left: 37%;
+    }
+    .continue-button-icon {
+       margin-left: 38.5%;
+    }
+    .cancel-button-icon {
+        margin-left: -75%;
+    }
+    .newt-modal-open-button-one {
+       opacity: 1;
+    }
+    .newt-modal-open-button-two {
+       opacity: 1;
+    }
+    .newt-modal-one-sub-description {
+       padding-bottom: 2.5%;
+    }
+    .newt-modal-two-sub-description {
+       padding-bottom: 2.5%;
+    }
+    #home {
+       height: auto;
+    }
+    #about {
+       height: auto;
+    }
+    #projects {
+       height: auto;
+    }
+    #contact {
+       margin-top: 20px;
+       height: auto;
+    }
+    .contact-header {
+       padding-top: 55px;
+    }
+    .contact-content {
+       padding-top: 125px;
+       padding-bottom: 275px;
+    }
+    .home-img-middle {
+        width: 150px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+ }
+ 
+ 
+/* -- Fix 1280 To 1365px Width End -- */
+
 
 /* -- iPad Pro Landscape Start -- */
 
@@ -2794,16 +2863,118 @@ a:hover {
    #projects {
       height: 1024px;
    }
+   .newt-modal-open-button-one {
+    opacity: 1;
+   }
+   .newt-modal-open-button-two {
+    opacity: 1;
+   }   
    #contact {
       height: 990px;
    }
+   .contact-header {
+       padding-top: 55px;
+   }
    .contact-content {
-      padding-bottom: 360px;
+      padding-top: 125px;
+      padding-bottom: 400px;
+   }
+   .home-img-middle {
+       width: 150px;
+       margin-top: 0px;
+       margin-bottom: 0px;
    }
 }
 
 
 /* -- iPad Pro Landscape End -- */
+
+/* -- 1440px Start -- */
+
+@media (min-width: 1440px) and (max-width: 1599px) {
+
+    .newt-modal-open-button-one {
+        opacity: 1;
+    }
+    .newt-modal-open-button-two {
+        opacity: 1;
+    }
+
+    #contact {
+        height: 990px;
+    }
+
+    .contact-header {
+        padding-top: 55px;
+    }
+    .contact-content {
+        padding-top: 125px;
+        padding-bottom: 375px;
+    }
+
+    .home-img-middle {
+        width: 175px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+}
+
+/* -- 1440px End -- */
+
+/* -- 1600px Start -- */
+
+@media (min-width: 1600px) and (max-width: 1679px) {
+
+    .cancel-button-icon {
+        margin-left: -30%;
+    }
+
+    #contact {
+        height: 925px;
+    }
+
+    .contact-header {
+        padding-top: 55px;
+    }
+    .contact-content {
+        padding-top: 125px;
+        padding-bottom: 325px;
+    }
+
+    .home-img-middle {
+        width: 175px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+}
+
+/* -- 1600px End -- */
+
+/* -- 1680px Start -- */
+
+@media (min-width: 1680px) and (max-width: 1680px) {
+
+
+    #contact {
+        height: 990px;
+    }
+
+    .contact-header {
+        padding-top: 55px;
+    }
+    .contact-content {
+        padding-top: 150px;
+        padding-bottom: 340px;
+    }
+
+    .home-img-middle {
+        width: 175px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+}
+
+/* -- 1680px End -- */
 
 
 /* -- 4K Start -- */
@@ -2814,6 +2985,9 @@ a:hover {
    }
    .continue-button-icon {
       margin-left: 42.5%;
+   }
+   .cancel-button-icon {
+       margin-left: 10%;
    }
    #home {
       height: 1081px;
@@ -2840,11 +3014,16 @@ a:hover {
       margin-left: -17.5%;
    }
    #contact {
-      height: 1045px;
+      height: 1081px;
    }
    .contact-content {
-      padding-top: 75px;
-      padding-bottom: 365px;
+      padding-top: 175px;
+      padding-bottom: 325px;
+   }
+   .home-img-middle {
+       width: 250px;
+       margin-top: 0px;
+       margin-bottom: 0px;
    }
 }
 

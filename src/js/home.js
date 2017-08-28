@@ -608,11 +608,11 @@ $('.fa-gamepad').on('click',
             } else {
                $(".fa-leaf, .fa-cutlery, .fa-lightbulb-o, .fa-desktop, .home-img-left-text, .home-img-center-text, .home-img-lower-left-text, .home-img-lower-right-text").delay(1000).fadeIn();
                $(".fa-gamepad").delay(500).animate({
-                  'marginLeft': "+=0%"
+                  'marginLeft': "-=0%"
                }, 500);
                $(".home-info3").fadeOut(500);
                $(".home-info3").animate({
-                  'marginLeft': "-=75%"
+                  'marginLeft': "+=75%"
                }, );
                allIcons = true;
                gaming = false;
@@ -1483,7 +1483,7 @@ $(document).click(function(event) {
           if (!$(event.target).is(".fa-gamepad") && hiking === false && cooking === false && gaming === true && engineering === false && programming === false) {
              $(".fa-leaf, .fa-cutlery, .fa-lightbulb-o, .fa-desktop, .home-img-left-text, .home-img-center-text, .home-img-lower-left-text, .home-img-lower-right-text").delay(1000).fadeIn();
              $(".fa-gamepad").delay(500).animate({
-                'marginLeft': "=0%"
+                'marginLeft': "-=0%"
              }, 500);
  
              $(".home-info3").fadeOut(500);
