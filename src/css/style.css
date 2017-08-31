@@ -38,7 +38,7 @@ body {
 
 .splash-statement-one {
    display: none;
-   font-family: 'Josefin Sans', sans-serif;
+   font-family: 'Quicksand', sans-serif;
    font-size: 34px;
    /* Was 5 */
    text-align: center;
@@ -53,7 +53,7 @@ body {
 
 .splash-statement-two {
    display: none;
-   font-family: 'Josefin Sans', sans-serif;
+   font-family: 'Quicksand', sans-serif;
    font-size: 34px;
    /* Was 5 */
    text-align: center;
@@ -68,7 +68,7 @@ body {
 
 .splash-statement-three {
    display: none;
-   font-family: 'Josefin Sans', sans-serif;
+   font-family: 'Quicksand', sans-serif;
    font-size: 34px;
    /* Was 5 */
    text-align: center;
@@ -106,7 +106,7 @@ body {
    /* Was 0.2 */
    cursor: pointer;
    border-radius: 10px;
-   font-family: 'Josefin Sans', sans-serif;
+   font-family: 'Quicksand', sans-serif;
    font-weight: bold;
    z-index: 1;
    position: relative;
@@ -167,7 +167,7 @@ body {
 /* -- Final Splash Result Start -- */
 
 .final-splash-result-one {
-   font-family: 'Josefin Sans', sans-serif;
+   font-family: 'Quicksand', sans-serif;
    font-size: 20px;
    font-weight: bold;
    text-align: left;
@@ -246,7 +246,7 @@ body {
 }
 
 .final-splash-result-two {
-   font-family: 'Josefin Sans', sans-serif;
+   font-family: 'Quicksand', sans-serif;
    font-size: 20px;
    font-weight: bold;
    text-align: left;
@@ -324,7 +324,7 @@ body {
 }
 
 .final-splash-result-three {
-   font-family: 'Josefin Sans', sans-serif;
+   font-family: 'Quicksand', sans-serif;
    font-size: 20px;
    font-weight: bold;
    text-align: left;
@@ -415,7 +415,7 @@ body {
    border-radius: 5px;
    opacity: 0.75;
    color: #231f20;
-   font-family: 'Josefin Sans', sans-serif;
+   font-family: 'Quicksand', sans-serif;
    font-size: 15px;
    /* Was 1.5 */
    text-align: center;
@@ -523,7 +523,7 @@ body {
    text-align: center;
    color: #efefef;
    /* Neutral 08 */
-   font-family: 'Josefin Sans', sans-serif;
+   font-family: 'Quicksand', sans-serif;
    font-size: 10px;
    /* Was 1.5 */
    text-decoration: none;
@@ -549,7 +549,7 @@ before,
    text-align: center;
    color: #efefef;
    /* Neutral 08 */
-   font-family: 'Josefin Sans', sans-serif;
+   font-family: 'Quicksand', sans-serif;
    font-size: 17px;
    /* Was 1.5 */
    text-decoration: none;
@@ -566,7 +566,7 @@ before,
    text-align: center;
    color: #efefef;
    /* Neutral 08 */
-   font-family: 'Josefin Sans', sans-serif;
+   font-family: 'Quicksand', sans-serif;
    font-size: 17px;
    /* Was 1.5 */
    text-decoration: none;
@@ -583,7 +583,7 @@ before,
    text-align: center;
    color: #efefef;
    /* Neutral 08 */
-   font-family: 'Josefin Sans', sans-serif;
+   font-family: 'Quicksand', sans-serif;
    font-size: 17px;
    /* Was 1.5 */
    text-decoration: none;
@@ -600,7 +600,7 @@ before,
    text-align: center;
    color: #efefef;
    /* Neutral 08 */
-   font-family: 'Josefin Sans', sans-serif;
+   font-family: 'Quicksand', sans-serif;
    font-size: 17px;
    /* Was 1.5 */
    text-decoration: none;
@@ -617,7 +617,7 @@ before,
    text-align: center;
    color: #efefef;
    /* Neutral 08 */
-   font-family: 'Josefin Sans', sans-serif;
+   font-family: 'Quicksand', sans-serif;
    font-size: 17px;
    /* Was 1.5 */
    text-decoration: none;
@@ -670,7 +670,7 @@ before,
 
 .home-subtitle {
    color: #efefef;
-   font-family: 'Josefin Sans', sans-serif;
+   font-family: 'Quicksand', sans-serif;
    font-size: 20px;
    /* Was 2.25 */
    text-align: center;
@@ -776,7 +776,7 @@ before,
 
 .home-img-left-text {
    color: #0e0b16;
-   font-family: 'Josefin Sans', sans-serif;
+   font-family: 'Quicksand', sans-serif;
    font-size: 18px;
    /* Was 2 */
    font-weight: bold;
@@ -800,7 +800,7 @@ before,
 
 .home-img-center-text {
    color: #0e0b16;
-   font-family: 'Josefin Sans', sans-serif;
+   font-family: 'Quicksand', sans-serif;
    font-size: 18px;
    /* Was 2 */
    font-weight: bold;
@@ -824,7 +824,7 @@ before,
 
 .home-img-right-text {
    color: #0e0b16;
-   font-family: 'Josefin Sans', sans-serif;
+   font-family: 'Quicksand', sans-serif;
    font-size: 18px;
    /* Was 2 */
    font-weight: bold;
@@ -861,7 +861,7 @@ before,
 
 .home-img-lower-left-text {
    color: #0e0b16;
-   font-family: 'Josefin Sans', sans-serif;
+   font-family: 'Quicksand', sans-serif;
    font-size: 18px;
    /* Was 2 */
    font-weight: bold;
@@ -885,7 +885,7 @@ before,
 
 .home-img-lower-right-text {
    color: #0e0b16;
-   font-family: 'Josefin Sans', sans-serif;
+   font-family: 'Quicksand', sans-serif;
    font-size: 18px;
    /* Was 2 */
    font-weight: bold;
@@ -919,7 +919,7 @@ before,
 .about-header {
    color: #efefef;
    /* Neutral 08 */
-   font-family: 'Josefin Sans', sans-serif;
+   font-family: 'Quicksand', sans-serif;
    font-size: 25px;
    /* Was 3 */
    font-weight: bold;
@@ -933,7 +933,7 @@ before,
 .about-titles {
    color: #efefef;
    /* Neutral 08 */
-   font-family: 'Josefin Sans', sans-serif;
+   font-family: 'Quicksand', sans-serif;
    font-size: 25px;
    /* Was 3 */
    font-weight: bold;
@@ -945,7 +945,7 @@ before,
 .about-content {
    color: #efefef;
    /* Neutral 08 */
-   font-family: 'Josefin Sans', sans-serif;
+   font-family: 'Quicksand', sans-serif;
    font-size: 17px;
    /* Was 2 */
    font-weight: bold;
@@ -975,7 +975,7 @@ before,
 
 .projects-header {
    color: #0e0b16;
-   font-family: 'Josefin Sans', sans-serif;
+   font-family: 'Quicksand', sans-serif;
    font-size: 25px;
    /* Was 3 */
    font-weight: bold;
@@ -986,7 +986,7 @@ before,
 
 .projects-description {
    color: #0e0b16;
-   font-family: 'Josefin Sans', sans-serif;
+   font-family: 'Quicksand', sans-serif;
    font-size: 17px;
    /* Was 2 */
    font-weight: bold;
@@ -998,7 +998,7 @@ before,
 .projects-content {
    color: #0e0b16;
    /* Void 05 */
-   font-family: 'Josefin Sans', sans-serif;
+   font-family: 'Quicksand', sans-serif;
    font-size: 11px;
    /* Was 1.6 */
    line-height: 0.5;
@@ -1026,7 +1026,7 @@ before,
 .blog-content {
    color: #efefef;
    /* Neutral 08 */
-   font-family: 'Josefin Sans', sans-serif;
+   font-family: 'Quicksand', sans-serif;
    font-size: 11px;
    /* Was 1.6 */
    line-height: 0.5;
@@ -1053,7 +1053,7 @@ before,
 
 .contact-header {
    color: #efefef;
-   font-family: 'Josefin Sans', sans-serif;
+   font-family: 'Quicksand', sans-serif;
    font-size: 25px;
    /* Was 3 */
    font-weight: bold;
@@ -1067,20 +1067,20 @@ before,
 .contact-content {
    color: #efefef;
    /* Neutral 08 */
-   font-family: 'Josefin Sans', sans-serif;
+   font-family: 'Quicksand', sans-serif;
    font-size: 17px;
    /* Was 2 */
    font-weight: bold;
    line-height: 40px;
    padding-top: 25px;
-   padding-bottom: 325px;
+   padding-bottom: 375px;
 }
 
 .contact-icon-desc {
     color: #efefef;
     font-size: 14px;
     text-align: center;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .contact-content-mail-icon:before {
@@ -1154,7 +1154,7 @@ before,
    text-align: center;
    color: rgba(14, 11, 22, .9);
    /* Void 05 */
-   font-family: 'Josefin Sans', sans-serif;
+   font-family: 'Quicksand', sans-serif;
    float: left;
 }
 
@@ -1205,7 +1205,7 @@ before,
    text-align: center;
    color: rgba(14, 11, 22, .9);
    /* Void 05 */
-   font-family: 'Josefin Sans', sans-serif;
+   font-family: 'Quicksand', sans-serif;
    float: left;
 }
 
@@ -1256,7 +1256,7 @@ before,
    text-align: center;
    color: rgba(14, 11, 22, .9);
    /* Void 05 */
-   font-family: 'Josefin Sans', sans-serif;
+   font-family: 'Quicksand', sans-serif;
    float: left;
 }
 
@@ -1321,7 +1321,7 @@ before,
 }
 
 .newt-modal-contents-one {
-   font-family: 'Josefin Sans', sans-serif;
+   font-family: 'Quicksand', sans-serif;
    width: 100%;
    height: 100%;
    overflow: auto;
@@ -1405,21 +1405,21 @@ before,
 }
 
 .newt-modal-one-description {
-   font-family: 'Josefin Sans', sans-serif;
+   font-family: 'Quicksand', sans-serif;
    color: rgba(14, 11, 22, .85);
    font-size: 20px;
    /* Was 3 */
 }
 
 .newt-modal-one-sub-description {
-   font-family: 'Josefin Sans', sans-serif;
+   font-family: 'Quicksand', sans-serif;
    color: rgba(14, 11, 22, .85);
    font-size: 14px;
    /* Was 2 */
 }
 
 .newt-interior-modal-one-text {
-   font-family: 'Josefin Sans', sans-serif;
+   font-family: 'Quicksand', sans-serif;
    color: rgba(14, 11, 22, .85);
    /* Neutral 08 */
    font-size: 16px;
@@ -1427,7 +1427,7 @@ before,
 }
 
 .newt-interior-modal-one-description {
-   font-family: 'Josefin Sans', sans-serif;
+   font-family: 'Quicksand', sans-serif;
    color: rgba(14, 11, 22, .85);
    /* Neutral 08 */
    font-size: 16px;
@@ -1437,7 +1437,7 @@ before,
 .newt-interior-modal-one-description a {
    color: rgba(14, 11, 22, .85);
    /* Neutral 08 */
-   font-family: 'Josefin Sans', sans-serif;
+   font-family: 'Quicksand', sans-serif;
    font-size: 16px;
    /* Was 2 */
    text-decoration: none;
@@ -1475,7 +1475,7 @@ before,
 }
 
 .newt-modal-contents-two {
-   font-family: 'Josefin Sans', sans-serif;
+   font-family: 'Quicksand', sans-serif;
    width: 100%;
    height: 100%;
    overflow: auto;
@@ -1559,21 +1559,21 @@ before,
 }
 
 .newt-modal-two-description {
-   font-family: 'Josefin Sans', sans-serif;
+   font-family: 'Quicksand', sans-serif;
    color: rgba(14, 11, 22, .85);
    font-size: 20px;
    /* Was 3 */
 }
 
 .newt-modal-two-sub-description {
-   font-family: 'Josefin Sans', sans-serif;
+   font-family: 'Quicksand', sans-serif;
    color: rgba(14, 11, 22, .85);
    font-size: 14px;
    /* Was 2 */
 }
 
 .newt-interior-modal-two-text {
-   font-family: 'Josefin Sans', sans-serif;
+   font-family: 'Quicksand', sans-serif;
    color: rgba(14, 11, 22, .85);
    /* Neutral 08 */
    font-size: 16px;
@@ -1581,7 +1581,7 @@ before,
 }
 
 .newt-interior-modal-two-description {
-   font-family: 'Josefin Sans', sans-serif;
+   font-family: 'Quicksand', sans-serif;
    color: rgba(14, 11, 22, .85);
    /* Neutral 08 */
    font-size: 16px;
@@ -1610,7 +1610,7 @@ before,
 
 .newt-collapse {
    color: rgba(14, 11, 22, .85);
-   font-family: 'Josefin Sans', sans-serif;
+   font-family: 'Quicksand', sans-serif;
    font-size: 15px;
    /* Was 3 */
    font-weight: bold;
@@ -1689,7 +1689,7 @@ before,
    /* Void 05 */
    color: #efefef;
    /* Neutral 08 */
-   font-family: 'Josefin Sans', sans-serif;
+   font-family: 'Quicksand', sans-serif;
    width: 100%;
    text-align: center;
    padding-top: 14px;
@@ -1708,7 +1708,7 @@ before,
    font-size: 14px;
    /* Was 2 */
    color: #efefef;
-   font-family: 'Josefin Sans', sans-serif;
+   font-family: 'Quicksand', sans-serif;
    font-style: normal;
 }
 
@@ -1732,7 +1732,7 @@ before,
 .icon-apache,
 .icon-oracle {
    color: #efefef;
-   font-family: 'Josefin Sans', sans-serif;
+   font-family: 'Quicksand', sans-serif;
    font-size: 34px;
    /* Was 5 */
 }
@@ -2247,6 +2247,9 @@ a:hover {
    }
    #about {
       height: auto;
+   }
+   .icon-text {
+      font-size: 12px;
    }
    #projects {
       height: auto;
